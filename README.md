@@ -8,19 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [Lumabri](https://www.tolsai.com/tools/lumabri) · [GitHub](https://github.com/JustVugg/lumabri) — Pure-C private inference service that runs large AI models across your own computers and servers.
-- [Forked](https://www.tolsai.com/tools/forked) · [GitHub](https://github.com/clibequilibrium/forked) — Git for AI agent state: fork, rewind and replay agent state with effectively-once side effects.
-- [TenseMem](https://www.tolsai.com/tools/tensemem) · [GitHub](https://github.com/tensemem/tensemem) — Embedded, deterministic memory for AI agents in one SQLite file that keeps one current value per fact.
-- [Murmur](https://www.tolsai.com/tools/murmur-dictation) · [GitHub](https://github.com/leochaddad/murmur) — Open-source macOS push-to-talk dictation that types into any app using your own OpenAI API key.
-- [Mnemolith](https://www.tolsai.com/tools/mnemolith) · [GitHub](https://github.com/anishchugh05/mnemolith) — Shared MCP memory for coding agents that marks notes stale when the underlying code changes.
-- [ego lite](https://www.tolsai.com/tools/ego-lite) · [GitHub](https://github.com/citrolabs/ego-lite) — Open-source macOS browser built for AI agents, with separate Spaces for you and your agents.
-- [FreeLLMAPI](https://www.tolsai.com/tools/freellmapi) · [GitHub](https://github.com/tashfeenahmed/freellmapi) — Open-source OpenAI-compatible gateway that pools free LLM API tiers across many providers.
-- [OpenBot](https://www.tolsai.com/tools/copilotkit-openbot) · [GitHub](https://github.com/CopilotKit/OpenBot) — CopilotKit's open-source template for building your own in-app AI agent assistant on AG-UI.
-- [Vibe-Trading](https://www.tolsai.com/tools/vibe-trading) · [GitHub](https://github.com/HKUDS/Vibe-Trading) — Open-source multi-agent AI workspace from HKUDS for trading research and strategy backtesting.
-- [T3 Code](https://www.tolsai.com/tools/t3-code) · [GitHub](https://github.com/pingdotgg/t3code) — Open-source app from Ping.gg for running and controlling coding agents such as Codex, Claude and Cursor.
-- [Compound Engineering](https://www.tolsai.com/tools/compound-engineering-plugin) · [GitHub](https://github.com/EveryInc/compound-engineering-plugin) — Every's open-source plugin of skills and agents for a plan, work, review and compound engineering loop.
+- [NVIDIA OpenShell](https://www.tolsai.com/tools/nvidia-openshell) · [GitHub](https://github.com/NVIDIA/OpenShell) — NVIDIA's open-source runtime that runs autonomous AI agents in kernel-isolated sandboxes governed by a declarative policy.
+- [VoxCPM2](https://www.tolsai.com/tools/voxcpm2) · [GitHub](https://github.com/OpenBMB/VoxCPM) — OpenBMB's open-source 2B tokenizer-free TTS model with 30 languages, voice design, controllable cloning and 48 kHz audio.
+- [CLI-Anything](https://www.tolsai.com/tools/cli-anything) · [GitHub](https://github.com/HKUDS/CLI-Anything) — HKUDS project that generates agent-native CLIs for any software or web API, plus the CLI-Hub registry to install them.
 
-All daily lists: [daily/](daily/) · Latest: [2026-10-23](daily/2026-10-23.md)
+All daily lists: [daily/](daily/) · Latest: [2026-10-24](daily/2026-10-24.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -41,17 +33,26 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-23](daily/2026-10-23.md)
 - [AI Lead Generation](#ai-lead-generation)
 - [AI Marketing](#ai-marketing)
 - [AI Productivity Tools](#ai-productivity-tools)
+- [AI Research Tool](#ai-research-tool)
 - [AI Speech-to-Text](#ai-speech-to-text)
 - [AI Stock Trading](#ai-stock-trading)
 - [AI Testing](#ai-testing)
+- [AI Text-to-Speech](#ai-text-to-speech)
 - [AI Video Editor](#ai-video-editor)
+- [AI Video Enhancer](#ai-video-enhancer)
 - [AI Voice Assistants](#ai-voice-assistants)
 - [AI Workflow](#ai-workflow)
+- [AI Writing Assistants](#ai-writing-assistants)
+- [AI Youtube Summary](#ai-youtube-summary)
 - [Chord AI](#chord-ai)
 - [Large Language Models (LLMs)](#large-language-models-llms)
 
 ## AI Agent
 
+- [Koala](https://www.tolsai.com/tools/koala-vm) — Runs AI agents, jobs and dev environments in lightweight per-task Linux VMs on Apple silicon Macs, with API keys kept out of the VM. （[中文](https://www.tolsai.com/zh/tools/koala-vm)：在 Apple 芯片 Mac 上用轻量 Linux 虚拟机运行 AI 智能体和开发环境，API 密钥不进入虚拟机。） `added 2026-10-24`
+- [Rakazo](https://www.tolsai.com/tools/rakazo) — Open-source, self-hosted AI agent platform for persistent bot teammates, with web, desktop, iPhone and Android apps. （[中文](https://www.tolsai.com/zh/tools/rakazo)：开源、可自托管的 AI 智能体平台：打造长期在线的“机器人同事”，支持网页、桌面、iPhone 和 Android。） `added 2026-10-24`
+- [CLI-Anything](https://www.tolsai.com/tools/cli-anything) — HKUDS project that generates agent-native CLIs for any software or web API, plus the CLI-Hub registry to install them. （[中文](https://www.tolsai.com/zh/tools/cli-anything)：港大数据智能实验室（HKUDS）出品：为任意软件或 Web API 生成“智能体原生”命令行，并提供 CLI-Hub 一键安装。） `added 2026-10-24`
+- [NVIDIA OpenShell](https://www.tolsai.com/tools/nvidia-openshell) — NVIDIA's open-source runtime that runs autonomous AI agents in kernel-isolated sandboxes governed by a declarative policy. （[中文](https://www.tolsai.com/zh/tools/nvidia-openshell)：NVIDIA 开源的 AI 智能体运行时：在内核级隔离的沙箱里运行自主智能体，并用声明式策略控制权限。） `added 2026-10-24`
 - [OpenBot](https://www.tolsai.com/tools/copilotkit-openbot) — CopilotKit's open-source template for building your own in-app AI agent assistant on AG-UI. （[中文](https://www.tolsai.com/zh/tools/copilotkit-openbot)：CopilotKit 推出的开源模板：基于 AG-UI 在你自己的应用里搭建 AI 智能体助手。） `added 2026-10-23`
 - [TenseMem](https://www.tolsai.com/tools/tensemem) — Embedded, deterministic memory for AI agents in one SQLite file that keeps one current value per fact. （[中文](https://www.tolsai.com/zh/tools/tensemem)：嵌入式、确定性的 AI 智能体记忆库：一个 SQLite 文件，每条事实只保留一个当前值。） `added 2026-10-23`
 - [Forked](https://www.tolsai.com/tools/forked) — Git for AI agent state: fork, rewind and replay agent state with effectively-once side effects. （[中文](https://www.tolsai.com/zh/tools/forked)：AI 智能体状态的 Git：分叉、回退、重放智能体状态，副作用只执行一次。） `added 2026-10-23`
@@ -83,6 +84,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-23](daily/2026-10-23.md)
 
 ## AI Code Assistant
 
+- [Android Skills](https://www.tolsai.com/tools/android-skills) — Google's official agent skills for Android development, installable with the Android CLI for Gemini, Antigravity and other agents. （[中文](https://www.tolsai.com/zh/tools/android-skills)：Google 官方的 Android 开发智能体技能库，用 Android CLI 安装到 Gemini、Antigravity 等智能体。） `added 2026-10-24`
+- [Claude Code Plugins Directory](https://www.tolsai.com/tools/claude-plugins-official) — Anthropic's official, curated directory of Claude Code plugins, installable with /plugin install. （[中文](https://www.tolsai.com/zh/tools/claude-plugins-official)：Anthropic 官方维护的 Claude Code 插件目录，用 /plugin install 一键安装。） `added 2026-10-24`
 - [Compound Engineering](https://www.tolsai.com/tools/compound-engineering-plugin) — Every's open-source plugin of skills and agents for a plan, work, review and compound engineering loop. （[中文](https://www.tolsai.com/zh/tools/compound-engineering-plugin)：Every 开源的智能体插件：按“规划—执行—评审—沉淀”的复利工程流程组织技能。） `added 2026-10-23`
 - [T3 Code](https://www.tolsai.com/tools/t3-code) — Open-source app from Ping.gg for running and controlling coding agents such as Codex, Claude and Cursor. （[中文](https://www.tolsai.com/zh/tools/t3-code)：Ping.gg 开源的编程智能体控制台：统一运行和管理 Codex、Claude、Cursor 等。） `added 2026-10-23`
 - [Halv](https://www.tolsai.com/tools/halv) — Open-source desktop workspace that runs Claude Code, Codex, Kimi and GLM side by side and cuts token spend. （[中文](https://www.tolsai.com/zh/tools/halv)：开源桌面工作台：在一个窗口里并排运行 Claude Code、Codex、Kimi 和 GLM，并帮你省 token。） `added 2026-10-23`
@@ -96,6 +99,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-23](daily/2026-10-23.md)
 
 ## AI Developer Tools
 
+- [Vericto](https://www.tolsai.com/tools/vericto) — Deterministic SQL firewall that stops AI agents from running DELETE without WHERE, DROP or TRUNCATE on your database. （[中文](https://www.tolsai.com/zh/tools/vericto)：确定性 SQL 防火墙：阻止 AI 智能体对数据库执行不带 WHERE 的 DELETE、DROP 或 TRUNCATE。） `added 2026-10-24`
+- [Corgi](https://www.tolsai.com/tools/corgi-terminal) — Terminal multiplexer built for coding agents: see which Claude Code, Codex or OpenCode session is working or needs you. （[中文](https://www.tolsai.com/zh/tools/corgi-terminal)：专为编程智能体设计的终端复用器：一眼看出 Claude Code、Codex、OpenCode 哪个在干活、哪个在等你。） `added 2026-10-24`
 - [Mnemolith](https://www.tolsai.com/tools/mnemolith) — Shared MCP memory for coding agents that marks notes stale when the underlying code changes. （[中文](https://www.tolsai.com/zh/tools/mnemolith)：编程智能体的共享 MCP 记忆：代码一变，相关笔记自动标记为过期。） `added 2026-10-23`
 - [XTrace](https://www.tolsai.com/tools/xtrace) — Open-source macOS app that shows coding-agent activity, estimated human time and API-equivalent spend. （[中文](https://www.tolsai.com/zh/tools/xtrace)：开源 macOS 应用：统计编程智能体的活动、预估人工时间和等价 API 花费。） `added 2026-10-23`
 - [Renor](https://www.tolsai.com/tools/renor) — Shared memory for coding agents: tell Claude Code once and Codex or Cursor can recall it. （[中文](https://www.tolsai.com/zh/tools/renor)：编程智能体的共享记忆：告诉 Claude Code 一次，Codex、Cursor 也能记起来。） `added 2026-10-22`
@@ -144,6 +149,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-23](daily/2026-10-23.md)
 
 - [Anthropic Knowledge Work Plugins](https://www.tolsai.com/tools/anthropics-knowledge-work-plugins) — Anthropic's open-source plugins for knowledge workers using Claude Cowork. （[中文](https://www.tolsai.com/zh/tools/anthropics-knowledge-work-plugins)：Anthropic 官方开源的知识工作者插件集，用于 Claude Cowork。） `added 2026-10-20`
 
+## AI Research Tool
+
+- [Scientific Agent Skills](https://www.tolsai.com/tools/scientific-agent-skills) — K-Dense's MIT-licensed library of 177 validated agent skills and 100+ scientific databases that turns AI agents into AI scientists. （[中文](https://www.tolsai.com/zh/tools/scientific-agent-skills)：K-Dense 开源的科研智能体技能库：177 个经验证技能 + 100 多个科学数据库，把 AI 智能体变成“AI 科学家”。） `added 2026-10-24`
+
 ## AI Speech-to-Text
 
 - [Murmur](https://www.tolsai.com/tools/murmur-dictation) — Open-source macOS push-to-talk dictation that types into any app using your own OpenAI API key. （[中文](https://www.tolsai.com/zh/tools/murmur-dictation)：开源 macOS 按住说话听写工具：用你自己的 OpenAI Key，把语音直接打进任意应用。） `added 2026-10-23`
@@ -157,10 +166,18 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-23](daily/2026-10-23.md)
 - [Triage by Chodeberg](https://www.tolsai.com/tools/triage-chodeberg) — Bug reports filed from customers' AI assistants that are replayed in clean sandboxes before reaching you. （[中文](https://www.tolsai.com/zh/tools/triage-chodeberg)：让用户用 AI 助手提交 Bug，并在干净沙箱中自动复现后再交给你。） `added 2026-10-22`
 - [Reticle](https://www.tolsai.com/tools/reticle) — Lets AI coding agents verify their work in the real running app and return pass / fail / cannot tell. （[中文](https://www.tolsai.com/zh/tools/reticle)：让 AI 编程智能体在真实运行的应用里验证自己的改动，并给出 通过/失败/无法判断。） `added 2026-10-21`
 
+## AI Text-to-Speech
+
+- [VoxCPM2](https://www.tolsai.com/tools/voxcpm2) — OpenBMB's open-source 2B tokenizer-free TTS model with 30 languages, voice design, controllable cloning and 48 kHz audio. （[中文](https://www.tolsai.com/zh/tools/voxcpm2)：面壁智能 OpenBMB 开源的 2B 无分词器语音合成模型，支持 30 种语言、声音设计、可控克隆和 48kHz 输出。） `added 2026-10-24`
+
 ## AI Video Editor
 
 - [FableCut](https://www.tolsai.com/tools/fablecut) — Browser video editor that Claude, ChatGPT or any MCP agent can drive, with your clips kept on your computer. （[中文](https://www.tolsai.com/zh/tools/fablecut)：Claude、ChatGPT 或任何 MCP 智能体都能操控的浏览器视频剪辑器，素材留在本地。） `added 2026-10-23`
 - [Woven Video](https://www.tolsai.com/tools/woven-video) — An AI video editor for Mac: ask for the edit in chat, then fine-tune it on a real timeline. （[中文](https://www.tolsai.com/zh/tools/woven-video)：Mac 上的 AI 视频剪辑器：用聊天描述剪辑，再在真实时间线上精修。） `added 2026-10-22`
+
+## AI Video Enhancer
+
+- [Vezur AI](https://www.tolsai.com/tools/vezur-ai) — Browser-based AI video enhancer that reduces noise and compression artifacts, sharpens detail and upscales video up to 4x. （[中文](https://www.tolsai.com/zh/tools/vezur-ai)：在线 AI 视频画质增强：去噪、去压缩伪影、锐化细节，最高 4 倍超分。） `added 2026-10-24`
 
 ## AI Voice Assistants
 
@@ -169,6 +186,14 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-23](daily/2026-10-23.md)
 ## AI Workflow
 
 - [OpenFlow](https://www.tolsai.com/tools/seeray11-openflow) — A visual canvas for building and running multi-agent AI workflows, built on the opencode engine. （[中文](https://www.tolsai.com/zh/tools/seeray11-openflow)：基于 opencode 引擎的多智能体 AI 工作流可视化搭建工具。） `added 2026-10-21`
+
+## AI Writing Assistants
+
+- [editmd](https://www.tolsai.com/tools/editmd) — Native macOS WYSIWYG markdown editor that merges an AI agent's edits into the open file in real time instead of clobbering yours. （[中文](https://www.tolsai.com/zh/tools/editmd)：macOS 原生所见即所得 Markdown 编辑器：AI 智能体改文件时实时合并，不会覆盖你的修改。） `added 2026-10-24`
+
+## AI Youtube Summary
+
+- [FrameCap](https://www.tolsai.com/tools/framecap) — Free Chrome extension that lets ChatGPT, Claude, Gemini or Perplexity 'watch' a YouTube video by capturing its transcript plus timestamped frames. （[中文](https://www.tolsai.com/zh/tools/framecap)：免费 Chrome 插件：抓取 YouTube 视频的字幕和带时间戳的画面，让 ChatGPT、Claude、Gemini、Perplexity 能“看”视频。） `added 2026-10-24`
 
 ## Chord AI
 
