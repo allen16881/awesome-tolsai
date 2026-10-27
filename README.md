@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [ThinkRail](https://www.tolsai.com/tools/thinkrail) · [GitHub](https://github.com/JetBrains/thinkrail) — JetBrains' open-source agentic IDE built around the pi coding agent, with isolated git-worktree workspaces and living specs.
-- [video-use](https://www.tolsai.com/tools/video-use) · [GitHub](https://github.com/browser-use/video-use) — Browser Use's open-source skill for editing raw footage into a finished video by chatting with Claude Code or Codex.
-- [Kimi Code CLI](https://www.tolsai.com/tools/kimi-code-cli) · [GitHub](https://github.com/MoonshotAI/kimi-code) — Moonshot AI's open-source terminal coding agent, a single binary that works out of the box with Kimi models and supports MCP and subagents.
+- [SkillSpector](https://www.tolsai.com/tools/skillspector) · [GitHub](https://github.com/NVIDIA/SkillSpector) — NVIDIA's open-source security scanner that checks AI agent skills for prompt injection, data exfiltration and other risks before you install them.
+- [Agent Reach](https://www.tolsai.com/tools/agent-reach) · [GitHub](https://github.com/Panniantong/Agent-Reach) — Open-source CLI that lets AI agents read and search platforms they can't reach on their own, such as Bilibili, Xiaohongshu, V2EX, X and YouTube transcripts.
+- [last30days](https://www.tolsai.com/tools/last30days-skill) · [GitHub](https://github.com/mvanhorn/last30days-skill) — Open-source AI agent skill that researches any topic across Reddit, X, YouTube, Hacker News, Polymarket and the web from the last 30 days and synthesizes a briefing.
 
-All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -25,6 +25,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 - [AI Code Assistant](#ai-code-assistant)
 - [AI Code Review](#ai-code-review)
 - [AI Design Assistant](#ai-design-assistant)
+- [AI Design Generator](#ai-design-generator)
 - [AI Developer Tools](#ai-developer-tools)
 - [AI For Data Analytics](#ai-for-data-analytics)
 - [AI for Finance](#ai-for-finance)
@@ -33,13 +34,16 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 - [AI Image Generator](#ai-image-generator)
 - [AI Knowledge Graph](#ai-knowledge-graph)
 - [AI Knowledge Management](#ai-knowledge-management)
+- [AI Language Learning](#ai-language-learning)
 - [AI Lead Generation](#ai-lead-generation)
 - [AI Marketing](#ai-marketing)
 - [AI Productivity Tools](#ai-productivity-tools)
 - [AI Research Tool](#ai-research-tool)
 - [AI SEO Tools](#ai-seo-tools)
+- [AI Social Media](#ai-social-media)
 - [AI Speech-to-Text](#ai-speech-to-text)
 - [AI Stock Trading](#ai-stock-trading)
+- [AI Story Generator](#ai-story-generator)
 - [AI Testing](#ai-testing)
 - [AI Text-to-Speech](#ai-text-to-speech)
 - [AI Tutorial](#ai-tutorial)
@@ -56,6 +60,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 
 ## AI Agent
 
+- [Skill Recorder](https://www.tolsai.com/tools/microsoft-skill-recorder) — Microsoft's open-source desktop app that records you doing a task once and uses GitHub Copilot to turn it into a reusable agent skill or scheduled automation. （[中文](https://www.tolsai.com/zh/tools/microsoft-skill-recorder)：微软开源的桌面应用：你把任务做一遍并录下来，它用 GitHub Copilot 把过程变成可复用的智能体技能或定时自动化。） `added 2026-10-27`
+- [Agent Reach](https://www.tolsai.com/tools/agent-reach) — Open-source CLI that lets AI agents read and search platforms they can't reach on their own, such as Bilibili, Xiaohongshu, V2EX, X and YouTube transcripts. （[中文](https://www.tolsai.com/zh/tools/agent-reach)：开源命令行工具：让 AI 智能体读取和搜索它自己够不着的平台，比如 B 站、小红书、V2EX、X 和 YouTube 字幕。） `added 2026-10-27`
 - [MuscleMemory](https://www.tolsai.com/tools/musclememory) — Open-source, local-first procedural memory for coding agents that learns from tasks whose tests passed and hands the agent a short how-to next time. （[中文](https://www.tolsai.com/zh/tools/musclememory)：开源、本地优先的编程智能体“程序性记忆”：从测试通过的任务中学会做法，下次给智能体一张简短操作提示。） `added 2026-10-26`
 - [Agensh](https://www.tolsai.com/tools/agensh) — Microsoft's open-source, decentralized multi-agent harness where up to 1,024 agents self-organize on one task without a central orchestrator. （[中文](https://www.tolsai.com/zh/tools/agensh)：微软开源的去中心化多智能体执行框架：最多 1024 个智能体在同一任务上自组织协作，无需中央调度。） `added 2026-10-26`
 - [OpenHuman](https://www.tolsai.com/tools/openhuman) — Open-source agent harness from tinyhumans: a desktop app and Rust library built to run large agent fleets cheaply, 500+ agents on a $10 VPS. （[中文](https://www.tolsai.com/zh/tools/openhuman)：tinyhumans 开源的智能体执行框架：桌面应用 + Rust 库，主打低成本运行大规模智能体集群，10 美元 VPS 可跑 500+ 个。） `added 2026-10-26`
@@ -81,6 +87,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 
 ## AI API
 
+- [HarnessRouter](https://www.tolsai.com/tools/harnessrouter) — Unified, OpenAI Responses-compatible API that turns coding-agent harnesses like Codex and Claude Code into plug-and-play agent backends; self-hosted edition is Apache-2.0. （[中文](https://www.tolsai.com/zh/tools/harnessrouter)：统一的智能体 Harness 接口：兼容 OpenAI Responses API，把 Codex、Claude Code 等编程智能体变成即插即用的后端；自托管版为 Apache-2.0 开源。） `added 2026-10-27`
 - [Experiential](https://www.tolsai.com/tools/experiential) — Open-source, OpenAI-compatible LLM gateway and router for agents: hosted, BYOK and local models with per-user budgets and learned routing. （[中文](https://www.tolsai.com/zh/tools/experiential)：开源、兼容 OpenAI 接口的智能体 LLM 网关和路由器：统一接入托管、自带 Key 和本地模型，可设预算并学习路由。） `added 2026-10-26`
 - [FreeLLMAPI](https://www.tolsai.com/tools/freellmapi) — Open-source OpenAI-compatible gateway that pools free LLM API tiers across many providers. （[中文](https://www.tolsai.com/zh/tools/freellmapi)：开源的 OpenAI 兼容网关：把多家大模型的免费额度汇总到一个接口。） `added 2026-10-23`
 
@@ -99,6 +106,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 
 ## AI Code Assistant
 
+- [Freebuff](https://www.tolsai.com/tools/freebuff) — Free, ad-supported AI coding agent from the Codebuff team, available as CLI, desktop app, web app builder, cloud agents for GitHub repos and chat. （[中文](https://www.tolsai.com/zh/tools/freebuff)：Codebuff 团队推出的免费 AI 编程智能体（靠文字广告支撑），提供命令行、桌面应用、网页建站、GitHub 仓库云端智能体和聊天五种形态。） `added 2026-10-27`
+- [ECC (Everything Claude Code)](https://www.tolsai.com/tools/ecc-agent-harness) — MIT-licensed agent harness system for Claude Code, Codex and other coding agents: skills, memory, security and a plan-test-review workflow. （[中文](https://www.tolsai.com/zh/tools/ecc-agent-harness)：面向 Claude Code、Codex 等编程智能体的 MIT 开源“智能体工作框架”：技能、记忆、安全，以及计划-测试-审查的工程流程。） `added 2026-10-27`
 - [Gentle-AI](https://www.tolsai.com/tools/gentle-ai) — Open-source engineering environment that adds memory, a workflow and evidence to the coding agent you already use, with 17 integrations. （[中文](https://www.tolsai.com/zh/tools/gentle-ai)：开源的“确定性工程环境”：给你正在用的编程智能体加上记忆、工作流和证据，支持 17 种集成。） `added 2026-10-26`
 - [gstack](https://www.tolsai.com/tools/gstack) — Garry Tan's open-source Claude Code setup: 23 specialist slash commands that act as CEO, designer, eng manager, reviewer, QA and release engineer. （[中文](https://www.tolsai.com/zh/tools/gstack)：YC CEO Garry Tan 开源的 Claude Code 配置：23 个专职斜杠命令，扮演 CEO、设计师、工程经理、审查员、QA 和发布工程师。） `added 2026-10-26`
 - [Kimi Code CLI](https://www.tolsai.com/tools/kimi-code-cli) — Moonshot AI's open-source terminal coding agent, a single binary that works out of the box with Kimi models and supports MCP and subagents. （[中文](https://www.tolsai.com/zh/tools/kimi-code-cli)：月之暗面（Moonshot AI）开源的终端编程智能体：单文件安装、开箱即用 Kimi 模型，支持 MCP 和子智能体。） `added 2026-10-26`
@@ -121,8 +130,14 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 - [Impeccable](https://www.tolsai.com/tools/impeccable) — Open-source design guidance for AI coding agents: one skill, 24 commands, live browser iteration and 62 deterministic design detector rules. （[中文](https://www.tolsai.com/zh/tools/impeccable)：给 AI 编程智能体用的开源设计指南：1 个技能、24 条命令、浏览器实时迭代和 62 条确定性设计检测规则。） `added 2026-10-25`
 - [Hallmark](https://www.tolsai.com/tools/hallmark-design-skill) — Together AI's open-source design skill for Claude Code, Codex, Cursor and OpenCode that builds pages that don't look AI-generated. （[中文](https://www.tolsai.com/zh/tools/hallmark-design-skill)：Together AI 开源的设计技能，给 Claude Code、Codex、Cursor、OpenCode 用，做出“不像 AI 生成”的网页。） `added 2026-10-25`
 
+## AI Design Generator
+
+- [Huashu Design](https://www.tolsai.com/tools/huashu-design) — MIT-licensed agent skill that turns a one-line prompt into deliverable designs: web pages, clickable app prototypes, editable PPTX, animations and infographics. （[中文](https://www.tolsai.com/zh/tools/huashu-design)：MIT 开源的智能体设计技能：一句话生成能交付的设计——网页、可点击 App 原型、可编辑 PPT、动画和信息图。） `added 2026-10-27`
+
 ## AI Developer Tools
 
+- [billion-context](https://www.tolsai.com/tools/billion-context) — Context-compression proxy for coding agents that keeps month-long single sessions running in 100K-token windows with about 5x fewer tokens. （[中文](https://www.tolsai.com/zh/tools/billion-context)：面向编程智能体的上下文压缩代理：在 10 万 token 的窗口里让单个会话连续跑一个月，token 用量约降到五分之一。） `added 2026-10-27`
+- [SkillSpector](https://www.tolsai.com/tools/skillspector) — NVIDIA's open-source security scanner that checks AI agent skills for prompt injection, data exfiltration and other risks before you install them. （[中文](https://www.tolsai.com/zh/tools/skillspector)：NVIDIA 开源的 AI 智能体技能安全扫描器：安装 Skill 之前先查提示词注入、数据外泄等风险。） `added 2026-10-27`
 - [Langfuse](https://www.tolsai.com/tools/langfuse) — Open-source LLM engineering platform for tracing, evaluating, prompt management and debugging AI apps, self-hosted or in Langfuse Cloud. （[中文](https://www.tolsai.com/zh/tools/langfuse)：开源 LLM 工程平台：为 AI 应用做链路追踪、评测、提示词管理和调试，可自托管或用 Langfuse Cloud。） `added 2026-10-25`
 - [Plannotator](https://www.tolsai.com/tools/plannotator) — Local browser-based review surface for AI coding agents: annotate plans, specs and HTML, review diffs and PRs, and send feedback back to the agent. （[中文](https://www.tolsai.com/zh/tools/plannotator)：本地浏览器里的 AI 编程智能体审阅台：批注计划、规格和 HTML，审代码 diff 和 PR，再把意见一键发回智能体。） `added 2026-10-25`
 - [Agent Toolkit for AWS](https://www.tolsai.com/tools/agent-toolkit-for-aws) — Official AWS-supported MCP servers, skills and plugins that help AI coding agents build, deploy and manage apps on AWS. （[中文](https://www.tolsai.com/zh/tools/agent-toolkit-for-aws)：AWS 官方支持的 MCP 服务器、技能和插件合集，帮 AI 编程智能体在 AWS 上构建、部署和管理应用。） `added 2026-10-25`
@@ -161,6 +176,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 
 ## AI Image Generator
 
+- [Higgsfield AI Skills](https://www.tolsai.com/tools/higgsfield-ai-skills) — Official Higgsfield AI agent skills that let Claude Code, Cursor and Codex generate images, video, 3D and audio, product photoshoots, brand kits and thumbnails. （[中文](https://www.tolsai.com/zh/tools/higgsfield-ai-skills)：Higgsfield AI 官方智能体技能：让 Claude Code、Cursor、Codex 直接生成图片、视频、3D 和音频，还能做产品图、品牌套件和缩略图。） `added 2026-10-27`
 - [Infinite Canvas](https://www.tolsai.com/tools/infinite-canvas) — Open-source infinite-canvas workspace for AI creation: image generation, reference-image editing, video generation, an agent assistant and a prompt library. （[中文](https://www.tolsai.com/zh/tools/infinite-canvas)：面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 助手和提示词库。） `added 2026-10-25`
 
 ## AI Knowledge Graph
@@ -169,8 +185,13 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 
 ## AI Knowledge Management
 
+- [obsidian-second-brain](https://www.tolsai.com/tools/obsidian-second-brain) — Open-source persistent memory for Claude Code, Codex, Cursor and other agents, stored as plain Markdown in your Obsidian vault. （[中文](https://www.tolsai.com/zh/tools/obsidian-second-brain)：开源的智能体持久记忆：把 Claude Code、Codex、Cursor 等智能体的记忆以纯 Markdown 存进你的 Obsidian 库。） `added 2026-10-27`
 - [Linkit](https://www.tolsai.com/tools/linkit) — A free, open-source AI bookmark manager with summaries, semantic search and a knowledge graph. （[中文](https://www.tolsai.com/zh/tools/linkit)：免费开源的 AI 书签管理器，带摘要、语义搜索和知识图谱。） `added 2026-10-22`
 - [Nysa](https://www.tolsai.com/tools/nysa) — Shared, permission-aware memory for teams whose members work with AI agents. （[中文](https://www.tolsai.com/zh/tools/nysa)：面向使用 AI 智能体团队的共享记忆，按权限隔离。） `added 2026-10-22`
+
+## AI Language Learning
+
+- [RainbowSay](https://www.tolsai.com/tools/rainbowsay) — Mac app for learning or teaching a language from the shows, movies, videos and podcasts you already watch, sentence by sentence with AI translation, vocabulary and grammar. （[中文](https://www.tolsai.com/zh/tools/rainbowsay)：Mac 应用：用你本来就在看的剧、电影、视频和播客学（或教）外语，逐句暂停，给出 AI 翻译、词汇和语法讲解。） `added 2026-10-27`
 
 ## AI Lead Generation
 
@@ -186,11 +207,17 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 
 ## AI Research Tool
 
+- [last30days](https://www.tolsai.com/tools/last30days-skill) — Open-source AI agent skill that researches any topic across Reddit, X, YouTube, Hacker News, Polymarket and the web from the last 30 days and synthesizes a briefing. （[中文](https://www.tolsai.com/zh/tools/last30days-skill)：开源 AI 智能体技能：跨 Reddit、X、YouTube、Hacker News、Polymarket 和网页调研任意话题近 30 天的动态，并写成综合简报。） `added 2026-10-27`
 - [Scientific Agent Skills](https://www.tolsai.com/tools/scientific-agent-skills) — K-Dense's MIT-licensed library of 177 validated agent skills and 100+ scientific databases that turns AI agents into AI scientists. （[中文](https://www.tolsai.com/zh/tools/scientific-agent-skills)：K-Dense 开源的科研智能体技能库：177 个经验证技能 + 100 多个科学数据库，把 AI 智能体变成“AI 科学家”。） `added 2026-10-24`
 
 ## AI SEO Tools
 
+- [OpenSEO](https://www.tolsai.com/tools/openseo) — Open-source, pay-as-you-go alternative to Semrush and Ahrefs with an MCP server and agent skills so Claude Code and other AI agents can use your SEO data. （[中文](https://www.tolsai.com/zh/tools/openseo)：开源、按量付费的 Semrush/Ahrefs 替代品，自带 MCP 服务和智能体技能，让 Claude Code 等 AI 智能体直接调用你的 SEO 数据。） `added 2026-10-27`
 - [Claude SEO](https://www.tolsai.com/tools/claude-seo) — Free, open-source SEO audit plugin for Claude Code with 26 sub-skills and 19 agents, including AI-search (GEO) analysis. （[中文](https://www.tolsai.com/zh/tools/claude-seo)：免费开源的 Claude Code SEO 审计插件：26 个子技能、19 个专职智能体，包含 AI 搜索（GEO）分析。） `added 2026-10-26`
+
+## AI Social Media
+
+- [Postiz](https://www.tolsai.com/tools/postiz) — Open-source, agentic social media scheduling tool with AI features, analytics, team collaboration and an API for n8n, Make and Zapier. （[中文](https://www.tolsai.com/zh/tools/postiz)：开源的“智能体化”社交媒体排程工具：带 AI 创作、数据分析、团队协作，并提供可接 n8n、Make、Zapier 的 API。） `added 2026-10-27`
 
 ## AI Speech-to-Text
 
@@ -199,6 +226,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-26](daily/2026-10-26.md) �
 ## AI Stock Trading
 
 - [Vibe-Trading](https://www.tolsai.com/tools/vibe-trading) — Open-source multi-agent AI workspace from HKUDS for trading research and strategy backtesting. （[中文](https://www.tolsai.com/zh/tools/vibe-trading)：港大 HKUDS 开源的多智能体 AI 交易研究与策略回测工作台。） `added 2026-10-23`
+
+## AI Story Generator
+
+- [InkOS](https://www.tolsai.com/tools/inkos) — Open-source story-creation AI agent for long and short novels, scripts, storyboards, interactive games and multilingual translation, with Studio, TUI and CLI. （[中文](https://www.tolsai.com/zh/tools/inkos)：开源的故事创作 AI 智能体：面向长短篇小说、剧本、分镜、互动影游和多语言翻译，提供 Studio、TUI 和 CLI。） `added 2026-10-27`
 
 ## AI Testing
 
