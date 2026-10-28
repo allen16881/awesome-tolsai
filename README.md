@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [SkillSpector](https://www.tolsai.com/tools/skillspector) · [GitHub](https://github.com/NVIDIA/SkillSpector) — NVIDIA's open-source security scanner that checks AI agent skills for prompt injection, data exfiltration and other risks before you install them.
-- [Agent Reach](https://www.tolsai.com/tools/agent-reach) · [GitHub](https://github.com/Panniantong/Agent-Reach) — Open-source CLI that lets AI agents read and search platforms they can't reach on their own, such as Bilibili, Xiaohongshu, V2EX, X and YouTube transcripts.
-- [last30days](https://www.tolsai.com/tools/last30days-skill) · [GitHub](https://github.com/mvanhorn/last30days-skill) — Open-source AI agent skill that researches any topic across Reddit, X, YouTube, Hacker News, Polymarket and the web from the last 30 days and synthesizes a briefing.
+- [Treg](https://www.tolsai.com/tools/treg) · [GitHub](https://github.com/superdesigndev/treg) — OpenRouter for agent tools: one catalog and one key for thousands of paid endpoints agents can call per use.
+- [AutoSwarm](https://www.tolsai.com/tools/autoswarm) · [GitHub](https://github.com/HKUDS/AutoSwarm) — Open-source framework that unifies Codex, Claude Code, DeepSeek Harness and other agents so they share context and work as one swarm.
+- [OpenDuet](https://www.tolsai.com/tools/openduet) · [GitHub](https://github.com/CopilotKit/OpenDuet) — Open-source proactive agent template from CopilotKit: each agent gets its own computer and works on web, mobile, Slack or Microsoft Teams.
 
-All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -37,7 +37,9 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 - [AI Language Learning](#ai-language-learning)
 - [AI Lead Generation](#ai-lead-generation)
 - [AI Marketing](#ai-marketing)
+- [AI Observability](#ai-observability)
 - [AI Productivity Tools](#ai-productivity-tools)
+- [AI Prompt](#ai-prompt)
 - [AI Research Tool](#ai-research-tool)
 - [AI SEO Tools](#ai-seo-tools)
 - [AI Social Media](#ai-social-media)
@@ -60,6 +62,9 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 ## AI Agent
 
+- [Call.md](https://www.tolsai.com/tools/call-md) — Open-source toolkit that turns meetings into live agent loops: record, transcribe and analyze before, during and after calls. （[中文](https://www.tolsai.com/zh/tools/call-md)：开源工具：把会议变成实时智能体循环——会前、会中、会后录音、转写与分析。） `added 2026-10-28`
+- [OpenDuet](https://www.tolsai.com/tools/openduet) — Open-source proactive agent template from CopilotKit: each agent gets its own computer and works on web, mobile, Slack or Microsoft Teams. （[中文](https://www.tolsai.com/zh/tools/openduet)：CopilotKit 开源的「主动型」智能体模板：每个智能体有自己的电脑，可在网页、手机、Slack 或 Teams 里工作。） `added 2026-10-28`
+- [AutoSwarm](https://www.tolsai.com/tools/autoswarm) — Open-source framework that unifies Codex, Claude Code, DeepSeek Harness and other agents so they share context and work as one swarm. （[中文](https://www.tolsai.com/zh/tools/autoswarm)：开源框架：把 Codex、Claude Code、DeepSeek Harness 等智能体统一起来，共享上下文、像蜂群一样协作。） `added 2026-10-28`
 - [Skill Recorder](https://www.tolsai.com/tools/microsoft-skill-recorder) — Microsoft's open-source desktop app that records you doing a task once and uses GitHub Copilot to turn it into a reusable agent skill or scheduled automation. （[中文](https://www.tolsai.com/zh/tools/microsoft-skill-recorder)：微软开源的桌面应用：你把任务做一遍并录下来，它用 GitHub Copilot 把过程变成可复用的智能体技能或定时自动化。） `added 2026-10-27`
 - [Agent Reach](https://www.tolsai.com/tools/agent-reach) — Open-source CLI that lets AI agents read and search platforms they can't reach on their own, such as Bilibili, Xiaohongshu, V2EX, X and YouTube transcripts. （[中文](https://www.tolsai.com/zh/tools/agent-reach)：开源命令行工具：让 AI 智能体读取和搜索它自己够不着的平台，比如 B 站、小红书、V2EX、X 和 YouTube 字幕。） `added 2026-10-27`
 - [MuscleMemory](https://www.tolsai.com/tools/musclememory) — Open-source, local-first procedural memory for coding agents that learns from tasks whose tests passed and hands the agent a short how-to next time. （[中文](https://www.tolsai.com/zh/tools/musclememory)：开源、本地优先的编程智能体“程序性记忆”：从测试通过的任务中学会做法，下次给智能体一张简短操作提示。） `added 2026-10-26`
@@ -87,6 +92,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 ## AI API
 
+- [Treg](https://www.tolsai.com/tools/treg) — OpenRouter for agent tools: one catalog and one key for thousands of paid endpoints agents can call per use. （[中文](https://www.tolsai.com/zh/tools/treg)：面向智能体的工具版 OpenRouter：一个目录、一把密钥，按次调用上千个付费接口。） `added 2026-10-28`
 - [HarnessRouter](https://www.tolsai.com/tools/harnessrouter) — Unified, OpenAI Responses-compatible API that turns coding-agent harnesses like Codex and Claude Code into plug-and-play agent backends; self-hosted edition is Apache-2.0. （[中文](https://www.tolsai.com/zh/tools/harnessrouter)：统一的智能体 Harness 接口：兼容 OpenAI Responses API，把 Codex、Claude Code 等编程智能体变成即插即用的后端；自托管版为 Apache-2.0 开源。） `added 2026-10-27`
 - [Experiential](https://www.tolsai.com/tools/experiential) — Open-source, OpenAI-compatible LLM gateway and router for agents: hosted, BYOK and local models with per-user budgets and learned routing. （[中文](https://www.tolsai.com/zh/tools/experiential)：开源、兼容 OpenAI 接口的智能体 LLM 网关和路由器：统一接入托管、自带 Key 和本地模型，可设预算并学习路由。） `added 2026-10-26`
 - [FreeLLMAPI](https://www.tolsai.com/tools/freellmapi) — Open-source OpenAI-compatible gateway that pools free LLM API tiers across many providers. （[中文](https://www.tolsai.com/zh/tools/freellmapi)：开源的 OpenAI 兼容网关：把多家大模型的免费额度汇总到一个接口。） `added 2026-10-23`
@@ -106,6 +112,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 ## AI Code Assistant
 
+- [CleanCode](https://www.tolsai.com/tools/cleancode-canvas) — Open-source canvas where Claude Code, Codex and other CLI agents collaborate on one shared board. （[中文](https://www.tolsai.com/zh/tools/cleancode-canvas)：开源画布：让 Claude Code、Codex 等 CLI 智能体在同一块板上协作。） `added 2026-10-28`
+- [Beautiful Rust](https://www.tolsai.com/tools/beautiful-rust) — Agent Skills that teach coding agents to write, review and port idiomatic Rust, plus Clippy lints for CI. （[中文](https://www.tolsai.com/zh/tools/beautiful-rust)：教编程智能体写出、审查并移植地道 Rust 的 Agent Skills，并附带可进 CI 的 Clippy 配置。） `added 2026-10-28`
 - [Freebuff](https://www.tolsai.com/tools/freebuff) — Free, ad-supported AI coding agent from the Codebuff team, available as CLI, desktop app, web app builder, cloud agents for GitHub repos and chat. （[中文](https://www.tolsai.com/zh/tools/freebuff)：Codebuff 团队推出的免费 AI 编程智能体（靠文字广告支撑），提供命令行、桌面应用、网页建站、GitHub 仓库云端智能体和聊天五种形态。） `added 2026-10-27`
 - [ECC (Everything Claude Code)](https://www.tolsai.com/tools/ecc-agent-harness) — MIT-licensed agent harness system for Claude Code, Codex and other coding agents: skills, memory, security and a plan-test-review workflow. （[中文](https://www.tolsai.com/zh/tools/ecc-agent-harness)：面向 Claude Code、Codex 等编程智能体的 MIT 开源“智能体工作框架”：技能、记忆、安全，以及计划-测试-审查的工程流程。） `added 2026-10-27`
 - [Gentle-AI](https://www.tolsai.com/tools/gentle-ai) — Open-source engineering environment that adds memory, a workflow and evidence to the coding agent you already use, with 17 integrations. （[中文](https://www.tolsai.com/zh/tools/gentle-ai)：开源的“确定性工程环境”：给你正在用的编程智能体加上记忆、工作流和证据，支持 17 种集成。） `added 2026-10-26`
@@ -132,10 +140,12 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 ## AI Design Generator
 
+- [AI Design Skills](https://www.tolsai.com/tools/ai-design-skills) — Growing collection of design Agent Skills for Claude Code, Cursor, Codex and Windsurf—start with landing-page design. （[中文](https://www.tolsai.com/zh/tools/ai-design-skills)：面向 Claude Code、Cursor、Codex、Windsurf 的设计类 Agent Skills 合集，目前含落地页设计技能。） `added 2026-10-28`
 - [Huashu Design](https://www.tolsai.com/tools/huashu-design) — MIT-licensed agent skill that turns a one-line prompt into deliverable designs: web pages, clickable app prototypes, editable PPTX, animations and infographics. （[中文](https://www.tolsai.com/zh/tools/huashu-design)：MIT 开源的智能体设计技能：一句话生成能交付的设计——网页、可点击 App 原型、可编辑 PPT、动画和信息图。） `added 2026-10-27`
 
 ## AI Developer Tools
 
+- [Chrome DevTools MCP](https://www.tolsai.com/tools/chrome-devtools-mcp) — Official Chrome DevTools MCP server and CLI so coding agents can control and inspect a live Chrome browser. （[中文](https://www.tolsai.com/zh/tools/chrome-devtools-mcp)：官方 Chrome DevTools 的 MCP 服务与 CLI：让编程智能体控制并检查正在运行的 Chrome 浏览器。） `added 2026-10-28`
 - [billion-context](https://www.tolsai.com/tools/billion-context) — Context-compression proxy for coding agents that keeps month-long single sessions running in 100K-token windows with about 5x fewer tokens. （[中文](https://www.tolsai.com/zh/tools/billion-context)：面向编程智能体的上下文压缩代理：在 10 万 token 的窗口里让单个会话连续跑一个月，token 用量约降到五分之一。） `added 2026-10-27`
 - [SkillSpector](https://www.tolsai.com/tools/skillspector) — NVIDIA's open-source security scanner that checks AI agent skills for prompt injection, data exfiltration and other risks before you install them. （[中文](https://www.tolsai.com/zh/tools/skillspector)：NVIDIA 开源的 AI 智能体技能安全扫描器：安装 Skill 之前先查提示词注入、数据外泄等风险。） `added 2026-10-27`
 - [Langfuse](https://www.tolsai.com/tools/langfuse) — Open-source LLM engineering platform for tracing, evaluating, prompt management and debugging AI apps, self-hosted or in Langfuse Cloud. （[中文](https://www.tolsai.com/zh/tools/langfuse)：开源 LLM 工程平台：为 AI 应用做链路追踪、评测、提示词管理和调试，可自托管或用 Langfuse Cloud。） `added 2026-10-25`
@@ -185,6 +195,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 ## AI Knowledge Management
 
+- [NVIDIA Auto Ontology](https://www.tolsai.com/tools/nvidia-auto-ontology) — NVIDIA open library that builds semantic ontology layers from enterprise metadata and serves them to agents via MCP, CLI and API. （[中文](https://www.tolsai.com/zh/tools/nvidia-auto-ontology)：NVIDIA 开源库：从企业元数据构建语义本体层，并通过 MCP、CLI、API 提供给智能体。） `added 2026-10-28`
+- [Wenlan](https://www.tolsai.com/tools/wenlan) — Local-first LLM wiki that turns notes, files and AI chats into cited pages agents can use and keep fresh. （[中文](https://www.tolsai.com/zh/tools/wenlan)：本地优先的 LLM 维基：把笔记、文件和 AI 对话变成带引用、可核验、会随源更新的页面，供智能体使用。） `added 2026-10-28`
 - [obsidian-second-brain](https://www.tolsai.com/tools/obsidian-second-brain) — Open-source persistent memory for Claude Code, Codex, Cursor and other agents, stored as plain Markdown in your Obsidian vault. （[中文](https://www.tolsai.com/zh/tools/obsidian-second-brain)：开源的智能体持久记忆：把 Claude Code、Codex、Cursor 等智能体的记忆以纯 Markdown 存进你的 Obsidian 库。） `added 2026-10-27`
 - [Linkit](https://www.tolsai.com/tools/linkit) — A free, open-source AI bookmark manager with summaries, semantic search and a knowledge graph. （[中文](https://www.tolsai.com/zh/tools/linkit)：免费开源的 AI 书签管理器，带摘要、语义搜索和知识图谱。） `added 2026-10-22`
 - [Nysa](https://www.tolsai.com/tools/nysa) — Shared, permission-aware memory for teams whose members work with AI agents. （[中文](https://www.tolsai.com/zh/tools/nysa)：面向使用 AI 智能体团队的共享记忆，按权限隔离。） `added 2026-10-22`
@@ -201,9 +213,18 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 - [MarketMee](https://www.tolsai.com/tools/marketmee) — AI marketing app that creates and commits videos, images and posts on LinkedIn, X, Facebook and Instagram. （[中文](https://www.tolsai.com/zh/tools/marketmee)：AI 营销应用：自动生成视频、图片和帖子，并发布到 LinkedIn、X、Facebook、Instagram。） `added 2026-10-23`
 
+## AI Observability
+
+- [Flightdeck](https://www.tolsai.com/tools/flightdeck) — Self-hosted observability and control plane for AI agent fleets: live timelines, token budgets and MCP allow/block rules. （[中文](https://www.tolsai.com/zh/tools/flightdeck)：自托管的 AI 智能体机队可观测与控制面：实时时间线、Token 预算、MCP 允许/拦截规则。） `added 2026-10-28`
+
 ## AI Productivity Tools
 
+- [SkillScout](https://www.tolsai.com/tools/skillscout) — Ranks AI skills, plugins, MCP servers and apps by how you work—not by popularity—using a profile your AI writes. （[中文](https://www.tolsai.com/zh/tools/skillscout)：按「你怎么工作」而不是按热度，给 AI 技能、插件、MCP 与应用打分排序；画像由你的 AI 生成。） `added 2026-10-28`
 - [Anthropic Knowledge Work Plugins](https://www.tolsai.com/tools/anthropics-knowledge-work-plugins) — Anthropic's open-source plugins for knowledge workers using Claude Cowork. （[中文](https://www.tolsai.com/zh/tools/anthropics-knowledge-work-plugins)：Anthropic 官方开源的知识工作者插件集，用于 Claude Cowork。） `added 2026-10-20`
+
+## AI Prompt
+
+- [Graded Prompts](https://www.tolsai.com/tools/graded-prompts) — Prompt marketplace where prompts for Midjourney, ChatGPT, Kling and 20+ models are run on their model before sale. （[中文](https://www.tolsai.com/zh/tools/graded-prompts)：提示词市场：面向 Midjourney、ChatGPT、Kling 等 20+ 模型的提示会在对应模型上先跑过再上架。） `added 2026-10-28`
 
 ## AI Research Tool
 
@@ -212,6 +233,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 ## AI SEO Tools
 
+- [GEOInflow](https://www.tolsai.com/tools/geoinflow) — Self-hosted analytics for Generative Engine Optimization: track AI crawlers, AI search referrals and content coverage. （[中文](https://www.tolsai.com/zh/tools/geoinflow)：自托管的生成式引擎优化（GEO）分析：追踪 AI 爬虫、AI 搜索引荐与内容覆盖。） `added 2026-10-28`
 - [OpenSEO](https://www.tolsai.com/tools/openseo) — Open-source, pay-as-you-go alternative to Semrush and Ahrefs with an MCP server and agent skills so Claude Code and other AI agents can use your SEO data. （[中文](https://www.tolsai.com/zh/tools/openseo)：开源、按量付费的 Semrush/Ahrefs 替代品，自带 MCP 服务和智能体技能，让 Claude Code 等 AI 智能体直接调用你的 SEO 数据。） `added 2026-10-27`
 - [Claude SEO](https://www.tolsai.com/tools/claude-seo) — Free, open-source SEO audit plugin for Claude Code with 26 sub-skills and 19 agents, including AI-search (GEO) analysis. （[中文](https://www.tolsai.com/zh/tools/claude-seo)：免费开源的 Claude Code SEO 审计插件：26 个子技能、19 个专职智能体，包含 AI 搜索（GEO）分析。） `added 2026-10-26`
 
@@ -259,6 +281,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-27](daily/2026-10-27.md) �
 
 ## AI Video Generator
 
+- [Vibe Vision Video](https://www.tolsai.com/tools/vibe-vision-video) — Open-source Remotion video templates you build once and reuse across coding agents via skills and MCP. （[中文](https://www.tolsai.com/zh/tools/vibe-vision-video)：开源 Remotion 视频模板：做一次，就能通过 Skills / MCP 在多个编程智能体里复用。） `added 2026-10-28`
 - [video-shotcraft](https://www.tolsai.com/tools/video-shotcraft) — Open-source AI video skill for Claude Code and Codex that turns your real pages into cinematic, editable product videos with Remotion. （[中文](https://www.tolsai.com/zh/tools/video-shotcraft)：给 Claude Code 和 Codex 用的开源 AI 视频技能：用 Remotion 把你的真实页面做成电影感、可编辑的产品宣传片。） `added 2026-10-25`
 
 ## AI Voice Assistants
