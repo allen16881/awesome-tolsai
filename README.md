@@ -8,16 +8,17 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [Treg](https://www.tolsai.com/tools/treg) · [GitHub](https://github.com/superdesigndev/treg) — OpenRouter for agent tools: one catalog and one key for thousands of paid endpoints agents can call per use.
-- [AutoSwarm](https://www.tolsai.com/tools/autoswarm) · [GitHub](https://github.com/HKUDS/AutoSwarm) — Open-source framework that unifies Codex, Claude Code, DeepSeek Harness and other agents so they share context and work as one swarm.
-- [OpenDuet](https://www.tolsai.com/tools/openduet) · [GitHub](https://github.com/CopilotKit/OpenDuet) — Open-source proactive agent template from CopilotKit: each agent gets its own computer and works on web, mobile, Slack or Microsoft Teams.
+- [Shannon](https://www.tolsai.com/tools/shannon-ai-pentester) · [GitHub](https://github.com/KeygraphHQ/shannon) — Open-source autonomous AI pentester that reads your web app's source code, then runs real exploits to prove each vulnerability.
+- [oh-my-claudecode](https://www.tolsai.com/tools/oh-my-claudecode) · [GitHub](https://github.com/Yeachan-Heo/oh-my-claudecode) — MIT-licensed multi-agent orchestration plugin for Claude Code: Team mode, autopilot and tmux workers for Codex, Gemini and Claude.
+- [See-through](https://www.tolsai.com/tools/see-through-anime-layers) · [GitHub](https://github.com/shitagaki-lab/see-through) — SIGGRAPH 2026 research code that splits a single anime illustration into up to 23 inpainted layers for 2.5D rigging.
 
-All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-10-29](daily/2026-10-29.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
 - [AI Agent](#ai-agent)
 - [AI Animation Generator](#ai-animation-generator)
+- [AI Anime Art](#ai-anime-art)
 - [AI API](#ai-api)
 - [AI App Builder](#ai-app-builder)
 - [AI Assistant](#ai-assistant)
@@ -32,6 +33,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 - [AI For Finance](#ai-for-finance)
 - [AI Graphic Design](#ai-graphic-design)
 - [AI Image Generator](#ai-image-generator)
+- [AI Image Upscaler](#ai-image-upscaler)
 - [AI Knowledge Graph](#ai-knowledge-graph)
 - [AI Knowledge Management](#ai-knowledge-management)
 - [AI Language Learning](#ai-language-learning)
@@ -58,10 +60,13 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 - [AI Youtube Summary](#ai-youtube-summary)
 - [Chord AI](#chord-ai)
 - [Large Language Models (LLMs)](#large-language-models-llms)
+- [Open Source AI Models](#open-source-ai-models)
 - [Prompt Engineering](#prompt-engineering)
 
 ## AI Agent
 
+- [Local Code](https://www.tolsai.com/tools/local-code) — Private AI agent for Mac, iPad and iPhone that runs models such as DeepSeek 4.1 Flash on device, with Python, Node.js and a shell built in. （[中文](https://www.tolsai.com/zh/tools/local-code)：面向 Mac、iPad、iPhone 的私有 AI 智能体：在设备上运行 DeepSeek 4.1 Flash 等模型，内置 Python、Node.js 和终端。） `added 2026-10-29`
+- [oh-my-claudecode](https://www.tolsai.com/tools/oh-my-claudecode) — MIT-licensed multi-agent orchestration plugin for Claude Code: Team mode, autopilot and tmux workers for Codex, Gemini and Claude. （[中文](https://www.tolsai.com/zh/tools/oh-my-claudecode)：MIT 协议的 Claude Code 多智能体编排插件：Team 模式、autopilot，以及调度 Codex/Gemini/Claude 的 tmux 工作窗格。） `added 2026-10-29`
 - [Call.md](https://www.tolsai.com/tools/call-md) — Open-source toolkit that turns meetings into live agent loops: record, transcribe and analyze before, during and after calls. （[中文](https://www.tolsai.com/zh/tools/call-md)：开源工具：把会议变成实时智能体循环——会前、会中、会后录音、转写与分析。） `added 2026-10-28`
 - [OpenDuet](https://www.tolsai.com/tools/openduet) — Open-source proactive agent template from CopilotKit: each agent gets its own computer and works on web, mobile, Slack or Microsoft Teams. （[中文](https://www.tolsai.com/zh/tools/openduet)：CopilotKit 开源的「主动型」智能体模板：每个智能体有自己的电脑，可在网页、手机、Slack 或 Teams 里工作。） `added 2026-10-28`
 - [AutoSwarm](https://www.tolsai.com/tools/autoswarm) — Open-source framework that unifies Codex, Claude Code, DeepSeek Harness and other agents so they share context and work as one swarm. （[中文](https://www.tolsai.com/zh/tools/autoswarm)：开源框架：把 Codex、Claude Code、DeepSeek Harness 等智能体统一起来，共享上下文、像蜂群一样协作。） `added 2026-10-28`
@@ -90,6 +95,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 - [CrayonMovie](https://www.tolsai.com/tools/crayonmovie) — Turn a photo of your kid's drawing into a 5-second mini-movie in their own style. （[中文](https://www.tolsai.com/zh/tools/crayonmovie)：把孩子画作的照片变成保留原画风的 5 秒小动画。） `added 2026-10-22`
 
+## AI Anime Art
+
+- [See-through](https://www.tolsai.com/tools/see-through-anime-layers) — SIGGRAPH 2026 research code that splits a single anime illustration into up to 23 inpainted layers for 2.5D rigging. （[中文](https://www.tolsai.com/zh/tools/see-through-anime-layers)：SIGGRAPH 2026 论文开源代码：把单张二次元插画拆成最多 23 个补全好的图层，用于 2.5D 绑定。） `added 2026-10-29`
+
 ## AI API
 
 - [Treg](https://www.tolsai.com/tools/treg) — OpenRouter for agent tools: one catalog and one key for thousands of paid endpoints agents can call per use. （[中文](https://www.tolsai.com/zh/tools/treg)：面向智能体的工具版 OpenRouter：一个目录、一把密钥，按次调用上千个付费接口。） `added 2026-10-28`
@@ -99,6 +108,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 ## AI App Builder
 
+- [Expo Skills](https://www.tolsai.com/tools/expo-skills) — Official Agent Skills from the Expo team that help AI coding agents build, deploy, upgrade and debug Expo and React Native apps. （[中文](https://www.tolsai.com/zh/tools/expo-skills)：Expo 官方出品的 Agent Skills：帮助 AI 编程智能体构建、发布、升级和调试 Expo / React Native 应用。） `added 2026-10-29`
 - [Pando](https://www.tolsai.com/tools/pando) — Open-source, self-hosted platform to deploy and share apps your team builds, including AI-built ones. （[中文](https://www.tolsai.com/zh/tools/pando)：开源自托管平台，用来部署和分享团队做的应用（包括 AI 生成的应用）。） `added 2026-10-21`
 
 ## AI Assistant
@@ -112,6 +122,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 ## AI Code Assistant
 
+- [Paradev](https://www.tolsai.com/tools/paradev) — Desktop IDE for running many coding agents in parallel—Claude Code, Codex or any CLI agent—each in its own Git worktree with review built in. （[中文](https://www.tolsai.com/zh/tools/paradev)：并行跑多个编程智能体的桌面 IDE：Claude Code、Codex 或任意 CLI 智能体，各自独立 Git worktree，内置代码审查。） `added 2026-10-29`
 - [CleanCode](https://www.tolsai.com/tools/cleancode-canvas) — Open-source canvas where Claude Code, Codex and other CLI agents collaborate on one shared board. （[中文](https://www.tolsai.com/zh/tools/cleancode-canvas)：开源画布：让 Claude Code、Codex 等 CLI 智能体在同一块板上协作。） `added 2026-10-28`
 - [Beautiful Rust](https://www.tolsai.com/tools/beautiful-rust) — Agent Skills that teach coding agents to write, review and port idiomatic Rust, plus Clippy lints for CI. （[中文](https://www.tolsai.com/zh/tools/beautiful-rust)：教编程智能体写出、审查并移植地道 Rust 的 Agent Skills，并附带可进 CI 的 Clippy 配置。） `added 2026-10-28`
 - [Freebuff](https://www.tolsai.com/tools/freebuff) — Free, ad-supported AI coding agent from the Codebuff team, available as CLI, desktop app, web app builder, cloud agents for GitHub repos and chat. （[中文](https://www.tolsai.com/zh/tools/freebuff)：Codebuff 团队推出的免费 AI 编程智能体（靠文字广告支撑），提供命令行、桌面应用、网页建站、GitHub 仓库云端智能体和聊天五种形态。） `added 2026-10-27`
@@ -145,6 +156,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 ## AI Developer Tools
 
+- [Overmind](https://www.tolsai.com/tools/overmind) — Training platform that turns your AI agents' production traces into specialised fine-tuned models you own, benchmarked and served. （[中文](https://www.tolsai.com/zh/tools/overmind)：模型训练平台：把 AI 智能体的生产链路数据变成你自己拥有的专用微调模型，并完成评测和部署。） `added 2026-10-29`
+- [Mudroom](https://www.tolsai.com/tools/mudroom) — Runs Claude Code, Codex, Gemini CLI and other agents in a Linux micro-VM on a clone of your project, then lets you review and apply changes like a PR. （[中文](https://www.tolsai.com/zh/tools/mudroom)：在 Linux 微型虚拟机里、对项目副本运行 Claude Code、Codex、Gemini CLI 等智能体，再像审 PR 一样审核并应用改动。） `added 2026-10-29`
 - [Chrome DevTools MCP](https://www.tolsai.com/tools/chrome-devtools-mcp) — Official Chrome DevTools MCP server and CLI so coding agents can control and inspect a live Chrome browser. （[中文](https://www.tolsai.com/zh/tools/chrome-devtools-mcp)：官方 Chrome DevTools 的 MCP 服务与 CLI：让编程智能体控制并检查正在运行的 Chrome 浏览器。） `added 2026-10-28`
 - [billion-context](https://www.tolsai.com/tools/billion-context) — Context-compression proxy for coding agents that keeps month-long single sessions running in 100K-token windows with about 5x fewer tokens. （[中文](https://www.tolsai.com/zh/tools/billion-context)：面向编程智能体的上下文压缩代理：在 10 万 token 的窗口里让单个会话连续跑一个月，token 用量约降到五分之一。） `added 2026-10-27`
 - [SkillSpector](https://www.tolsai.com/tools/skillspector) — NVIDIA's open-source security scanner that checks AI agent skills for prompt injection, data exfiltration and other risks before you install them. （[中文](https://www.tolsai.com/zh/tools/skillspector)：NVIDIA 开源的 AI 智能体技能安全扫描器：安装 Skill 之前先查提示词注入、数据外泄等风险。） `added 2026-10-27`
@@ -189,6 +202,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 - [Higgsfield AI Skills](https://www.tolsai.com/tools/higgsfield-ai-skills) — Official Higgsfield AI agent skills that let Claude Code, Cursor and Codex generate images, video, 3D and audio, product photoshoots, brand kits and thumbnails. （[中文](https://www.tolsai.com/zh/tools/higgsfield-ai-skills)：Higgsfield AI 官方智能体技能：让 Claude Code、Cursor、Codex 直接生成图片、视频、3D 和音频，还能做产品图、品牌套件和缩略图。） `added 2026-10-27`
 - [Infinite Canvas](https://www.tolsai.com/tools/infinite-canvas) — Open-source infinite-canvas workspace for AI creation: image generation, reference-image editing, video generation, an agent assistant and a prompt library. （[中文](https://www.tolsai.com/zh/tools/infinite-canvas)：面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 助手和提示词库。） `added 2026-10-25`
 
+## AI Image Upscaler
+
+- [Upscayl](https://www.tolsai.com/tools/upscayl) — Free, open-source AI image upscaler for Linux, macOS and Windows that enlarges and sharpens low-resolution images on your own GPU. （[中文](https://www.tolsai.com/zh/tools/upscayl)：免费开源的 AI 图片放大工具，支持 Linux、macOS、Windows，在本机显卡上把低清图片放大并增强细节。） `added 2026-10-29`
+
 ## AI Knowledge Graph
 
 - [Graphify](https://www.tolsai.com/tools/graphify-labs-graphify) — Turn a codebase plus its docs, SQL schemas, configs and PDFs into a queryable knowledge graph for coding agents. （[中文](https://www.tolsai.com/zh/tools/graphify-labs-graphify)：把代码库及其文档、SQL 结构、配置和 PDF 转成可查询的知识图谱，供编程智能体使用。） `added 2026-10-20`
@@ -219,6 +236,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 ## AI Productivity Tools
 
+- [Cirkit](https://www.tolsai.com/tools/cirkit) — Schematic workspace for hardware teams: upload a schematic PDF to get BOM-aware parts, notes, live equations, trace maps and an AI that reads the page. （[中文](https://www.tolsai.com/zh/tools/cirkit)：面向硬件团队的原理图工作台：上传原理图 PDF，得到关联 BOM 的元件、批注、实时公式、走线图和能读懂图纸的 AI。） `added 2026-10-29`
 - [SkillScout](https://www.tolsai.com/tools/skillscout) — Ranks AI skills, plugins, MCP servers and apps by how you work—not by popularity—using a profile your AI writes. （[中文](https://www.tolsai.com/zh/tools/skillscout)：按「你怎么工作」而不是按热度，给 AI 技能、插件、MCP 与应用打分排序；画像由你的 AI 生成。） `added 2026-10-28`
 - [Anthropic Knowledge Work Plugins](https://www.tolsai.com/tools/anthropics-knowledge-work-plugins) — Anthropic's open-source plugins for knowledge workers using Claude Cowork. （[中文](https://www.tolsai.com/zh/tools/anthropics-knowledge-work-plugins)：Anthropic 官方开源的知识工作者插件集，用于 Claude Cowork。） `added 2026-10-20`
 
@@ -233,6 +251,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 ## AI SEO Tools
 
+- [Notra](https://www.tolsai.com/tools/notra) — GEO tool that asks ChatGPT, Claude, Gemini and other engines your buyers' questions and shows whether you appear, who appears instead and how to fix it. （[中文](https://www.tolsai.com/zh/tools/notra)：GEO 工具：把买家会问的问题交给 ChatGPT、Claude、Gemini 等 AI 引擎，看你有没有被推荐、推荐了谁、怎么改进。） `added 2026-10-29`
 - [GEOInflow](https://www.tolsai.com/tools/geoinflow) — Self-hosted analytics for Generative Engine Optimization: track AI crawlers, AI search referrals and content coverage. （[中文](https://www.tolsai.com/zh/tools/geoinflow)：自托管的生成式引擎优化（GEO）分析：追踪 AI 爬虫、AI 搜索引荐与内容覆盖。） `added 2026-10-28`
 - [OpenSEO](https://www.tolsai.com/tools/openseo) — Open-source, pay-as-you-go alternative to Semrush and Ahrefs with an MCP server and agent skills so Claude Code and other AI agents can use your SEO data. （[中文](https://www.tolsai.com/zh/tools/openseo)：开源、按量付费的 Semrush/Ahrefs 替代品，自带 MCP 服务和智能体技能，让 Claude Code 等 AI 智能体直接调用你的 SEO 数据。） `added 2026-10-27`
 - [Claude SEO](https://www.tolsai.com/tools/claude-seo) — Free, open-source SEO audit plugin for Claude Code with 26 sub-skills and 19 agents, including AI-search (GEO) analysis. （[中文](https://www.tolsai.com/zh/tools/claude-seo)：免费开源的 Claude Code SEO 审计插件：26 个子技能、19 个专职智能体，包含 AI 搜索（GEO）分析。） `added 2026-10-26`
@@ -255,6 +274,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 ## AI Testing
 
+- [Shannon](https://www.tolsai.com/tools/shannon-ai-pentester) — Open-source autonomous AI pentester that reads your web app's source code, then runs real exploits to prove each vulnerability. （[中文](https://www.tolsai.com/zh/tools/shannon-ai-pentester)：开源的自主 AI 渗透测试工具：先读 Web 应用源码，再执行真实攻击来证明每个漏洞。） `added 2026-10-29`
 - [Triage by Chodeberg](https://www.tolsai.com/tools/triage-chodeberg) — Bug reports filed from customers' AI assistants that are replayed in clean sandboxes before reaching you. （[中文](https://www.tolsai.com/zh/tools/triage-chodeberg)：让用户用 AI 助手提交 Bug，并在干净沙箱中自动复现后再交给你。） `added 2026-10-22`
 - [Reticle](https://www.tolsai.com/tools/reticle) — Lets AI coding agents verify their work in the real running app and return pass / fail / cannot tell. （[中文](https://www.tolsai.com/zh/tools/reticle)：让 AI 编程智能体在真实运行的应用里验证自己的改动，并给出 通过/失败/无法判断。） `added 2026-10-21`
 
@@ -271,6 +291,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 
 ## AI Video Editor
 
+- [Clueso MCP](https://www.tolsai.com/tools/clueso-mcp) — MCP server that lets Claude, ChatGPT, Cursor and other agents create and edit on-brand product videos in Clueso just by chatting. （[中文](https://www.tolsai.com/zh/tools/clueso-mcp)：MCP 服务：让 Claude、ChatGPT、Cursor 等智能体通过对话在 Clueso 里创建和编辑品牌产品视频。） `added 2026-10-29`
 - [video-use](https://www.tolsai.com/tools/video-use) — Browser Use's open-source skill for editing raw footage into a finished video by chatting with Claude Code or Codex. （[中文](https://www.tolsai.com/zh/tools/video-use)：Browser Use 开源的视频剪辑技能：把原始素材丢进文件夹，和 Claude Code/Codex 聊天就能出成片。） `added 2026-10-26`
 - [FableCut](https://www.tolsai.com/tools/fablecut) — Browser video editor that Claude, ChatGPT or any MCP agent can drive, with your clips kept on your computer. （[中文](https://www.tolsai.com/zh/tools/fablecut)：Claude、ChatGPT 或任何 MCP 智能体都能操控的浏览器视频剪辑器，素材留在本地。） `added 2026-10-23`
 - [Woven Video](https://www.tolsai.com/tools/woven-video) — An AI video editor for Mac: ask for the edit in chat, then fine-tune it on a real timeline. （[中文](https://www.tolsai.com/zh/tools/woven-video)：Mac 上的 AI 视频剪辑器：用聊天描述剪辑，再在真实时间线上精修。） `added 2026-10-22`
@@ -310,6 +331,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-10-28](daily/2026-10-28.md) �
 - [RigCheck](https://www.tolsai.com/tools/rigcheck) — Checks whether your GPU or Mac and RAM can run a given open AI model, using sourced requirements. （[中文](https://www.tolsai.com/zh/tools/rigcheck)：查一查你的显卡或 Mac 能不能跑某个开源 AI 模型，数据来自官方公布的需求。） `added 2026-10-23`
 - [Lumabri](https://www.tolsai.com/tools/lumabri) — Pure-C private inference service that runs large AI models across your own computers and servers. （[中文](https://www.tolsai.com/zh/tools/lumabri)：纯 C 编写的私有推理服务：把大模型拆到你自己的多台电脑和服务器上运行。） `added 2026-10-23`
 - [vLLM](https://www.tolsai.com/tools/vllm) — High-throughput, memory-efficient inference and serving engine for LLMs. （[中文](https://www.tolsai.com/zh/tools/vllm)：高吞吐、省显存的大模型推理与服务引擎。） `added 2026-10-20`
+
+## Open Source AI Models
+
+- [homi](https://www.tolsai.com/tools/homi-audio-decision-model) — Open decision model that answers typed questions about an audio clip and returns a probability for every option, at very low cost. （[中文](https://www.tolsai.com/zh/tools/homi-audio-decision-model)：开源音频“决策模型”：针对一段音频回答带选项的问题，为每个选项给出概率，成本极低。） `added 2026-10-29`
 
 ## Prompt Engineering
 
