@@ -8,14 +8,15 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [OpenMontage](https://www.tolsai.com/tools/openmontage) · [GitHub](https://github.com/calesthio/OpenMontage) — Open-source agentic video production system that turns your AI coding assistant into a video studio: research, script, assets, edit and render.
-- [Handy](https://www.tolsai.com/tools/handy-speech-to-text) · [GitHub](https://github.com/cjpais/Handy) — Free, open-source, offline speech-to-text app: press a shortcut, speak, and your words are pasted into any text field.
-- [OpenMAIC](https://www.tolsai.com/tools/openmaic) · [GitHub](https://github.com/THU-MAIC/OpenMAIC) — Open Multi-Agent Interactive Classroom: turns any topic or document into an interactive class with AI teachers, classmates, slides and quizzes.
+- [Vane](https://www.tolsai.com/tools/vane-ai-answering-engine) · [GitHub](https://github.com/ItzCrazyKns/Vane) — Self-hosted, privacy-focused AI answering engine (formerly Perplexica) that searches the web via SearxNG and answers with cited sources, using local or cloud LLMs.
+- [Concat](https://www.tolsai.com/tools/concat-video-editor) · [GitHub](https://github.com/jub0t/Concat) — Free, open-source, local-first CapCut alternative with offline AI auto-captions, text-to-speech, voice cloning and background removal, scriptable via MCP.
+- [FreeToken](https://www.tolsai.com/tools/freetoken) · [GitHub](https://github.com/FlashML-org/FreeToken) — Open-source edge-native MoE serving engine for running frontier-scale open-weight models (290B+ MoE) locally on consumer NVIDIA GPUs.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-02](daily/2026-11-02.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
+- [AI 3D Model Generator](#ai-3d-model-generator)
 - [AI Agent](#ai-agent)
 - [AI Animation Generator](#ai-animation-generator)
 - [AI Anime Art](#ai-anime-art)
@@ -36,6 +37,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 - [AI Game Generator](#ai-game-generator)
 - [AI Graphic Design](#ai-graphic-design)
 - [AI Image Generator](#ai-image-generator)
+- [AI Image Recognition](#ai-image-recognition)
 - [AI Image Upscaler](#ai-image-upscaler)
 - [AI Inference](#ai-inference)
 - [AI Knowledge Graph](#ai-knowledge-graph)
@@ -49,6 +51,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 - [AI Prompt](#ai-prompt)
 - [AI Research Tool](#ai-research-tool)
 - [AI Sales](#ai-sales)
+- [AI Search Engine](#ai-search-engine)
 - [AI Security](#ai-security)
 - [AI SEO Tools](#ai-seo-tools)
 - [AI Social Media](#ai-social-media)
@@ -65,6 +68,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 - [AI Video Generator](#ai-video-generator)
 - [AI Voice Assistants](#ai-voice-assistants)
 - [AI Web Scraping](#ai-web-scraping)
+- [AI Website Designer](#ai-website-designer)
 - [AI Workflow](#ai-workflow)
 - [AI Writing Assistants](#ai-writing-assistants)
 - [AI Youtube Summary](#ai-youtube-summary)
@@ -73,8 +77,14 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 - [Open Source AI Models](#open-source-ai-models)
 - [Prompt Engineering](#prompt-engineering)
 
+## AI 3D Model Generator
+
+- [Geop](https://www.tolsai.com/tools/geop-cad) — Open-source parametric CAD on an exact NURBS kernel in Rust that AI agents like Claude Code and Codex can drive through MCP or a JSON part format. （[中文](https://www.tolsai.com/zh/tools/geop-cad)：开源参数化 CAD，基于 Rust 编写的精确 NURBS 内核；Claude Code、Codex 等 AI 智能体可通过 MCP 或 JSON 零件格式直接建模。） `added 2026-11-02`
+
 ## AI Agent
 
+- [Pluto Door](https://www.tolsai.com/tools/pluto-door) — Native Mac SSH client with Ori, an AI server agent that investigates and fixes issues with your approval, plus a full desktop for every server. （[中文](https://www.tolsai.com/zh/tools/pluto-door)：带 AI 服务器助手的原生 Mac SSH 客户端：Ori 在你批准后排查并修复问题，每台服务器还配一个图形化桌面。） `added 2026-11-02`
+- [Codync](https://www.tolsai.com/tools/codync) — Free, open-source app that turns Claude Code, Codex, Gemini CLI and 40+ coding agents on your computer into persistent bots you message from your phone. （[中文](https://www.tolsai.com/zh/tools/codync)：免费开源应用：把你电脑上的 Claude Code、Codex、Gemini CLI 等 40 多种编程智能体变成常驻机器人，用手机发消息就能派活。） `added 2026-11-02`
 - [SuperPlane](https://www.tolsai.com/tools/superplane) — Open-source 'factory for one-shot engineering': turns high-confidence backlog issues into verified, review-ready pull requests using coding agents. （[中文](https://www.tolsai.com/zh/tools/superplane)：开源的“一次性工程工厂”：用编程智能体把高把握度的待办 issue 变成验证过、可直接评审的 PR。） `added 2026-11-01`
 - [Orkas](https://www.tolsai.com/tools/orkas) — Open-source, local-first desktop AI team: a Commander turns your goal into to-dos and brings in specialist agents to finish the work. （[中文](https://www.tolsai.com/zh/tools/orkas)：开源、本地优先的桌面 AI 团队：总指挥把你的目标拆成待办，并调度专业智能体把活干完。） `added 2026-11-01`
 - [AX (Agent Executor)](https://www.tolsai.com/tools/ax-agent-executor) — Google's open, declarative orchestration runtime that sandboxes agentic tasks and runs them at cluster scale, Kubernetes-style. （[中文](https://www.tolsai.com/zh/tools/ax-agent-executor)：Google 开源的声明式智能体编排运行时，在沙箱中运行智能体任务，并像 Kubernetes 一样在集群上大规模调度。） `added 2026-10-31`
@@ -186,6 +196,9 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 
 ## AI Developer Tools
 
+- [sweet-search](https://www.tolsai.com/tools/sweet-search) — Local code search for AI coding agents: six purpose-built tools that replace grep-and-read, with benchmarked 5–33% cheaper agent runs. （[中文](https://www.tolsai.com/zh/tools/sweet-search)：给 AI 编程智能体用的本地代码搜索：六个专用工具替代 grep + 读文件，实测智能体运行成本降低 5%–33%。） `added 2026-11-02`
+- [Worktrunk](https://www.tolsai.com/tools/worktrunk) — Rust CLI that makes git worktrees as easy as branches, built for running several AI coding agents in parallel without stepping on each other. （[中文](https://www.tolsai.com/zh/tools/worktrunk)：让 git worktree 像分支一样好用的 Rust 命令行工具，专为并行运行多个 AI 编程智能体、互不干扰而设计。） `added 2026-11-02`
+- [nodeterm](https://www.tolsai.com/tools/nodeterm) — Node-based terminal manager that puts terminals and AI coding agents as live nodes on an infinite canvas, with a kanban board of sessions. （[中文](https://www.tolsai.com/zh/tools/nodeterm)：基于节点的终端管理器：把终端和 AI 编程智能体做成无限画布上的实时节点，项目还能切换成会话看板。） `added 2026-11-02`
 - [A2UI](https://www.tolsai.com/tools/a2ui) — A2UI (Agent-to-User Interface): an open standard and libraries that let AI agents 'speak UI' by sending declarative JSON that clients render with native components. （[中文](https://www.tolsai.com/zh/tools/a2ui)：A2UI（Agent-to-User Interface）：让 AI 智能体“会说界面”的开放标准和库，智能体发送声明式 JSON，由客户端用原生组件渲染。） `added 2026-11-01`
 - [CC Switch](https://www.tolsai.com/tools/cc-switch) — Open-source desktop manager for Claude Code, Codex, Gemini CLI, OpenCode and other coding agents: switch API providers in one click, manage MCP, skills and prompts. （[中文](https://www.tolsai.com/zh/tools/cc-switch)：开源桌面管理器，统一管理 Claude Code、Codex、Gemini CLI、OpenCode 等编程智能体：一键切换 API 服务商，集中管理 MCP、技能和提示词。） `added 2026-11-01`
 - [SLCR](https://www.tolsai.com/tools/slcr) — Open standard and Rust CLI for agent-native software requirements: sliceable, linked, checkable specs that hand agents only what each task needs. （[中文](https://www.tolsai.com/zh/tools/slcr)：面向 AI 编程智能体的开放需求规范与 Rust CLI：可切片、可关联、可校验，每个任务只给智能体它需要的需求。） `added 2026-10-31`
@@ -242,8 +255,13 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 
 ## AI Image Generator
 
+- [Scenario Agent Skills](https://www.tolsai.com/tools/scenario-agent-skills) — Open-source Agent Skills that let Claude Code, Cursor, Codex and 70+ agents create production-ready images, video, audio and 3D through Scenario's MCP server. （[中文](https://www.tolsai.com/zh/tools/scenario-agent-skills)：开源的 Agent Skills 合集：让 Claude Code、Cursor、Codex 等 70 多种智能体通过 Scenario 的 MCP 服务生成可直接用于生产的图片、视频、音频和 3D 素材。） `added 2026-11-02`
 - [Higgsfield AI Skills](https://www.tolsai.com/tools/higgsfield-ai-skills) — Official Higgsfield AI agent skills that let Claude Code, Cursor and Codex generate images, video, 3D and audio, product photoshoots, brand kits and thumbnails. （[中文](https://www.tolsai.com/zh/tools/higgsfield-ai-skills)：Higgsfield AI 官方智能体技能：让 Claude Code、Cursor、Codex 直接生成图片、视频、3D 和音频，还能做产品图、品牌套件和缩略图。） `added 2026-10-27`
 - [Infinite Canvas](https://www.tolsai.com/tools/infinite-canvas) — Open-source infinite-canvas workspace for AI creation: image generation, reference-image editing, video generation, an agent assistant and a prompt library. （[中文](https://www.tolsai.com/zh/tools/infinite-canvas)：面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 助手和提示词库。） `added 2026-10-25`
+
+## AI Image Recognition
+
+- [Kornia](https://www.tolsai.com/tools/kornia) — Differentiable computer vision library for PyTorch with 1,200+ operators for image processing, camera geometry, feature matching and augmentation. （[中文](https://www.tolsai.com/zh/tools/kornia)：基于 PyTorch 的可微分计算机视觉库，提供 1200 多个算子，覆盖图像处理、相机几何、特征匹配和数据增强。） `added 2026-11-02`
 
 ## AI Image Upscaler
 
@@ -251,6 +269,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 
 ## AI Inference
 
+- [FreeToken](https://www.tolsai.com/tools/freetoken) — Open-source edge-native MoE serving engine for running frontier-scale open-weight models (290B+ MoE) locally on consumer NVIDIA GPUs. （[中文](https://www.tolsai.com/zh/tools/freetoken)：开源的端侧 MoE 推理引擎，让消费级 NVIDIA 显卡在本地跑前沿规模的开源权重模型（2900 亿参数以上的 MoE）。） `added 2026-11-02`
 - [spinf-serve](https://www.tolsai.com/tools/spinf-serve) — Open-source inference server for bulk classification: reads content once and returns calibrated probabilities for many questions on one GPU. （[中文](https://www.tolsai.com/zh/tools/spinf-serve)：开源批量分类推理服务器：内容只读一次，在单张 GPU 上为多个问题返回校准后的概率。） `added 2026-10-31`
 - [Magnitude](https://www.tolsai.com/tools/magnitude) — Open-source local inference engine that auto-tunes kernels for your hardware, claiming over 2x Ollama speed, with one-click agent connections. （[中文](https://www.tolsai.com/zh/tools/magnitude)：开源本地推理引擎，按你的硬件自动调优内核，官方称比 Ollama 快 2 倍以上，可一键接入编程智能体。） `added 2026-10-31`
 
@@ -308,6 +327,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 ## AI Sales
 
 - [Harvey (AI Sales Agent)](https://www.tolsai.com/tools/harvey-ai-sales-agent) — Open-source autonomous sales agent that runs on your Claude Code or Codex subscription: finds prospects, writes cold email and works replies. （[中文](https://www.tolsai.com/zh/tools/harvey-ai-sales-agent)：开源的自主销售智能体，用你的 Claude Code 或 Codex 订阅运行：找潜在客户、写冷邮件、跟进回复。） `added 2026-11-01`
+
+## AI Search Engine
+
+- [Vane](https://www.tolsai.com/tools/vane-ai-answering-engine) — Self-hosted, privacy-focused AI answering engine (formerly Perplexica) that searches the web via SearxNG and answers with cited sources, using local or cloud LLMs. （[中文](https://www.tolsai.com/zh/tools/vane-ai-answering-engine)：可自托管、注重隐私的 AI 问答搜索引擎（原名 Perplexica）：经 SearxNG 联网检索，用本地或云端大模型给出带引用来源的答案。） `added 2026-11-02`
 
 ## AI Security
 
@@ -367,6 +390,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 
 ## AI Video Editor
 
+- [Concat](https://www.tolsai.com/tools/concat-video-editor) — Free, open-source, local-first CapCut alternative with offline AI auto-captions, text-to-speech, voice cloning and background removal, scriptable via MCP. （[中文](https://www.tolsai.com/zh/tools/concat-video-editor)：免费开源、本地优先的剪映（CapCut）替代品：离线 AI 自动字幕、文字转语音、声音克隆和抠像，还能通过 MCP 让 AI 剪片。） `added 2026-11-02`
 - [Clueso MCP](https://www.tolsai.com/tools/clueso-mcp) — MCP server that lets Claude, ChatGPT, Cursor and other agents create and edit on-brand product videos in Clueso just by chatting. （[中文](https://www.tolsai.com/zh/tools/clueso-mcp)：MCP 服务：让 Claude、ChatGPT、Cursor 等智能体通过对话在 Clueso 里创建和编辑品牌产品视频。） `added 2026-10-29`
 - [video-use](https://www.tolsai.com/tools/video-use) — Browser Use's open-source skill for editing raw footage into a finished video by chatting with Claude Code or Codex. （[中文](https://www.tolsai.com/zh/tools/video-use)：Browser Use 开源的视频剪辑技能：把原始素材丢进文件夹，和 Claude Code/Codex 聊天就能出成片。） `added 2026-10-26`
 - [FableCut](https://www.tolsai.com/tools/fablecut) — Browser video editor that Claude, ChatGPT or any MCP agent can drive, with your clips kept on your computer. （[中文](https://www.tolsai.com/zh/tools/fablecut)：Claude、ChatGPT 或任何 MCP 智能体都能操控的浏览器视频剪辑器，素材留在本地。） `added 2026-10-23`
@@ -390,6 +414,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-01](daily/2026-11-01.md) �
 ## AI Web Scraping
 
 - [Lightpanda](https://www.tolsai.com/tools/lightpanda) — Open-source headless browser written from scratch in Zig for AI agents and automation, with CDP, MCP and a built-in agent mode. （[中文](https://www.tolsai.com/zh/tools/lightpanda)：用 Zig 从零编写的开源无头浏览器，专为 AI 智能体和自动化设计，支持 CDP、MCP 和内置智能体模式。） `added 2026-10-31`
+
+## AI Website Designer
+
+- [AI Website Cloner Template](https://www.tolsai.com/tools/ai-website-cloner-template) — Open-source template with a /clone-website skill: give your AI coding agent a URL and it recreates the site as a clean Next.js app. （[中文](https://www.tolsai.com/zh/tools/ai-website-cloner-template)：开源模板，内置 /clone-website 技能：把网址交给 AI 编程智能体，它就把该网站复刻成干净的 Next.js 应用。） `added 2026-11-02`
 
 ## AI Workflow
 
