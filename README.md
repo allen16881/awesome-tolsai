@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [colibri](https://www.tolsai.com/tools/colibri-moe-engine) · [GitHub](https://github.com/JustVugg/colibri) — Pure-C engine that runs huge mixture-of-experts models on an ordinary PC by keeping the active part in RAM and streaming experts from disk.
-- [agent-desktop](https://www.tolsai.com/tools/agent-desktop) · [GitHub](https://github.com/vercel-labs/agent-desktop) — Open-source computer-use CLI from Vercel Labs that lets AI agents read and operate desktop apps through the OS accessibility tree instead of screenshots.
-- [OpenRig](https://www.tolsai.com/tools/openrig) · [GitHub](https://github.com/mvschwarz/openrig) — Open-source system for running a persistent team of coding agents: define Claude Code and Codex seats in YAML and boot the whole rig with one command.
+- [Soup](https://www.tolsai.com/tools/soup-llm-fine-tuning) · [GitHub](https://github.com/MakazhanAlpamys/Soup) — Open-source CLI that fine-tunes and post-trains LLMs from one YAML file; opt-in layer streaming fits an 8B model on a 4 GB laptop GPU.
+- [Scrawl](https://www.tolsai.com/tools/scrawl-agent-screen-capture) · [GitHub](https://github.com/kitlangton/scrawl) — Open-source Mac app that records your screen, voice, clicks and drawings into a compact bundle you paste into a coding agent to show it the problem.
+- [Beacon](https://www.tolsai.com/tools/beacon-agent-memory) · [GitHub](https://github.com/Asymptote-Labs/agent-beacon) — Open-source memory layer that captures coding-agent sessions across Claude Code, Cursor, Codex and 20+ harnesses and turns them into reusable knowledge.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-04](daily/2026-11-04.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -24,6 +24,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 - [AI App Builder](#ai-app-builder)
 - [AI Assistant](#ai-assistant)
 - [AI Browsers](#ai-browsers)
+- [AI Chatbot](#ai-chatbot)
 - [AI Code Assistant](#ai-code-assistant)
 - [AI Code Review](#ai-code-review)
 - [AI Course](#ai-course)
@@ -75,6 +76,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 - [AI Writing Assistants](#ai-writing-assistants)
 - [AI Youtube Summary](#ai-youtube-summary)
 - [Chord AI](#chord-ai)
+- [Humanizer AI](#humanizer-ai)
 - [Large Language Models (LLMs)](#large-language-models-llms)
 - [Open Source AI Models](#open-source-ai-models)
 - [Prompt Engineering](#prompt-engineering)
@@ -85,6 +87,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 
 ## AI Agent
 
+- [asklog](https://www.tolsai.com/tools/asklog) — Connects your Claude Code, Codex and terminal sessions across up to 3 machines so you can see and reply to them from your phone or browser. （[中文](https://www.tolsai.com/zh/tools/asklog)：把你电脑上的 Claude Code、Codex 和终端会话（最多 3 台机器）连到手机和浏览器，让你随时查看并回复。） `added 2026-11-04`
+- [Agent Zero](https://www.tolsai.com/tools/agent-zero) — Open-source AI agent with its own Linux computer: it researches, writes code and works with documents through a terminal, browser and desktop apps in a sandbox. （[中文](https://www.tolsai.com/zh/tools/agent-zero)：开源 AI 智能体，自带一台 Linux 电脑：在沙箱里用终端、浏览器和桌面应用做调研、写代码、处理文档。） `added 2026-11-04`
 - [OpenRig](https://www.tolsai.com/tools/openrig) — Open-source system for running a persistent team of coding agents: define Claude Code and Codex seats in YAML and boot the whole rig with one command. （[中文](https://www.tolsai.com/zh/tools/openrig)：开源的编程智能体“团队”系统：用 YAML 定义 Claude Code 和 Codex 的席位，一条命令启动整套常驻多智能体协作。） `added 2026-11-03`
 - [agent-desktop](https://www.tolsai.com/tools/agent-desktop) — Open-source computer-use CLI from Vercel Labs that lets AI agents read and operate desktop apps through the OS accessibility tree instead of screenshots. （[中文](https://www.tolsai.com/zh/tools/agent-desktop)：Vercel Labs 开源的“电脑操作”命令行工具：让 AI 智能体通过系统无障碍树读取并操作桌面应用，而不是靠截图识别。） `added 2026-11-03`
 - [Pluto Door](https://www.tolsai.com/tools/pluto-door) — Native Mac SSH client with Ori, an AI server agent that investigates and fixes issues with your approval, plus a full desktop for every server. （[中文](https://www.tolsai.com/zh/tools/pluto-door)：带 AI 服务器助手的原生 Mac SSH 客户端：Ori 在你批准后排查并修复问题，每台服务器还配一个图形化桌面。） `added 2026-11-02`
@@ -154,10 +158,17 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 
 ## AI Browsers
 
+- [Peji](https://www.tolsai.com/tools/peji-ai-browser) — Agentic AI browser for iPhone that operates real web pages for you (navigating, clicking and typing) and asks before anything sensitive. （[中文](https://www.tolsai.com/zh/tools/peji-ai-browser)：iPhone 上的智能体 AI 浏览器：替你在真实网页里导航、点击、输入完成任务，涉及敏感操作前会先征求确认。） `added 2026-11-04`
 - [ego lite](https://www.tolsai.com/tools/ego-lite) — Open-source macOS browser built for AI agents, with separate Spaces for you and your agents. （[中文](https://www.tolsai.com/zh/tools/ego-lite)：为 AI 智能体打造的开源 macOS 浏览器，你和智能体各有独立的 Spaces。） `added 2026-10-23`
+
+## AI Chatbot
+
+- [Jan](https://www.tolsai.com/tools/jan-ai) — Open-source ChatGPT alternative for Windows, macOS and Linux that downloads and runs LLMs locally, with optional cloud models and a local OpenAI-compatible API. （[中文](https://www.tolsai.com/zh/tools/jan-ai)：开源的 ChatGPT 替代品：在 Windows、macOS、Linux 上下载并本地运行大模型，也可接入云端模型，并提供本地 OpenAI 兼容接口。） `added 2026-11-04`
 
 ## AI Code Assistant
 
+- [Wavefunction](https://www.tolsai.com/tools/wavefunction-coding-agent) — Free, MIT-licensed desktop coding agent for Mac that runs parallel chats on separate worktrees and does computer use on its own Docker desktop. （[中文](https://www.tolsai.com/zh/tools/wavefunction-coding-agent)：免费、MIT 开源的 Mac 桌面编程智能体：多个对话在各自的 worktree 上并行，电脑操作在它自己的 Docker 桌面里完成。） `added 2026-11-04`
+- [GitHub Copilot CLI](https://www.tolsai.com/tools/github-copilot-cli) — GitHub's Copilot coding agent in your terminal: build, debug and refactor code by chatting, with access to your repos, issues and pull requests. （[中文](https://www.tolsai.com/zh/tools/github-copilot-cli)：把 GitHub Copilot 编程智能体搬进终端：用对话方式构建、调试、重构代码，并直接访问你的仓库、Issue 和 PR。） `added 2026-11-04`
 - [CodeConnect](https://www.tolsai.com/tools/codeconnect) — Free iPhone app to watch and answer Claude Code and Codex sessions running on your Mac or Linux machines, over your own Tailscale network. （[中文](https://www.tolsai.com/zh/tools/codeconnect)：免费的 iPhone 应用：通过你自己的 Tailscale 网络，查看并回应 Mac/Linux 上运行的 Claude Code 和 Codex 会话。） `added 2026-11-01`
 - [Imza](https://www.tolsai.com/tools/imza) — Native C++ terminal coding agent with Plan, Build and Review modes that keeps the developer in the loop; ~20 MB binary, bring your own model. （[中文](https://www.tolsai.com/zh/tools/imza)：原生 C++ 编写的终端编程智能体，提供“规划/构建/审查”三种模式，让开发者始终参与；约 20MB，可自带模型。） `added 2026-11-01`
 - [Matt Pocock Skills](https://www.tolsai.com/tools/mattpocock-skills) — Matt Pocock's MIT-licensed set of small, composable agent skills for real engineering work with Claude Code, Codex, Copilot, Gemini CLI and more. （[中文](https://www.tolsai.com/zh/tools/mattpocock-skills)：Matt Pocock 开源（MIT）的一组小而可组合的智能体技能，面向真实工程开发，支持 Claude Code、Codex、Copilot、Gemini CLI 等。） `added 2026-10-31`
@@ -203,6 +214,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 
 ## AI Developer Tools
 
+- [Infino](https://www.tolsai.com/tools/infino-retrieval) — Embedded retrieval library that keeps one Parquet copy of your data with BM25 and vector indexes inside, queried by full-text, vector, hybrid or SQL. （[中文](https://www.tolsai.com/zh/tools/infino-retrieval)：嵌入式检索库：数据只存一份 Parquet，内嵌 BM25 和向量索引，可用全文、向量、混合或 SQL 四种方式查询，适合智能体和 RAG。） `added 2026-11-04`
+- [Sandcastle](https://www.tolsai.com/tools/sandcastle-ai-agents) — TypeScript library from Matt Pocock that runs AI coding agents in isolated sandboxes with one sandcastle.run() call and merges their branch commits back. （[中文](https://www.tolsai.com/zh/tools/sandcastle-ai-agents)：Matt Pocock 开源的 TypeScript 库：一行 sandcastle.run() 就能在隔离沙箱里运行 AI 编程智能体，并把各分支的提交合并回来。） `added 2026-11-04`
+- [Beacon](https://www.tolsai.com/tools/beacon-agent-memory) — Open-source memory layer that captures coding-agent sessions across Claude Code, Cursor, Codex and 20+ harnesses and turns them into reusable knowledge. （[中文](https://www.tolsai.com/zh/tools/beacon-agent-memory)：开源的编程智能体记忆层：采集 Claude Code、Cursor、Codex 等 20 多种工具的会话，沉淀成后续智能体可复用的知识。） `added 2026-11-04`
+- [Scrawl](https://www.tolsai.com/tools/scrawl-agent-screen-capture) — Open-source Mac app that records your screen, voice, clicks and drawings into a compact bundle you paste into a coding agent to show it the problem. （[中文](https://www.tolsai.com/zh/tools/scrawl-agent-screen-capture)：开源 Mac 应用：把屏幕、语音、点击和涂画录成一个精简的包，粘贴给编程智能体，让它直接“看到”问题。） `added 2026-11-04`
 - [Kero](https://www.tolsai.com/tools/kero-terminal) — Cross-platform native terminal built for coding agents: sessions keep running after you quit, and a sidebar shows which agent needs you. （[中文](https://www.tolsai.com/zh/tools/kero-terminal)：为编程智能体打造的跨平台原生终端：退出后会话照常运行，侧边栏一眼看出哪个智能体在等你。） `added 2026-11-03`
 - [skills (Agent Skills CLI)](https://www.tolsai.com/tools/vercel-labs-skills-cli) — Vercel Labs' open-source CLI for the agent-skills ecosystem: npx skills add installs reusable skills into Claude Code, Codex, Cursor and 75+ other agents. （[中文](https://www.tolsai.com/zh/tools/vercel-labs-skills-cli)：Vercel Labs 开源的智能体技能（Agent Skills）命令行：一条 npx skills add，就能把可复用技能装进 Claude Code、Codex、Cursor 等 75 种以上智能体。） `added 2026-11-03`
 - [Context Mode](https://www.tolsai.com/tools/context-mode) — Free local MCP plugin that keeps raw tool output out of your coding agent's context window and restores session state after compaction. （[中文](https://www.tolsai.com/zh/tools/context-mode)：免费的本地 MCP 插件：把工具调用产生的原始输出挡在编程智能体的上下文之外，并在对话压缩后恢复会话状态。） `added 2026-11-03`
@@ -275,6 +290,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 
 ## AI Image Recognition
 
+- [Beamfy](https://www.tolsai.com/tools/beamfy) — AI vision assistant for blind and low-vision people on iPhone and Android that describes surroundings hazards-first, reads text and identifies products. （[中文](https://www.tolsai.com/zh/tools/beamfy)：面向视障与低视力人群的 AI 视觉助手（iPhone、Android）：优先播报危险、朗读文字、识别商品，专为 VoiceOver 和 TalkBack 设计。） `added 2026-11-04`
 - [Kornia](https://www.tolsai.com/tools/kornia) — Differentiable computer vision library for PyTorch with 1,200+ operators for image processing, camera geometry, feature matching and augmentation. （[中文](https://www.tolsai.com/zh/tools/kornia)：基于 PyTorch 的可微分计算机视觉库，提供 1200 多个算子，覆盖图像处理、相机几何、特征匹配和数据增强。） `added 2026-11-02`
 
 ## AI Image Upscaler
@@ -352,6 +368,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 
 ## AI Security
 
+- [PentAGI](https://www.tolsai.com/tools/pentagi) — Open-source, self-hosted multi-agent system for authorized penetration testing that plans, runs security tools in a Docker sandbox and writes a report. （[中文](https://www.tolsai.com/zh/tools/pentagi)：开源、自托管的多智能体渗透测试系统：在 Docker 沙箱里规划任务、运行安全工具并生成报告，仅限获得授权的测试。） `added 2026-11-04`
 - [Charter](https://www.tolsai.com/tools/charter-ai) — Open-source Python library that enforces, field by field, what an AI agent can send to customer-account APIs and generates a reviewable access map. （[中文](https://www.tolsai.com/zh/tools/charter-ai)：开源 Python 库：逐字段约束 AI 智能体能向客户账户 API 发送什么，并生成可在代码审查中对比的访问清单。） `added 2026-10-31`
 
 ## AI SEO Tools
@@ -368,6 +385,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 
 ## AI Speech-to-Text
 
+- [HoldTalk](https://www.tolsai.com/tools/holdtalk) — Private Mac dictation app: hold the fn key, speak, and the text is typed at your cursor in any app, transcribed on-device with Apple SpeechAnalyzer. （[中文](https://www.tolsai.com/zh/tools/holdtalk)：注重隐私的 Mac 听写应用：按住 fn 说话，松开后文字直接出现在任意应用的光标处，用 Apple SpeechAnalyzer 在本机转写。） `added 2026-11-04`
 - [Handy](https://www.tolsai.com/tools/handy-speech-to-text) — Free, open-source, offline speech-to-text app: press a shortcut, speak, and your words are pasted into any text field. （[中文](https://www.tolsai.com/zh/tools/handy-speech-to-text)：免费、开源、完全离线的语音转文字应用：按下快捷键说话，文字就粘贴到任意输入框。） `added 2026-11-01`
 - [Hex](https://www.tolsai.com/tools/hex-voice-dictation) — Free, open-source local voice dictation from Anomaly: hold a shortcut, speak, and Hex transcribes on-device and pastes into any app. （[中文](https://www.tolsai.com/zh/tools/hex-voice-dictation)：Anomaly 推出的免费开源本地语音输入工具：按住快捷键说话，Hex 在本机转写并粘贴到任意应用。） `added 2026-10-31`
 - [Murmur](https://www.tolsai.com/tools/murmur-dictation) — Open-source macOS push-to-talk dictation that types into any app using your own OpenAI API key. （[中文](https://www.tolsai.com/zh/tools/murmur-dictation)：开源 macOS 按住说话听写工具：用你自己的 OpenAI Key，把语音直接打进任意应用。） `added 2026-10-23`
@@ -458,8 +476,13 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-03](daily/2026-11-03.md) �
 
 - [FlexChords](https://www.tolsai.com/tools/flexchords) — AI chord detection for any YouTube song or audio track, with play-along, transpose and MIDI export. （[中文](https://www.tolsai.com/zh/tools/flexchords)：AI 识别任意 YouTube 歌曲或音频的和弦，支持跟弹、移调和导出 MIDI。） `added 2026-10-21`
 
+## Humanizer AI
+
+- [Humanizer](https://www.tolsai.com/tools/humanizer-agent-skill) — Open-source agent skill for Claude Code, Codex and other agents that rewrites AI-sounding text by removing 26 patterns from Wikipedia's Signs of AI writing. （[中文](https://www.tolsai.com/zh/tools/humanizer-agent-skill)：开源的智能体技能：依据维基百科《AI 写作特征》检查 26 种套路，把 Claude Code、Codex 等写出的“AI 腔”文字改得更像人写的。） `added 2026-11-04`
+
 ## Large Language Models (LLMs)
 
+- [Soup](https://www.tolsai.com/tools/soup-llm-fine-tuning) — Open-source CLI that fine-tunes and post-trains LLMs from one YAML file; opt-in layer streaming fits an 8B model on a 4 GB laptop GPU. （[中文](https://www.tolsai.com/zh/tools/soup-llm-fine-tuning)：开源命令行工具：用一个 YAML 文件完成大模型微调和后训练；可选的逐层流式加载让 4 GB 显存的笔记本也能训 8B 模型。） `added 2026-11-04`
 - [nanochat](https://www.tolsai.com/tools/karpathy-nanochat) — Andrej Karpathy's minimal, hackable harness for training your own ChatGPT-style LLM end to end on a single GPU node — a GPT-2-grade model for about $48. （[中文](https://www.tolsai.com/zh/tools/karpathy-nanochat)：Andrej Karpathy 出品的极简 LLM 训练框架：在单台 GPU 节点上从头训练自己的类 ChatGPT 模型，约 48 美元就能达到 GPT-2 水平。） `added 2026-11-03`
 - [RigCheck](https://www.tolsai.com/tools/rigcheck) — Checks whether your GPU or Mac and RAM can run a given open AI model, using sourced requirements. （[中文](https://www.tolsai.com/zh/tools/rigcheck)：查一查你的显卡或 Mac 能不能跑某个开源 AI 模型，数据来自官方公布的需求。） `added 2026-10-23`
 - [Lumabri](https://www.tolsai.com/tools/lumabri) — Pure-C private inference service that runs large AI models across your own computers and servers. （[中文](https://www.tolsai.com/zh/tools/lumabri)：纯 C 编写的私有推理服务：把大模型拆到你自己的多台电脑和服务器上运行。） `added 2026-10-23`
