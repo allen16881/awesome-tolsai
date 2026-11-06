@@ -8,12 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [MoneyPrinterTurbo](https://www.tolsai.com/tools/moneyprinterturbo-ai-short-video-generator) · [GitHub](https://github.com/harry0703/MoneyPrinterTurbo) — Open-source AI tool that turns a topic or keyword into a finished HD short video: script, voiceover, stock footage, subtitles and music.
-- [Horizon](https://www.tolsai.com/tools/horizon-ai-news-radar) · [GitHub](https://github.com/Thysrael/Horizon) — Open-source AI news radar that collects, scores and deduplicates stories from RSS, Hacker News, Reddit, X and more into daily English and Chinese briefings.
-- [New API](https://www.tolsai.com/tools/new-api-ai-gateway) · [GitHub](https://github.com/QuantumNous/new-api) — Open-source self-hosted AI gateway that puts OpenAI, Claude, Gemini and other models behind one compatible API with routing, access control and usage tracking.
-- [MCPJungle](https://www.tolsai.com/tools/mcpjungle-mcp-gateway) · [GitHub](https://github.com/mcpjungle/MCPJungle) — Open-source self-hosted MCP gateway: register MCP servers once and let Claude, Cursor, Codex or your own agents connect to a single endpoint.
+- [VibeVoice](https://www.tolsai.com/tools/vibevoice-microsoft-voice-ai) · [GitHub](https://github.com/microsoft/VibeVoice) — Microsoft open-source frontier voice AI for text-to-speech and speech recognition, with streaming demos and Hugging Face models.
+- [Monty](https://www.tolsai.com/tools/pydantic-monty-python-sandbox) · [GitHub](https://github.com/pydantic/monty) — Secure Python sandbox written in Rust for running LLM-generated code without container startup cost.
+- [Gortex](https://www.tolsai.com/tools/gortex-code-intelligence) · [GitHub](https://github.com/zzet/gortex) — High-performance code-intelligence engine for AI agents and IDEs: indexes code as a graph and exposes CLI, MCP server and web UI.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -59,6 +58,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 - [AI Search Engine](#ai-search-engine)
 - [AI Security](#ai-security)
 - [AI SEO Tools](#ai-seo-tools)
+- [AI Shopping Assistant](#ai-shopping-assistant)
 - [AI Short Video Generator](#ai-short-video-generator)
 - [AI Social Media](#ai-social-media)
 - [AI Speech-to-Text](#ai-speech-to-text)
@@ -75,6 +75,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 - [AI Video Generator](#ai-video-generator)
 - [AI Video Recording](#ai-video-recording)
 - [AI Voice Assistants](#ai-voice-assistants)
+- [AI Voice Generator](#ai-voice-generator)
 - [AI Web Scraping](#ai-web-scraping)
 - [AI Website Designer](#ai-website-designer)
 - [AI Workflow](#ai-workflow)
@@ -92,6 +93,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 
 ## AI Agent
 
+- [Thinker](https://www.tolsai.com/tools/thinker-agent-context) — Trim context and cache knowledge so coding agents spend fewer tokens rereading the same history. （[中文](https://www.tolsai.com/zh/tools/thinker-agent-context)：裁剪上下文并缓存知识，让编程 Agent 少花 token 重复阅读同一段历史。） `added 2026-11-06`
+- [Umbel](https://www.tolsai.com/tools/umbel-agent-tmux) — Remote-control Claude Code, Codex, Gemini or OpenCode agent CLIs over tmux from a CLI, MCP server or YAML workflow. （[中文](https://www.tolsai.com/zh/tools/umbel-agent-tmux)：通过 tmux 远程操控 Claude Code、Codex、Gemini 或 OpenCode 等 Agent CLI，支持 CLI、MCP 或 YAML 工作流。） `added 2026-11-06`
 - [AutoCua](https://www.tolsai.com/tools/autocua-computer-use-agent) — Open-source computer-use agent team that drives desktop apps, browsers, terminals and phones on Windows, macOS and Linux from one prompt. （[中文](https://www.tolsai.com/zh/tools/autocua-computer-use-agent)：开源电脑操作 Agent 团队：一句提示即可在 Windows、macOS、Linux 上操作桌面应用、浏览器、终端和手机。） `added 2026-11-05`
 - [asklog](https://www.tolsai.com/tools/asklog) — Connects your Claude Code, Codex and terminal sessions across up to 3 machines so you can see and reply to them from your phone or browser. （[中文](https://www.tolsai.com/zh/tools/asklog)：把你电脑上的 Claude Code、Codex 和终端会话（最多 3 台机器）连到手机和浏览器，让你随时查看并回复。） `added 2026-11-04`
 - [Agent Zero](https://www.tolsai.com/tools/agent-zero) — Open-source AI agent with its own Linux computer: it researches, writes code and works with documents through a terminal, browser and desktop apps in a sandbox. （[中文](https://www.tolsai.com/zh/tools/agent-zero)：开源 AI 智能体，自带一台 Linux 电脑：在沙箱里用终端、浏览器和桌面应用做调研、写代码、处理文档。） `added 2026-11-04`
@@ -170,10 +173,15 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 
 ## AI Chatbot
 
+- [Cerea](https://www.tolsai.com/tools/cerea-self-hosted-llm-chat) — Self-hosted chat for any OpenAI-compatible endpoint, with knowledge bases, artifacts, in-browser Python and local coding agents. （[中文](https://www.tolsai.com/zh/tools/cerea-self-hosted-llm-chat)：面向任意 OpenAI 兼容接口的自托管聊天：知识库、Artifacts、浏览器内 Python 与本机编程 Agent。） `added 2026-11-06`
 - [Jan](https://www.tolsai.com/tools/jan-ai) — Open-source ChatGPT alternative for Windows, macOS and Linux that downloads and runs LLMs locally, with optional cloud models and a local OpenAI-compatible API. （[中文](https://www.tolsai.com/zh/tools/jan-ai)：开源的 ChatGPT 替代品：在 Windows、macOS、Linux 上下载并本地运行大模型，也可接入云端模型，并提供本地 OpenAI 兼容接口。） `added 2026-11-04`
 
 ## AI Code Assistant
 
+- [Lantern Lattice](https://www.tolsai.com/tools/lantern-lattice) — Compiler/type-checker call graphs for humans and coding agents, with agent tools that keep the graph updated as you edit. （[中文](https://www.tolsai.com/zh/tools/lantern-lattice)：基于编译器/类型检查器的调用图，给人与编程 Agent 用，并提供随编辑更新图的 Agent 工具。） `added 2026-11-06`
+- [GG Coder](https://www.tolsai.com/tools/gg-coder-framework) — Desktop and CLI coding agent (AGPL-3.0) that stretches AI subscriptions further with lean runs, real-code search and autopilot checks. （[中文](https://www.tolsai.com/zh/tools/gg-coder-framework)：桌面端与 CLI 编程 Agent（AGPL-3.0）：用更省的调用榨干已有 AI 订阅，含真实代码搜索与自动驾驶验收。） `added 2026-11-06`
+- [Garden Skills](https://www.tolsai.com/tools/garden-skills-agent-skills) — Curated production-ready Agent Skills for Claude Code, Cursor, Codex and other AI coding agents (web design, video, knowledge retrieval). （[中文](https://www.tolsai.com/zh/tools/garden-skills-agent-skills)：面向 Claude Code、Cursor、Codex 等编程 Agent 的现成 Agent Skills 合集（网页设计、视频、知识检索等）。） `added 2026-11-06`
+- [Gortex](https://www.tolsai.com/tools/gortex-code-intelligence) — High-performance code-intelligence engine for AI agents and IDEs: indexes code as a graph and exposes CLI, MCP server and web UI. （[中文](https://www.tolsai.com/zh/tools/gortex-code-intelligence)：面向 AI Agent 和 IDE 的高性能代码智能引擎：把代码建成图，通过 CLI、MCP 服务和 Web UI 对外提供。） `added 2026-11-06`
 - [Octomind](https://www.tolsai.com/tools/octomind-coding-agent-harness) — Open-source coding agent harness in one Rust binary: works with any model through MCP and runs as a CLI, pipe, daemon, WebSocket server or editor agent. （[中文](https://www.tolsai.com/zh/tools/octomind-coding-agent-harness)：开源编程 Agent 运行框架：单个 Rust 二进制文件，通过 MCP 接任意模型，可作为 CLI、管道、守护进程、WebSocket 服务或编辑器 Agent 运行。） `added 2026-11-05`
 - [Claude Code Templates](https://www.tolsai.com/tools/claude-code-templates-aitmpl) — Open catalog of about 1,900 ready-to-use Claude Code components (skills, agents, commands, MCP integrations, hooks) installable with one npx command. （[中文](https://www.tolsai.com/zh/tools/claude-code-templates-aitmpl)：开源的 Claude Code 组件目录：约 1900 个现成的技能、Agent、斜杠命令、MCP 集成和 Hook，一条 npx 命令即可安装。） `added 2026-11-05`
 - [Wavefunction](https://www.tolsai.com/tools/wavefunction-coding-agent) — Free, MIT-licensed desktop coding agent for Mac that runs parallel chats on separate worktrees and does computer use on its own Docker desktop. （[中文](https://www.tolsai.com/zh/tools/wavefunction-coding-agent)：免费、MIT 开源的 Mac 桌面编程智能体：多个对话在各自的 worktree 上并行，电脑操作在它自己的 Docker 桌面里完成。） `added 2026-11-04`
@@ -211,6 +219,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 
 ## AI Design Assistant
 
+- [Figma Console MCP](https://www.tolsai.com/tools/figma-console-mcp) — MIT-licensed MCP server that turns your Figma design system into an API for AI: extract, write back, and run design-code checks. （[中文](https://www.tolsai.com/zh/tools/figma-console-mcp)：MIT 协议的 MCP 服务：把 Figma 设计系统变成 AI 可用的 API，支持提取、回写和设计-代码一致性检查。） `added 2026-11-06`
 - [Impeccable](https://www.tolsai.com/tools/impeccable) — Open-source design guidance for AI coding agents: one skill, 24 commands, live browser iteration and 62 deterministic design detector rules. （[中文](https://www.tolsai.com/zh/tools/impeccable)：给 AI 编程智能体用的开源设计指南：1 个技能、24 条命令、浏览器实时迭代和 62 条确定性设计检测规则。） `added 2026-10-25`
 - [Hallmark](https://www.tolsai.com/tools/hallmark-design-skill) — Together AI's open-source design skill for Claude Code, Codex, Cursor and OpenCode that builds pages that don't look AI-generated. （[中文](https://www.tolsai.com/zh/tools/hallmark-design-skill)：Together AI 开源的设计技能，给 Claude Code、Codex、Cursor、OpenCode 用，做出“不像 AI 生成”的网页。） `added 2026-10-25`
 
@@ -223,6 +232,11 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 
 ## AI Developer Tools
 
+- [Tokenome](https://www.tolsai.com/tools/tokenome-ai-provenance) — Local-first code provenance for AI-assisted work: track what came from models versus humans on your machine. （[中文](https://www.tolsai.com/zh/tools/tokenome-ai-provenance)：本机优先的 AI 辅助开发代码溯源：区分模型生成与人工编写的部分。） `added 2026-11-06`
+- [LLMBrake](https://www.tolsai.com/tools/llmbrake) — Per-customer dollar caps for AI apps: monthly budgets, auto-downgrade to cheaper models, hard stop at the cap. （[中文](https://www.tolsai.com/zh/tools/llmbrake)：为 AI 应用按客户设置美元月度预算：接近上限自动换更便宜模型，触顶硬拦截。） `added 2026-11-06`
+- [Gemini Skills](https://www.tolsai.com/tools/gemini-skills) — Official-style skill library for the Gemini API, SDK and model/agent interactions to close LLM knowledge gaps. （[中文](https://www.tolsai.com/zh/tools/gemini-skills)：面向 Gemini API、SDK 与模型/Agent 交互的 Skills 库，用来弥补大模型知识截止问题。） `added 2026-11-06`
+- [NVIDIA Model Optimizer](https://www.tolsai.com/tools/nvidia-model-optimizer) — NVIDIA library for SOTA model optimization: quantization, pruning, NAS, distillation, speculative decoding and sparsity. （[中文](https://www.tolsai.com/zh/tools/nvidia-model-optimizer)：NVIDIA 模型优化库：量化、剪枝、NAS、蒸馏、推测解码和稀疏化等 SOTA 技术。） `added 2026-11-06`
+- [Monty](https://www.tolsai.com/tools/pydantic-monty-python-sandbox) — Secure Python sandbox written in Rust for running LLM-generated code without container startup cost. （[中文](https://www.tolsai.com/zh/tools/pydantic-monty-python-sandbox)：用 Rust 写的安全 Python 沙箱，用来跑大模型生成的代码，避免容器启动开销。） `added 2026-11-06`
 - [MCPJungle](https://www.tolsai.com/tools/mcpjungle-mcp-gateway) — Open-source self-hosted MCP gateway: register MCP servers once and let Claude, Cursor, Codex or your own agents connect to a single endpoint. （[中文](https://www.tolsai.com/zh/tools/mcpjungle-mcp-gateway)：开源自托管 MCP 网关：MCP 服务只需注册一次，Claude、Cursor、Codex 或自建 Agent 都连同一个入口。） `added 2026-11-05`
 - [Infino](https://www.tolsai.com/tools/infino-retrieval) — Embedded retrieval library that keeps one Parquet copy of your data with BM25 and vector indexes inside, queried by full-text, vector, hybrid or SQL. （[中文](https://www.tolsai.com/zh/tools/infino-retrieval)：嵌入式检索库：数据只存一份 Parquet，内嵌 BM25 和向量索引，可用全文、向量、混合或 SQL 四种方式查询，适合智能体和 RAG。） `added 2026-11-04`
 - [Sandcastle](https://www.tolsai.com/tools/sandcastle-ai-agents) — TypeScript library from Matt Pocock that runs AI coding agents in isolated sandboxes with one sandcastle.run() call and merges their branch commits back. （[中文](https://www.tolsai.com/zh/tools/sandcastle-ai-agents)：Matt Pocock 开源的 TypeScript 库：一行 sandcastle.run() 就能在隔离沙箱里运行 AI 编程智能体，并把各分支的提交合并回来。） `added 2026-11-04`
@@ -399,6 +413,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 - [OpenSEO](https://www.tolsai.com/tools/openseo) — Open-source, pay-as-you-go alternative to Semrush and Ahrefs with an MCP server and agent skills so Claude Code and other AI agents can use your SEO data. （[中文](https://www.tolsai.com/zh/tools/openseo)：开源、按量付费的 Semrush/Ahrefs 替代品，自带 MCP 服务和智能体技能，让 Claude Code 等 AI 智能体直接调用你的 SEO 数据。） `added 2026-10-27`
 - [Claude SEO](https://www.tolsai.com/tools/claude-seo) — Free, open-source SEO audit plugin for Claude Code with 26 sub-skills and 19 agents, including AI-search (GEO) analysis. （[中文](https://www.tolsai.com/zh/tools/claude-seo)：免费开源的 Claude Code SEO 审计插件：26 个子技能、19 个专职智能体，包含 AI 搜索（GEO）分析。） `added 2026-10-26`
 
+## AI Shopping Assistant
+
+- [ai-goofish-monitor](https://www.tolsai.com/tools/ai-goofish-monitor) — Open-source AI monitor for Xianyu (Goofish): Playwright plus multimodal models, multi-task Web UI, filters and multi-channel alerts. （[中文](https://www.tolsai.com/zh/tools/ai-goofish-monitor)：开源闲鱼（Goofish）AI 监控：Playwright + 多模态模型，带多任务 Web 管理、筛选和多渠道通知。） `added 2026-11-06`
+
 ## AI Short Video Generator
 
 - [MoneyPrinterTurbo](https://www.tolsai.com/tools/moneyprinterturbo-ai-short-video-generator) — Open-source AI tool that turns a topic or keyword into a finished HD short video: script, voiceover, stock footage, subtitles and music. （[中文](https://www.tolsai.com/zh/tools/moneyprinterturbo-ai-short-video-generator)：开源 AI 短视频生成工具：输入主题或关键词，自动生成文案、配音、素材、字幕和背景音乐，合成高清短视频。） `added 2026-11-05`
@@ -480,6 +498,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 - [Empacer](https://www.tolsai.com/tools/empacer) — Voice-first AI business assistant for small business owners: describe a task out loud and it drafts posts, quotes and replies for your approval. （[中文](https://www.tolsai.com/zh/tools/empacer)：面向小企业主的语音优先 AI 业务助手：张嘴说出任务，它就起草帖子、报价和回复，经你确认后发出。） `added 2026-10-30`
 - [Ida](https://www.tolsai.com/tools/ida-mac-voice) — A native Mac voice layer that helps you write, find and take action across your apps. （[中文](https://www.tolsai.com/zh/tools/ida-mac-voice)：原生 Mac 语音层：用说话完成写作、查找和跨应用操作。） `added 2026-10-22`
 
+## AI Voice Generator
+
+- [VibeVoice](https://www.tolsai.com/tools/vibevoice-microsoft-voice-ai) — Microsoft open-source frontier voice AI for text-to-speech and speech recognition, with streaming demos and Hugging Face models. （[中文](https://www.tolsai.com/zh/tools/vibevoice-microsoft-voice-ai)：微软开源的前沿语音 AI：覆盖文本转语音和语音识别，提供流式演示与 Hugging Face 模型。） `added 2026-11-06`
+
 ## AI Web Scraping
 
 - [Lightpanda](https://www.tolsai.com/tools/lightpanda) — Open-source headless browser written from scratch in Zig for AI agents and automation, with CDP, MCP and a built-in agent mode. （[中文](https://www.tolsai.com/zh/tools/lightpanda)：用 Zig 从零编写的开源无头浏览器，专为 AI 智能体和自动化设计，支持 CDP、MCP 和内置智能体模式。） `added 2026-10-31`
@@ -490,6 +512,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-05](daily/2026-11-05.md) �
 
 ## AI Workflow
 
+- [AI-DLC](https://www.tolsai.com/tools/aidlc-workflows) — AWS Labs AI-Driven Development Life Cycle: harness-neutral workflows that turn coding assistants into structured, verifiable delivery. （[中文](https://www.tolsai.com/zh/tools/aidlc-workflows)：AWS Labs 的 AI 驱动开发生命周期：与具体 Agent 解耦的工作流，把编程助手变成可验证的交付流程。） `added 2026-11-06`
 - [GitHub Agentic Workflows](https://www.tolsai.com/tools/github-agentic-workflows) — GitHub's gh-aw CLI extension: write AI-powered repository automations in Markdown and run agents securely in GitHub Actions. （[中文](https://www.tolsai.com/zh/tools/github-agentic-workflows)：GitHub 官方的 gh-aw 命令行扩展：用 Markdown 编写 AI 驱动的仓库自动化，在 GitHub Actions 里安全运行智能体。） `added 2026-10-26`
 - [OpenFlow](https://www.tolsai.com/tools/seeray11-openflow) — A visual canvas for building and running multi-agent AI workflows, built on the opencode engine. （[中文](https://www.tolsai.com/zh/tools/seeray11-openflow)：基于 opencode 引擎的多智能体 AI 工作流可视化搭建工具。） `added 2026-10-21`
 
