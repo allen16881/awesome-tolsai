@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [VibeVoice](https://www.tolsai.com/tools/vibevoice-microsoft-voice-ai) · [GitHub](https://github.com/microsoft/VibeVoice) — Microsoft open-source frontier voice AI for text-to-speech and speech recognition, with streaming demos and Hugging Face models.
-- [Monty](https://www.tolsai.com/tools/pydantic-monty-python-sandbox) · [GitHub](https://github.com/pydantic/monty) — Secure Python sandbox written in Rust for running LLM-generated code without container startup cost.
-- [Gortex](https://www.tolsai.com/tools/gortex-code-intelligence) · [GitHub](https://github.com/zzet/gortex) — High-performance code-intelligence engine for AI agents and IDEs: indexes code as a graph and exposes CLI, MCP server and web UI.
+- [Astryx](https://www.tolsai.com/tools/meta-astryx-design-system) · [GitHub](https://github.com/meta/astryx) — Open-source design system from Meta built for people and coding agents working side by side (React 19 + StyleX).
+- [TensorRT-LLM](https://www.tolsai.com/tools/nvidia-tensorrt-llm) · [GitHub](https://github.com/NVIDIA/TensorRT-LLM) — NVIDIA open-source library to define and optimize LLM and visual generative model inference with TensorRT kernels and a Python API.
+- [Kandev](https://www.tolsai.com/tools/kandev-ai-kanban) · [GitHub](https://github.com/kdlbs/kandev) — AI kanban and development environment to orchestrate multiple agents, review changes and open PRs.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-07](daily/2026-11-07.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -70,6 +70,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 - [AI Text-to-Speech](#ai-text-to-speech)
 - [AI Translate](#ai-translate)
 - [AI Tutorial](#ai-tutorial)
+- [AI UX Design](#ai-ux-design)
 - [AI Video Editor](#ai-video-editor)
 - [AI Video Enhancer](#ai-video-enhancer)
 - [AI Video Generator](#ai-video-generator)
@@ -93,6 +94,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI Agent
 
+- [ldraw-mecha](https://www.tolsai.com/tools/ldraw-mecha-ai-lego) — Give an LDraw LEGO model to an AI agent and get Blender animation code back after it infers the mechanisms. （[中文](https://www.tolsai.com/zh/tools/ldraw-mecha-ai-lego)：把 LDraw 乐高模型交给 AI Agent，推断机构后生成 Blender 动画代码。） `added 2026-11-07`
+- [AJX](https://www.tolsai.com/tools/ajx-agent-journey-experience) — Agent Journey Experience: see where AI agents get stuck in your product, with evidence-linked asks. （[中文](https://www.tolsai.com/zh/tools/ajx-agent-journey-experience)：Agent Journey Experience：观察 AI Agent 在产品里卡在何处，并给出带证据的产品诉求。） `added 2026-11-07`
+- [Cinnamon](https://www.tolsai.com/tools/cinnamon-household-ai-agent) — Household AI agent with shared context and memories for up to five trusted people; asks before it acts. （[中文](https://www.tolsai.com/zh/tools/cinnamon-household-ai-agent)：家庭共享的 AI Agent：共享上下文与记忆，最多五位信任成员，行动前先征求确认。） `added 2026-11-07`
+- [Kandev](https://www.tolsai.com/tools/kandev-ai-kanban) — AI kanban and development environment to orchestrate multiple agents, review changes and open PRs. （[中文](https://www.tolsai.com/zh/tools/kandev-ai-kanban)：AI 看板与开发环境：编排多个 Agent、审改动、开 PR。） `added 2026-11-07`
 - [Thinker](https://www.tolsai.com/tools/thinker-agent-context) — Trim context and cache knowledge so coding agents spend fewer tokens rereading the same history. （[中文](https://www.tolsai.com/zh/tools/thinker-agent-context)：裁剪上下文并缓存知识，让编程 Agent 少花 token 重复阅读同一段历史。） `added 2026-11-06`
 - [Umbel](https://www.tolsai.com/tools/umbel-agent-tmux) — Remote-control Claude Code, Codex, Gemini or OpenCode agent CLIs over tmux from a CLI, MCP server or YAML workflow. （[中文](https://www.tolsai.com/zh/tools/umbel-agent-tmux)：通过 tmux 远程操控 Claude Code、Codex、Gemini 或 OpenCode 等 Agent CLI，支持 CLI、MCP 或 YAML 工作流。） `added 2026-11-06`
 - [AutoCua](https://www.tolsai.com/tools/autocua-computer-use-agent) — Open-source computer-use agent team that drives desktop apps, browsers, terminals and phones on Windows, macOS and Linux from one prompt. （[中文](https://www.tolsai.com/zh/tools/autocua-computer-use-agent)：开源电脑操作 Agent 团队：一句提示即可在 Windows、macOS、Linux 上操作桌面应用、浏览器、终端和手机。） `added 2026-11-05`
@@ -147,6 +152,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI API
 
+- [Makoda](https://www.tolsai.com/tools/makoda-local-ai-api) — Reuse your ChatGPT or Claude / Codex subscription as a local AI API for your dev projects, without a separate API key. （[中文](https://www.tolsai.com/zh/tools/makoda-local-ai-api)：把已有的 ChatGPT 或 Claude／Codex 订阅变成开发用的本地 AI API，无需另购 API Key。） `added 2026-11-07`
 - [New API](https://www.tolsai.com/tools/new-api-ai-gateway) — Open-source self-hosted AI gateway that puts OpenAI, Claude, Gemini and other models behind one compatible API with routing, access control and usage tracking. （[中文](https://www.tolsai.com/zh/tools/new-api-ai-gateway)：开源自托管 AI 网关：把 OpenAI、Claude、Gemini 等模型统一成兼容接口，并提供路由、权限控制和用量统计。） `added 2026-11-05`
 - [OmniRoute](https://www.tolsai.com/tools/omniroute) — Free, MIT-licensed self-hosted AI gateway: one OpenAI-compatible endpoint that routes coding agents across hundreds of providers with quota-aware fallback. （[中文](https://www.tolsai.com/zh/tools/omniroute)：免费、MIT 许可的自托管 AI 网关：一个兼容 OpenAI 的接口，把编程智能体的请求路由到数百家模型服务商，额度用完自动切换。） `added 2026-11-03`
 - [Treg](https://www.tolsai.com/tools/treg) — OpenRouter for agent tools: one catalog and one key for thousands of paid endpoints agents can call per use. （[中文](https://www.tolsai.com/zh/tools/treg)：面向智能体的工具版 OpenRouter：一个目录、一把密钥，按次调用上千个付费接口。） `added 2026-10-28`
@@ -173,6 +179,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI Chatbot
 
+- [Infinity](https://www.tolsai.com/tools/infinity-branched-ai-chat) — Free Mac AI app where every answer can branch into its own path, so you can follow every thought without losing context. （[中文](https://www.tolsai.com/zh/tools/infinity-branched-ai-chat)：免费的 Mac AI 应用：任意回答可分支出新路径，顺着每个想法探索而不丢上下文。） `added 2026-11-07`
 - [Cerea](https://www.tolsai.com/tools/cerea-self-hosted-llm-chat) — Self-hosted chat for any OpenAI-compatible endpoint, with knowledge bases, artifacts, in-browser Python and local coding agents. （[中文](https://www.tolsai.com/zh/tools/cerea-self-hosted-llm-chat)：面向任意 OpenAI 兼容接口的自托管聊天：知识库、Artifacts、浏览器内 Python 与本机编程 Agent。） `added 2026-11-06`
 - [Jan](https://www.tolsai.com/tools/jan-ai) — Open-source ChatGPT alternative for Windows, macOS and Linux that downloads and runs LLMs locally, with optional cloud models and a local OpenAI-compatible API. （[中文](https://www.tolsai.com/zh/tools/jan-ai)：开源的 ChatGPT 替代品：在 Windows、macOS、Linux 上下载并本地运行大模型，也可接入云端模型，并提供本地 OpenAI 兼容接口。） `added 2026-11-04`
 
@@ -219,6 +226,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI Design Assistant
 
+- [Astryx](https://www.tolsai.com/tools/meta-astryx-design-system) — Open-source design system from Meta built for people and coding agents working side by side (React 19 + StyleX). （[中文](https://www.tolsai.com/zh/tools/meta-astryx-design-system)：Meta 开源的设计系统，面向人与编程 Agent 一起协作（React 19 + StyleX）。） `added 2026-11-07`
 - [Figma Console MCP](https://www.tolsai.com/tools/figma-console-mcp) — MIT-licensed MCP server that turns your Figma design system into an API for AI: extract, write back, and run design-code checks. （[中文](https://www.tolsai.com/zh/tools/figma-console-mcp)：MIT 协议的 MCP 服务：把 Figma 设计系统变成 AI 可用的 API，支持提取、回写和设计-代码一致性检查。） `added 2026-11-06`
 - [Impeccable](https://www.tolsai.com/tools/impeccable) — Open-source design guidance for AI coding agents: one skill, 24 commands, live browser iteration and 62 deterministic design detector rules. （[中文](https://www.tolsai.com/zh/tools/impeccable)：给 AI 编程智能体用的开源设计指南：1 个技能、24 条命令、浏览器实时迭代和 62 条确定性设计检测规则。） `added 2026-10-25`
 - [Hallmark](https://www.tolsai.com/tools/hallmark-design-skill) — Together AI's open-source design skill for Claude Code, Codex, Cursor and OpenCode that builds pages that don't look AI-generated. （[中文](https://www.tolsai.com/zh/tools/hallmark-design-skill)：Together AI 开源的设计技能，给 Claude Code、Codex、Cursor、OpenCode 用，做出“不像 AI 生成”的网页。） `added 2026-10-25`
@@ -281,6 +289,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI For Data Analytics
 
+- [Airbyte](https://www.tolsai.com/tools/airbyte-data-ai-agents) — Open-source data movement for ELT pipelines and AI agents: APIs, databases and files into warehouses, lakes and AI apps. （[中文](https://www.tolsai.com/zh/tools/airbyte-data-ai-agents)：开源数据移动平台：面向 ELT 与 AI Agent，把 API／数据库／文件同步到数仓、湖与 AI 应用。） `added 2026-11-07`
 - [Ternlux](https://www.tolsai.com/tools/ternlux) — Free, local-first, bring-your-own-key desktop app for building AI-assisted data pipelines and text-to-SQL queries. （[中文](https://www.tolsai.com/zh/tools/ternlux)：免费、本地优先、自带 API Key 的桌面数据管道工具，支持 AI 生成 SQL 和数据问答。） `added 2026-10-23`
 
 ## AI for Finance
@@ -291,6 +300,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI For Finance
 
+- [Thesis](https://www.tolsai.com/tools/thesis-investment-tracker) — Investment thesis tracker that checks filings, earnings and headlines against why you own each stock. （[中文](https://www.tolsai.com/zh/tools/thesis-investment-tracker)：投资论点追踪：对照你持股理由，检查公告、财报与新闻是否仍成立。） `added 2026-11-07`
 - [TradingAgents](https://www.tolsai.com/tools/tradingagents) — Open-source multi-agent LLM trading research framework that mirrors a trading firm with analyst, researcher, trader and risk agents. （[中文](https://www.tolsai.com/zh/tools/tradingagents)：开源的多智能体 LLM 交易研究框架，模拟交易公司里分析师、研究员、交易员和风控团队的协作。） `added 2026-10-25`
 
 ## AI Forms
@@ -304,6 +314,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI Games
 
+- [WordSpies](https://www.tolsai.com/tools/wordspies-ai-word-game) — NLP word-association game you play with friends, AI teammates, or both - with clue quality and win-chance feedback. （[中文](https://www.tolsai.com/zh/tools/wordspies-ai-word-game)：NLP 词语联想游戏：可与好友、AI 队友或两者同玩，并反馈线索质量与胜率变化。） `added 2026-11-07`
 - [Uncracked City](https://www.tolsai.com/tools/uncracked-city) — Detective game set in real cities where you question AI suspects by typing or speaking, catch the one who lies, and file your report. （[中文](https://www.tolsai.com/zh/tools/uncracked-city)：以真实城市为背景的侦探游戏：打字或语音审问 AI 嫌疑人，找出撒谎的人并提交结案报告。） `added 2026-11-05`
 
 ## AI Graphic Design
@@ -401,6 +412,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI Security
 
+- [AegisKernel](https://www.tolsai.com/tools/aegis-kernel-agent-runtime) — Zero-trust POSIX-style runtime for AI agents that intercepts syscalls to block prompt-injection and tool-hijacking paths. （[中文](https://www.tolsai.com/zh/tools/aegis-kernel-agent-runtime)：面向 AI Agent 的零信任运行时：在系统调用边界拦截，阻断提示注入与工具劫持路径。） `added 2026-11-07`
 - [PasteGuard](https://www.tolsai.com/tools/pasteguard-ai-privacy-proxy) — Open-source, local-first privacy proxy that masks names, emails, secrets and customer data before they reach ChatGPT, Claude, AI APIs or coding agents. （[中文](https://www.tolsai.com/zh/tools/pasteguard-ai-privacy-proxy)：开源、本地优先的隐私代理：在内容发给 ChatGPT、Claude、AI API 或编程 Agent 之前，自动遮蔽姓名、邮箱、密钥和客户数据。） `added 2026-11-05`
 - [PentAGI](https://www.tolsai.com/tools/pentagi) — Open-source, self-hosted multi-agent system for authorized penetration testing that plans, runs security tools in a Docker sandbox and writes a report. （[中文](https://www.tolsai.com/zh/tools/pentagi)：开源、自托管的多智能体渗透测试系统：在 Docker 沙箱里规划任务、运行安全工具并生成报告，仅限获得授权的测试。） `added 2026-11-04`
 - [Charter](https://www.tolsai.com/tools/charter-ai) — Open-source Python library that enforces, field by field, what an AI agent can send to customer-account APIs and generates a reviewable access map. （[中文](https://www.tolsai.com/zh/tools/charter-ai)：开源 Python 库：逐字段约束 AI 智能体能向客户账户 API 发送什么，并生成可在代码审查中对比的访问清单。） `added 2026-10-31`
@@ -471,6 +483,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 - [DeepTutor](https://www.tolsai.com/tools/deeptutor) — HKU Data Intelligence Lab's open-source, agent-native learning workspace for personalized tutoring, quizzes, research and practice. （[中文](https://www.tolsai.com/zh/tools/deeptutor)：香港大学数据智能实验室（HKUDS）开源的智能体式学习工作台：个性化辅导、出题、研究和练习一体化。） `added 2026-10-26`
 - [Claude How To](https://www.tolsai.com/tools/claude-howto) — Visual, example-driven open-source guide to Claude Code, from basics to agents, hooks, skills and MCP, with copy-paste templates. （[中文](https://www.tolsai.com/zh/tools/claude-howto)：图文并茂、以示例为主的开源 Claude Code 教程：从入门到子智能体、Hooks、技能和 MCP，附可复制模板。） `added 2026-10-25`
 
+## AI UX Design
+
+- [flawless-ui-ux](https://www.tolsai.com/tools/flawless-ui-ux-agent-skill) — UI/UX skill for coding agents: design guidance and checks so agents build distinctive, usable interfaces. （[中文](https://www.tolsai.com/zh/tools/flawless-ui-ux-agent-skill)：面向编程 Agent 的 UI/UX Skill：提供设计指引与检查，让界面更有辨识度、更好用。） `added 2026-11-07`
+
 ## AI Video Editor
 
 - [Concat](https://www.tolsai.com/tools/concat-video-editor) — Free, open-source, local-first CapCut alternative with offline AI auto-captions, text-to-speech, voice cloning and background removal, scriptable via MCP. （[中文](https://www.tolsai.com/zh/tools/concat-video-editor)：免费开源、本地优先的剪映（CapCut）替代品：离线 AI 自动字幕、文字转语音、声音克隆和抠像，还能通过 MCP 让 AI 剪片。） `added 2026-11-02`
@@ -512,6 +528,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## AI Workflow
 
+- [Windmill](https://www.tolsai.com/tools/windmill-ai-workflows) — Code-first platform for workflows, internal apps and AI agents on a fast self-hostable orchestrator. （[中文](https://www.tolsai.com/zh/tools/windmill-ai-workflows)：代码优先的工作流／内部应用／AI Agent 平台，可自托管的高速编排器。） `added 2026-11-07`
 - [AI-DLC](https://www.tolsai.com/tools/aidlc-workflows) — AWS Labs AI-Driven Development Life Cycle: harness-neutral workflows that turn coding assistants into structured, verifiable delivery. （[中文](https://www.tolsai.com/zh/tools/aidlc-workflows)：AWS Labs 的 AI 驱动开发生命周期：与具体 Agent 解耦的工作流，把编程助手变成可验证的交付流程。） `added 2026-11-06`
 - [GitHub Agentic Workflows](https://www.tolsai.com/tools/github-agentic-workflows) — GitHub's gh-aw CLI extension: write AI-powered repository automations in Markdown and run agents securely in GitHub Actions. （[中文](https://www.tolsai.com/zh/tools/github-agentic-workflows)：GitHub 官方的 gh-aw 命令行扩展：用 Markdown 编写 AI 驱动的仓库自动化，在 GitHub Actions 里安全运行智能体。） `added 2026-10-26`
 - [OpenFlow](https://www.tolsai.com/tools/seeray11-openflow) — A visual canvas for building and running multi-agent AI workflows, built on the opencode engine. （[中文](https://www.tolsai.com/zh/tools/seeray11-openflow)：基于 opencode 引擎的多智能体 AI 工作流可视化搭建工具。） `added 2026-10-21`
@@ -534,6 +551,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-06](daily/2026-11-06.md) �
 
 ## Large Language Models (LLMs)
 
+- [Goethe](https://www.tolsai.com/tools/goethe-self-hosted-ai) — Self-hosted AI inference server: turn a Linux GPU box into an OpenAI/Anthropic/LiteLLM-compatible API in a few steps. （[中文](https://www.tolsai.com/zh/tools/goethe-self-hosted-ai)：自托管 AI 推理服务：几步把 Linux GPU 机器变成兼容 OpenAI/Anthropic/LiteLLM 的 API。） `added 2026-11-07`
+- [TensorRT-LLM](https://www.tolsai.com/tools/nvidia-tensorrt-llm) — NVIDIA open-source library to define and optimize LLM and visual generative model inference with TensorRT kernels and a Python API. （[中文](https://www.tolsai.com/zh/tools/nvidia-tensorrt-llm)：英伟达开源库：用 TensorRT 内核和 Python API 定义并优化大模型与视觉生成模型推理。） `added 2026-11-07`
 - [Soup](https://www.tolsai.com/tools/soup-llm-fine-tuning) — Open-source CLI that fine-tunes and post-trains LLMs from one YAML file; opt-in layer streaming fits an 8B model on a 4 GB laptop GPU. （[中文](https://www.tolsai.com/zh/tools/soup-llm-fine-tuning)：开源命令行工具：用一个 YAML 文件完成大模型微调和后训练；可选的逐层流式加载让 4 GB 显存的笔记本也能训 8B 模型。） `added 2026-11-04`
 - [nanochat](https://www.tolsai.com/tools/karpathy-nanochat) — Andrej Karpathy's minimal, hackable harness for training your own ChatGPT-style LLM end to end on a single GPU node — a GPT-2-grade model for about $48. （[中文](https://www.tolsai.com/zh/tools/karpathy-nanochat)：Andrej Karpathy 出品的极简 LLM 训练框架：在单台 GPU 节点上从头训练自己的类 ChatGPT 模型，约 48 美元就能达到 GPT-2 水平。） `added 2026-11-03`
 - [RigCheck](https://www.tolsai.com/tools/rigcheck) — Checks whether your GPU or Mac and RAM can run a given open AI model, using sourced requirements. （[中文](https://www.tolsai.com/zh/tools/rigcheck)：查一查你的显卡或 Mac 能不能跑某个开源 AI 模型，数据来自官方公布的需求。） `added 2026-10-23`
