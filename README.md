@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [mini-swe-agent](https://www.tolsai.com/tools/mini-swe-agent) · [GitHub](https://github.com/SWE-agent/mini-swe-agent) — A roughly 100-line open-source AI software engineering agent from the SWE-bench team that uses only bash.
-- [OpenBitFun](https://www.tolsai.com/tools/openbitfun) · [GitHub](https://github.com/GCWing/OpenBitFun) — An open-source agent workspace with a Rust agent runtime, desktop app and cross-device remote control.
-- [Agentero](https://www.tolsai.com/tools/agentero) · [GitHub](https://github.com/poco-ai/Agentero) — An open-source research workspace for humans and agents: PDF Q&A with citations, notes, translation and MCP.
+- [Daily Stock Analysis (DSA)](https://www.tolsai.com/tools/daily-stock-analysis-dsa) · [GitHub](https://github.com/ZhuLinsen/daily_stock_analysis) — Open-source LLM-powered stock analysis system that sends a daily decision dashboard for your watchlist.
+- [Dexter](https://www.tolsai.com/tools/dexter-financial-research-agent) · [GitHub](https://github.com/virattt/dexter) — Open-source autonomous agent for deep financial research, described as Claude Code for finance.
+- [OOOSplat](https://www.tolsai.com/tools/ooosplat) · [GitHub](https://github.com/ooolabdev/ooosplat) — Local desktop app that turns videos and images into 3D Gaussian Splats in one click.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-10](daily/2026-11-10.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -88,6 +88,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 - [AI Youtube Summary](#ai-youtube-summary)
 - [Chord AI](#chord-ai)
 - [Humanizer AI](#humanizer-ai)
+- [Image to 3D Model](#image-to-3d-model)
 - [Large Language Models (LLMs)](#large-language-models-llms)
 - [Open Source AI Models](#open-source-ai-models)
 - [Prompt Engineering](#prompt-engineering)
@@ -198,6 +199,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI Code Assistant
 
+- [Thrum](https://www.tolsai.com/tools/thrum) — Coordinator for AI coding agents: they message each other, review each other's work and merge it for you. （[中文](https://www.tolsai.com/zh/tools/thrum)：AI 编程 Agent 的协调者：让多个 Agent 互相发消息、互相审查并帮你合并代码。） `added 2026-11-10`
+- [NekoTrail](https://www.tolsai.com/tools/nekotrail) — Free, open-source desktop app to run Claude Code, Codex and 14 more coding agents in parallel git worktrees. （[中文](https://www.tolsai.com/zh/tools/nekotrail)：免费开源桌面应用：在独立 git worktree 中并行运行 Claude Code、Codex 等 16 种编程 Agent。） `added 2026-11-10`
 - [psi](https://www.tolsai.com/tools/psi-coding-agent) — A 6.4 MB portable, extensible coding agent written in ANSI C and Lua that runs almost anywhere. （[中文](https://www.tolsai.com/zh/tools/psi-coding-agent)：仅 6.4 MB 的便携式可扩展编程 Agent，用 ANSI C 和 Lua 编写，几乎处处可运行。） `added 2026-11-09`
 - [Good First Token](https://www.tolsai.com/tools/good-first-token) — Spend your spare AI coding tokens on open-source issues that maintainers tagged for outside help. （[中文](https://www.tolsai.com/zh/tools/good-first-token)：把你用不完的 AI 编程额度捐给开源：Agent 去处理维护者标记“欢迎外部协助”的 Issue。） `added 2026-11-08`
 - [Agent Manager](https://www.tolsai.com/tools/agent-manager-terminal-multiplexer) — Open-source terminal multiplexer for AI coding agents: many CLIs side by side with live status, diffs and forks. （[中文](https://www.tolsai.com/zh/tools/agent-manager-terminal-multiplexer)：开源的 AI 编程 Agent 终端多路复用器：多款 CLI 并排运行，实时状态、Diff 审阅与会话分叉。） `added 2026-11-08`
@@ -232,6 +235,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI Code Review
 
+- [LiveReview](https://www.tolsai.com/tools/livereview) — Risk-aware AI code review that safely auto-approves low-risk pull requests. （[中文](https://www.tolsai.com/zh/tools/livereview)：面向关键业务系统的风险感知 AI 代码审查，可安全地自动批准低风险 PR。） `added 2026-11-10`
 - [Open Code Review](https://www.tolsai.com/tools/open-code-review) — Alibaba's open-source AI code review CLI that combines deterministic file selection with an LLM agent for line-level review comments. （[中文](https://www.tolsai.com/zh/tools/open-code-review)：阿里巴巴开源的 AI 代码审查命令行工具，用确定性工程选文件、再由大模型智能体给出精确到行的审查意见。） `added 2026-10-31`
 - [PatchWave](https://www.tolsai.com/tools/patchwave) — GitHub App that analyzes, fixes and auto-merges Dependabot PRs using static analysis plus agents. （[中文](https://www.tolsai.com/zh/tools/patchwave)：GitHub App：用静态分析 + 智能体分析、修复并自动合并 Dependabot PR。） `added 2026-10-21`
 - [Cloudflare Security Audit Skill](https://www.tolsai.com/tools/cloudflare-security-audit-skill) — A coding-agent skill from Cloudflare for multi-phase security audits with verified, machine-readable findings. （[中文](https://www.tolsai.com/zh/tools/cloudflare-security-audit-skill)：Cloudflare 出品的编程智能体技能，执行多阶段安全审计，输出经独立验证、机器可读的结果。） `added 2026-10-20`
@@ -258,6 +262,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI Developer Tools
 
+- [toolshed](https://www.tolsai.com/tools/toolshed-mcp) — One TUI and command to add, check and manage MCP servers for both Claude Code and Codex. （[中文](https://www.tolsai.com/zh/tools/toolshed-mcp)：一个 TUI 和一条命令，同时为 Claude Code 和 Codex 添加、检查和管理 MCP 服务器。） `added 2026-11-10`
 - [Claude Quickstarts](https://www.tolsai.com/tools/claude-quickstarts) — Anthropic's official collection of starter projects for building deployable apps on the Claude API. （[中文](https://www.tolsai.com/zh/tools/claude-quickstarts)：Anthropic 官方 Claude API 入门项目合集，可直接改造并部署。） `added 2026-11-09`
 - [json-render](https://www.tolsai.com/tools/json-render) — Vercel Labs' generative UI framework: LLMs output JSON that renders with predefined, safe components. （[中文](https://www.tolsai.com/zh/tools/json-render)：Vercel Labs 的生成式 UI 框架：让大模型输出 JSON，并用预定义的安全组件渲染界面。） `added 2026-11-09`
 - [Google Colab CLI](https://www.tolsai.com/tools/google-colab-cli) — Official command-line interface for Google Colab runtimes: provision GPUs/TPUs, run code and automate jobs. （[中文](https://www.tolsai.com/zh/tools/google-colab-cli)：Google Colab 官方命令行工具：在终端申请 GPU/TPU、运行代码、自动化任务。） `added 2026-11-09`
@@ -328,6 +333,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI For Finance
 
+- [Dexter](https://www.tolsai.com/tools/dexter-financial-research-agent) — Open-source autonomous agent for deep financial research, described as Claude Code for finance. （[中文](https://www.tolsai.com/zh/tools/dexter-financial-research-agent)：开源的自主金融研究 Agent，定位是“专做金融研究的 Claude Code”。） `added 2026-11-10`
+- [Daily Stock Analysis (DSA)](https://www.tolsai.com/tools/daily-stock-analysis-dsa) — Open-source LLM-powered stock analysis system that sends a daily decision dashboard for your watchlist. （[中文](https://www.tolsai.com/zh/tools/daily-stock-analysis-dsa)：开源的 LLM 股票智能分析系统，每天为自选股生成并推送“决策仪表盘”。） `added 2026-11-10`
 - [Thesis](https://www.tolsai.com/tools/thesis-investment-tracker) — Investment thesis tracker that checks filings, earnings and headlines against why you own each stock. （[中文](https://www.tolsai.com/zh/tools/thesis-investment-tracker)：投资论点追踪：对照你持股理由，检查公告、财报与新闻是否仍成立。） `added 2026-11-07`
 - [TradingAgents](https://www.tolsai.com/tools/tradingagents) — Open-source multi-agent LLM trading research framework that mirrors a trading firm with analyst, researcher, trader and risk agents. （[中文](https://www.tolsai.com/zh/tools/tradingagents)：开源的多智能体 LLM 交易研究框架，模拟交易公司里分析师、研究员、交易员和风控团队的协作。） `added 2026-10-25`
 
@@ -378,6 +385,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI Knowledge Graph
 
+- [Glassbrain](https://www.tolsai.com/tools/glassbrain) — Open-source CLI to open, diff and review the knowledge graphs your AI agents write. （[中文](https://www.tolsai.com/zh/tools/glassbrain)：开源 CLI：打开、对比和审阅 AI Agent 写出的知识图谱。） `added 2026-11-10`
 - [Graphify](https://www.tolsai.com/tools/graphify-labs-graphify) — Turn a codebase plus its docs, SQL schemas, configs and PDFs into a queryable knowledge graph for coding agents. （[中文](https://www.tolsai.com/zh/tools/graphify-labs-graphify)：把代码库及其文档、SQL 结构、配置和 PDF 转成可查询的知识图谱，供编程智能体使用。） `added 2026-10-20`
 
 ## AI Knowledge Management
@@ -419,6 +427,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI Observability
 
+- [Traccia](https://www.tolsai.com/tools/traccia) — OpenTelemetry-native control plane for AI agent observability, evaluation, governance and runtime policy. （[中文](https://www.tolsai.com/zh/tools/traccia)：基于 OpenTelemetry 的 AI Agent 控制平面：可观测、评测、治理与运行时策略管控。） `added 2026-11-10`
 - [OpenObserve](https://www.tolsai.com/tools/openobserve-llm-observability) — Open-source observability platform for logs, metrics, traces, RUM and AI/LLM observability, positioned as a lower-cost Datadog and Elasticsearch alternative. （[中文](https://www.tolsai.com/zh/tools/openobserve-llm-observability)：开源可观测性平台：统一日志、指标、链路追踪、前端监控（RUM）和 AI/LLM 可观测性，定位为更低成本的 Datadog、Elasticsearch 替代品。） `added 2026-11-05`
 - [Nasiko](https://www.tolsai.com/tools/nasiko) — Open-source 'OpenRuntime' for AI agents: discovers the coding agents your team runs, tracks their spend by harness and model, and routes them to models you choose. （[中文](https://www.tolsai.com/zh/tools/nasiko)：开源的 AI 智能体“OpenRuntime”：发现团队在跑的编程智能体，按工具和模型统计花费，并把调用路由到你选的模型。） `added 2026-11-01`
 - [Flightdeck](https://www.tolsai.com/tools/flightdeck) — Self-hosted observability and control plane for AI agent fleets: live timelines, token budgets and MCP allow/block rules. （[中文](https://www.tolsai.com/zh/tools/flightdeck)：自托管的 AI 智能体机队可观测与控制面：实时时间线、Token 预算、MCP 允许/拦截规则。） `added 2026-10-28`
@@ -455,6 +464,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI Security
 
+- [Arcjet](https://www.tolsai.com/tools/arcjet) — AI agent runtime security platform with custom models for prompt injection detection. （[中文](https://www.tolsai.com/zh/tools/arcjet)：AI Agent 运行时安全平台，推出自研提示词注入检测模型。） `added 2026-11-10`
 - [Agentic Identity Broker](https://www.tolsai.com/tools/agentic-identity-broker) — Open-source identity broker from Zalando that delegates scoped, revocable OAuth2 access to AI agents without sharing credentials. （[中文](https://www.tolsai.com/zh/tools/agentic-identity-broker)：Zalando 开源的 AI Agent 身份代理：以可撤销、限定范围的 OAuth2 授权代替交出账号凭据。） `added 2026-11-08`
 - [AegisKernel](https://www.tolsai.com/tools/aegis-kernel-agent-runtime) — Zero-trust POSIX-style runtime for AI agents that intercepts syscalls to block prompt-injection and tool-hijacking paths. （[中文](https://www.tolsai.com/zh/tools/aegis-kernel-agent-runtime)：面向 AI Agent 的零信任运行时：在系统调用边界拦截，阻断提示注入与工具劫持路径。） `added 2026-11-07`
 - [PasteGuard](https://www.tolsai.com/tools/pasteguard-ai-privacy-proxy) — Open-source, local-first privacy proxy that masks names, emails, secrets and customer data before they reach ChatGPT, Claude, AI APIs or coding agents. （[中文](https://www.tolsai.com/zh/tools/pasteguard-ai-privacy-proxy)：开源、本地优先的隐私代理：在内容发给 ChatGPT、Claude、AI API 或编程 Agent 之前，自动遮蔽姓名、邮箱、密钥和客户数据。） `added 2026-11-05`
@@ -463,6 +473,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## AI SEO Tools
 
+- [Dageno AI](https://www.tolsai.com/tools/dageno-ai) — GEO and AEO platform that shows how AI search engines see your brand and why they recommend competitors. （[中文](https://www.tolsai.com/zh/tools/dageno-ai)：GEO/AEO 平台：看清 AI 搜索如何看待你的品牌，以及为什么推荐竞争对手。） `added 2026-11-10`
 - [NiubiGEO](https://www.tolsai.com/tools/niubigeo) — Open-source, self-hosted GEO tool that tracks brand visibility, competitors and citations in AI answers. （[中文](https://www.tolsai.com/zh/tools/niubigeo)：开源自托管 GEO 工具：追踪品牌在 AI 回答中的曝光、竞品与引用来源。） `added 2026-11-09`
 - [AI Knows Us](https://www.tolsai.com/tools/ai-knows-us) — Done-for-you AI visibility (GEO) service that checks whether ChatGPT, Gemini, Perplexity, Claude and AI Overviews name your business, then publishes pages to improve it. （[中文](https://www.tolsai.com/zh/tools/ai-knows-us)：代运营式 AI 可见度（GEO）服务：检查 ChatGPT、Gemini、Perplexity、Claude 和 AI 概览是否推荐你的企业，并发布页面提升被提及率。） `added 2026-10-31`
 - [Notra](https://www.tolsai.com/tools/notra) — GEO tool that asks ChatGPT, Claude, Gemini and other engines your buyers' questions and shows whether you appear, who appears instead and how to fix it. （[中文](https://www.tolsai.com/zh/tools/notra)：GEO 工具：把买家会问的问题交给 ChatGPT、Claude、Gemini 等 AI 引擎，看你有没有被推荐、推荐了谁、怎么改进。） `added 2026-10-29`
@@ -598,7 +609,12 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-09](daily/2026-11-09.md) �
 
 ## Humanizer AI
 
+- [STE80 Humanizer](https://www.tolsai.com/tools/ste80-humanizer) — Agent skill that removes AI writing tells and rewrites text 80% of the way to Simplified Technical English. （[中文](https://www.tolsai.com/zh/tools/ste80-humanizer)：去除 AI 写作痕迹、把文字改写到“80% 简化技术英语”的 Agent Skill。） `added 2026-11-10`
 - [Humanizer](https://www.tolsai.com/tools/humanizer-agent-skill) — Open-source agent skill for Claude Code, Codex and other agents that rewrites AI-sounding text by removing 26 patterns from Wikipedia's Signs of AI writing. （[中文](https://www.tolsai.com/zh/tools/humanizer-agent-skill)：开源的智能体技能：依据维基百科《AI 写作特征》检查 26 种套路，把 Claude Code、Codex 等写出的“AI 腔”文字改得更像人写的。） `added 2026-11-04`
+
+## Image to 3D Model
+
+- [OOOSplat](https://www.tolsai.com/tools/ooosplat) — Local desktop app that turns videos and images into 3D Gaussian Splats in one click. （[中文](https://www.tolsai.com/zh/tools/ooosplat)：一键把视频和图片转换成 3D 高斯泼溅（Gaussian Splatting）的本地桌面应用。） `added 2026-11-10`
 
 ## Large Language Models (LLMs)
 
