@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [RTK (Rust Token Killer)](https://www.tolsai.com/tools/rtk-ai-token-reducer) · [GitHub](https://github.com/rtk-ai/rtk) — Open-source Rust CLI proxy that compresses command output before your AI coding agent reads it, cutting token use by up to 90%.
-- [Elephant Goldfish Model (EGM)](https://www.tolsai.com/tools/google-elephant-goldfish-model) · [GitHub](https://github.com/google/elephant-goldfish-model) — Google's open-source plugin for designing and reviewing software specs with agents: an 'elephant' drafts with context, 'goldfish' reviewers check with fresh eyes.
-- [agent-device](https://www.tolsai.com/tools/callstack-agent-device) · [GitHub](https://github.com/callstack/agent-device) — Callstack's open-source device layer that lets AI coding agents control and verify iOS, Android, TV, web and desktop apps via CLI, MCP or Node API.
+- [OpenWorker](https://www.tolsai.com/tools/openworker-ai-coworker) · [GitHub](https://github.com/andrewyng/openworker) — Open-source AI coworker desktop app plus a Harness SDK for building your own agentic apps, with local or cloud models.
+- [PyRIT](https://www.tolsai.com/tools/microsoft-pyrit-ai-red-teaming) · [GitHub](https://github.com/microsoft/PyRIT) — Microsoft's open-source AI red-teaming toolkit: automated scans, adaptive multi-turn attacks and a web UI for testing generative AI.
+- [AG-UI](https://www.tolsai.com/tools/ag-ui-agent-user-interaction-protocol) · [GitHub](https://github.com/ag-ui-protocol/ag-ui) — Open, event-based protocol for connecting AI agents to frontend apps: streaming events, state and tool calls over any transport.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-15](daily/2026-11-15.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -24,6 +24,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 - [AI App Builder](#ai-app-builder)
 - [AI Assistant](#ai-assistant)
 - [AI Browsers](#ai-browsers)
+- [AI Character](#ai-character)
 - [AI Chatbot](#ai-chatbot)
 - [AI Code Assistant](#ai-code-assistant)
 - [AI Code Review](#ai-code-review)
@@ -98,6 +99,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 - [Humanizer AI](#humanizer-ai)
 - [Image to 3D Model](#image-to-3d-model)
 - [Large Language Models (LLMs)](#large-language-models-llms)
+- [Long Video To Short Video AI](#long-video-to-short-video-ai)
 - [Open Source AI Models](#open-source-ai-models)
 - [Prompt Engineering](#prompt-engineering)
 
@@ -108,6 +110,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 
 ## AI Agent
 
+- [Lody](https://www.tolsai.com/tools/lody-team-coding-agent-workspace) — Shared workspace for a team's coding agents: share sessions and live diffs, and dispatch work from desktop, mobile, web or CLI. （[中文](https://www.tolsai.com/zh/tools/lody-team-coding-agent-workspace)：团队共享的编程 Agent 工作区：共享会话和实时 diff，可从桌面、手机、网页或命令行派发任务。） `added 2026-11-15`
+- [Timon](https://www.tolsai.com/tools/timon-ai-agent-team-workstation) — Open-source workstation that runs a team of AI coding agents on your machine using the CLI subscriptions you already pay for. （[中文](https://www.tolsai.com/zh/tools/timon-ai-agent-team-workstation)：开源 AI 编程 Agent 团队工作站，在你自己的电脑上运行，用你已付费的 CLI 订阅。） `added 2026-11-15`
+- [AG-UI](https://www.tolsai.com/tools/ag-ui-agent-user-interaction-protocol) — Open, event-based protocol for connecting AI agents to frontend apps: streaming events, state and tool calls over any transport. （[中文](https://www.tolsai.com/zh/tools/ag-ui-agent-user-interaction-protocol)：开源的事件式协议，把 AI Agent 接入前端应用：通过任意传输方式流式传递事件、状态和工具调用。） `added 2026-11-15`
+- [OpenWorker](https://www.tolsai.com/tools/openworker-ai-coworker) — Open-source AI coworker desktop app plus a Harness SDK for building your own agentic apps, with local or cloud models. （[中文](https://www.tolsai.com/zh/tools/openworker-ai-coworker)：开源 AI 同事桌面应用，附带用来搭建自有 Agent 应用的 Harness SDK，支持本地或云端模型。） `added 2026-11-15`
 - [Buzz (Block)](https://www.tolsai.com/tools/block-buzz-agent-workspace) — Block's open-source, self-hostable workspace where people and AI agents share channels, patches, reviews and workflows on a relay you own. （[中文](https://www.tolsai.com/zh/tools/block-buzz-agent-workspace)：Block 开源的可自托管协作空间：人和 AI Agent 在同一频道里讨论、提补丁、评审和跑工作流。） `added 2026-11-14`
 - [Offstage Cloud](https://www.tolsai.com/tools/offstage-cloud-macos-sandboxes) — Real macOS sandboxes on Apple silicon for AI agents and CI, created over an API and billed per second. （[中文](https://www.tolsai.com/zh/tools/offstage-cloud-macos-sandboxes)：给 AI Agent 和 CI 用的真实 macOS 沙箱：Apple 芯片，API 创建，按秒计费。） `added 2026-11-13`
 - [Pots (pi-durable-bot)](https://www.tolsai.com/tools/pots-pi-durable-bot) — Open-source, self-hosted AI coworker that reads your channels and email, decides what matters and acts on its own computer. （[中文](https://www.tolsai.com/zh/tools/pots-pi-durable-bot)：开源、可自托管的 AI 同事：读取频道、邮件和事件，自己判断轻重，在自己的电脑上动手做事。） `added 2026-11-13`
@@ -204,11 +210,17 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 
 ## AI Browsers
 
+- [agweb](https://www.tolsai.com/tools/agweb-browser-for-coding-agents) — macOS browser for coding agents on WebKit: never steals focus, one live dashboard for every agent's tabs, light on memory. （[中文](https://www.tolsai.com/zh/tools/agweb-browser-for-coding-agents)：给编程 Agent 用的 macOS 浏览器（WebKit）：不抢焦点，一个面板看所有 Agent 的标签页，省内存。） `added 2026-11-15`
 - [Peji](https://www.tolsai.com/tools/peji-ai-browser) — Agentic AI browser for iPhone that operates real web pages for you (navigating, clicking and typing) and asks before anything sensitive. （[中文](https://www.tolsai.com/zh/tools/peji-ai-browser)：iPhone 上的智能体 AI 浏览器：替你在真实网页里导航、点击、输入完成任务，涉及敏感操作前会先征求确认。） `added 2026-11-04`
 - [ego lite](https://www.tolsai.com/tools/ego-lite) — Open-source macOS browser built for AI agents, with separate Spaces for you and your agents. （[中文](https://www.tolsai.com/zh/tools/ego-lite)：为 AI 智能体打造的开源 macOS 浏览器，你和智能体各有独立的 Spaces。） `added 2026-10-23`
 
+## AI Character
+
+- [Project AIRI](https://www.tolsai.com/tools/project-airi-ai-companion) — Self-hosted, open-source AI companion: a Live2D/VRM virtual character that chats, talks and can play games, in browser or desktop. （[中文](https://www.tolsai.com/zh/tools/project-airi-ai-companion)：可自建的开源 AI 伴侣：Live2D/VRM 虚拟角色，能聊天、说话、玩游戏，浏览器和桌面都能跑。） `added 2026-11-15`
+
 ## AI Chatbot
 
+- [Cherry Studio](https://www.tolsai.com/tools/cherry-studio-ai-workstation) — Open-source AI workstation for Windows, macOS and Linux: multi-model chat, agents, knowledge bases and image creation in one app. （[中文](https://www.tolsai.com/zh/tools/cherry-studio-ai-workstation)：开源 AI 工作站，支持 Windows、macOS、Linux：多模型对话、Agent、知识库和图像生成集于一个应用。） `added 2026-11-15`
 - [PocketPal AI](https://www.tolsai.com/tools/pocketpal-ai) — Open-source app that runs language models, voices and tools fully on your phone: private, offline and account-free. （[中文](https://www.tolsai.com/zh/tools/pocketpal-ai)：开源手机端 AI 助手：大模型、语音和工具全部在手机本地运行，隐私、离线、免注册。） `added 2026-11-11`
 - [Infinity](https://www.tolsai.com/tools/infinity-branched-ai-chat) — Free Mac AI app where every answer can branch into its own path, so you can follow every thought without losing context. （[中文](https://www.tolsai.com/zh/tools/infinity-branched-ai-chat)：免费的 Mac AI 应用：任意回答可分支出新路径，顺着每个想法探索而不丢上下文。） `added 2026-11-07`
 - [Cerea](https://www.tolsai.com/tools/cerea-self-hosted-llm-chat) — Self-hosted chat for any OpenAI-compatible endpoint, with knowledge bases, artifacts, in-browser Python and local coding agents. （[中文](https://www.tolsai.com/zh/tools/cerea-self-hosted-llm-chat)：面向任意 OpenAI 兼容接口的自托管聊天：知识库、Artifacts、浏览器内 Python 与本机编程 Agent。） `added 2026-11-06`
@@ -290,6 +302,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 
 ## AI Developer Tools
 
+- [Lance](https://www.tolsai.com/tools/lance-multimodal-ai-lakehouse-format) — Open lakehouse format for multimodal AI with vector and full-text search and up to 100x faster random access than Parquet. （[中文](https://www.tolsai.com/zh/tools/lance-multimodal-ai-lakehouse-format)：面向多模态 AI 的开源湖仓格式：支持向量和全文检索，随机读取比 Parquet 最多快 100 倍。） `added 2026-11-15`
 - [GitNexus](https://www.tolsai.com/tools/gitnexus-code-knowledge-graph) — Indexes your codebase into a knowledge graph of symbols, calls and execution flows that coding agents query via MCP, CLI or a web graph explorer. （[中文](https://www.tolsai.com/zh/tools/gitnexus-code-knowledge-graph)：把代码库建成符号、调用和执行流的知识图谱，编程 Agent 可通过 MCP、命令行或网页图谱查询。） `added 2026-11-14`
 - [agent-device](https://www.tolsai.com/tools/callstack-agent-device) — Callstack's open-source device layer that lets AI coding agents control and verify iOS, Android, TV, web and desktop apps via CLI, MCP or Node API. （[中文](https://www.tolsai.com/zh/tools/callstack-agent-device)：Callstack 开源的设备层：让 AI 编程 Agent 通过 CLI、MCP 或 Node API 操作并验证 iOS、安卓、电视、网页和桌面应用。） `added 2026-11-14`
 - [Elephant Goldfish Model (EGM)](https://www.tolsai.com/tools/google-elephant-goldfish-model) — Google's open-source plugin for designing and reviewing software specs with agents: an 'elephant' drafts with context, 'goldfish' reviewers check with fresh eyes. （[中文](https://www.tolsai.com/zh/tools/google-elephant-goldfish-model)：Google 开源的 Agent 设计评审插件：“大象”带着上下文起草规格，“金鱼”评审员不看前文、用新视角挑漏洞。） `added 2026-11-14`
@@ -522,6 +535,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 
 ## AI Security
 
+- [PyRIT](https://www.tolsai.com/tools/microsoft-pyrit-ai-red-teaming) — Microsoft's open-source AI red-teaming toolkit: automated scans, adaptive multi-turn attacks and a web UI for testing generative AI. （[中文](https://www.tolsai.com/zh/tools/microsoft-pyrit-ai-red-teaming)：微软开源的 AI 红队测试工具包：自动扫描、多轮自适应攻击和网页界面，用来测试生成式 AI。） `added 2026-11-15`
 - [Didit MCP](https://www.tolsai.com/tools/didit-mcp-identity-verification) — MCP server that gives Claude, ChatGPT, Cursor and other agents 115 KYC, KYB, AML and wallet-screening tools. （[中文](https://www.tolsai.com/zh/tools/didit-mcp-identity-verification)：身份核验与反欺诈 MCP 服务器：让 Claude、ChatGPT、Cursor 等 Agent 直接调用 KYC、KYB、AML、钱包筛查等 115 个工具。） `added 2026-11-13`
 - [Codex Security](https://www.tolsai.com/tools/openai-codex-security) — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating and fixing vulnerabilities in your code. （[中文](https://www.tolsai.com/zh/tools/openai-codex-security)：OpenAI 推出的 Codex Security 命令行和 TypeScript SDK，用于发现、验证并修复代码中的安全漏洞。） `added 2026-11-12`
 - [Arcjet](https://www.tolsai.com/tools/arcjet) — AI agent runtime security platform with custom models for prompt injection detection. （[中文](https://www.tolsai.com/zh/tools/arcjet)：AI Agent 运行时安全平台，推出自研提示词注入检测模型。） `added 2026-11-10`
@@ -596,11 +610,13 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 
 ## AI Text-to-Speech
 
+- [VieNeu-TTS](https://www.tolsai.com/tools/vieneu-tts-vietnamese-voice-cloning) — On-device Vietnamese text-to-speech with instant voice cloning, 48 kHz audio and real-time CPU inference. （[中文](https://www.tolsai.com/zh/tools/vieneu-tts-vietnamese-voice-cloning)：本地运行的越南语语音合成，支持即时声音克隆、48 kHz 音质和 CPU 实时推理。） `added 2026-11-15`
 - [Narro](https://www.tolsai.com/tools/narro-ai-reader) — Open-source Chrome extension that reads web pages and Kindle Online Reader aloud with on-device AI voices or your own cloud TTS key. （[中文](https://www.tolsai.com/zh/tools/narro-ai-reader)：开源 Chrome 扩展：用本地运行的 AI 语音或你自己的云端 TTS Key 朗读网页和 Kindle 网页阅读器。） `added 2026-10-26`
 - [VoxCPM2](https://www.tolsai.com/tools/voxcpm2) — OpenBMB's open-source 2B tokenizer-free TTS model with 30 languages, voice design, controllable cloning and 48 kHz audio. （[中文](https://www.tolsai.com/zh/tools/voxcpm2)：面壁智能 OpenBMB 开源的 2B 无分词器语音合成模型，支持 30 种语言、声音设计、可控克隆和 48kHz 输出。） `added 2026-10-24`
 
 ## AI Translate
 
+- [LibreTranslate](https://www.tolsai.com/tools/libretranslate-self-hosted-translation-api) — Free, open-source machine translation API you host yourself, offline capable and powered by Argos Translate. （[中文](https://www.tolsai.com/zh/tools/libretranslate-self-hosted-translation-api)：免费开源的机器翻译 API，可自行部署、支持离线，基于 Argos Translate。） `added 2026-11-15`
 - [Hy-MT2](https://www.tolsai.com/tools/tencent-hy-mt2-translation) — Tencent Hunyuan's open multilingual translation models (1.8B, 7B, 30B-A3B) for 33 languages, with an on-device 440 MB build. （[中文](https://www.tolsai.com/zh/tools/tencent-hy-mt2-translation)：腾讯混元开源多语言翻译模型 Hy-MT2（1.8B、7B、30B-A3B），支持 33 种语言互译，端侧版约 440MB。） `added 2026-11-14`
 - [StoreLocale](https://www.tolsai.com/tools/storelocale) — AI tool that translates the app UI inside your App Store and Google Play screenshots into 30+ languages and exports store-ready ZIPs. （[中文](https://www.tolsai.com/zh/tools/storelocale)：AI 工具：把 App Store 和 Google Play 截图里的应用界面文字翻译成 30 多种语言，并导出可直接上架的 ZIP。） `added 2026-10-30`
 
@@ -710,6 +726,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-14](daily/2026-11-14.md) �
 - [RigCheck](https://www.tolsai.com/tools/rigcheck) — Checks whether your GPU or Mac and RAM can run a given open AI model, using sourced requirements. （[中文](https://www.tolsai.com/zh/tools/rigcheck)：查一查你的显卡或 Mac 能不能跑某个开源 AI 模型，数据来自官方公布的需求。） `added 2026-10-23`
 - [Lumabri](https://www.tolsai.com/tools/lumabri) — Pure-C private inference service that runs large AI models across your own computers and servers. （[中文](https://www.tolsai.com/zh/tools/lumabri)：纯 C 编写的私有推理服务：把大模型拆到你自己的多台电脑和服务器上运行。） `added 2026-10-23`
 - [vLLM](https://www.tolsai.com/tools/vllm) — High-throughput, memory-efficient inference and serving engine for LLMs. （[中文](https://www.tolsai.com/zh/tools/vllm)：高吞吐、省显存的大模型推理与服务引擎。） `added 2026-10-20`
+
+## Long Video To Short Video AI
+
+- [SupoClip](https://www.tolsai.com/tools/supoclip-open-source-opusclip-alternative) — Open-source OpusClip alternative: AI finds the best moments in long videos and renders vertical clips with subtitles. （[中文](https://www.tolsai.com/zh/tools/supoclip-open-source-opusclip-alternative)：开源的 OpusClip 替代品：AI 从长视频里找出高光片段，生成带字幕的竖版短视频。） `added 2026-11-15`
 
 ## Open Source AI Models
 
