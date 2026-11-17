@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [FastMCP](https://www.tolsai.com/tools/fastmcp-python-mcp-framework) · [GitHub](https://github.com/PrefectHQ/fastmcp) — Pythonic framework for building MCP servers, clients and interactive apps; schemas, validation and transports handled for you.
-- [assistant-ui](https://www.tolsai.com/tools/assistant-ui-react-ai-chat-library) · [GitHub](https://github.com/assistant-ui/assistant-ui) — Open-source TypeScript/React library for building ChatGPT-style AI chat UIs with streaming, tool-call UI and approvals.
-- [Qdrant](https://www.tolsai.com/tools/qdrant-vector-database) · [GitHub](https://github.com/qdrant/qdrant) — Open-source Rust vector database and similarity search engine with payload filtering; managed cloud with a free tier.
+- [Coral](https://www.tolsai.com/tools/coral-agent-execution-gateway) · [GitHub](https://github.com/withcoral/coral) — Open-source, self-hosted MCP gateway where agents write and save their own tools, with every call checked against your policy.
+- [PaperOrchestra](https://www.tolsai.com/tools/google-paperorchestra-ai-paper-writing) · [GitHub](https://github.com/google-research/paper-orchestra) — Google Research's open-source multi-agent framework that turns ideas and experiment logs into submission-ready LaTeX papers.
+- [Omnigraph](https://www.tolsai.com/tools/omnigraph-agent-graph-database) · [GitHub](https://github.com/ModernRelay/omnigraph) — Open-source Rust graph database for AI agents, with typed ontology, branching and graph + vector + full-text retrieval.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-17](daily/2026-11-17.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -62,6 +62,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 - [AI Presentation Generator](#ai-presentation-generator)
 - [AI Productivity Tools](#ai-productivity-tools)
 - [AI Prompt](#ai-prompt)
+- [AI Research Papers](#ai-research-papers)
 - [AI Research Tool](#ai-research-tool)
 - [AI Sales](#ai-sales)
 - [AI Search Engine](#ai-search-engine)
@@ -106,11 +107,15 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 
 ## AI 3D Model Generator
 
+- [LexiCAD](https://www.tolsai.com/tools/lexicad) — Describe a part in plain language and an AI agent builds parametric, printable CAD, checks it against your spec, and exports STEP/STL/3MF. （[中文](https://www.tolsai.com/zh/tools/lexicad)：用自然语言描述零件，AI Agent 生成参数化、可打印的 CAD，自动对照需求校验，并导出 STEP/STL/3MF。） `added 2026-11-17`
 - [MCP for Blender](https://www.tolsai.com/tools/mcp-for-blender) — Open-source MCP server and Blender add-on that lets Claude or any LLM build, edit and render 3D scenes in Blender by prompt. （[中文](https://www.tolsai.com/zh/tools/mcp-for-blender)：开源 MCP 服务器 + Blender 插件：用自然语言让 Claude 等大模型在 Blender 里建模、改场景和渲染。） `added 2026-11-14`
 - [Geop](https://www.tolsai.com/tools/geop-cad) — Open-source parametric CAD on an exact NURBS kernel in Rust that AI agents like Claude Code and Codex can drive through MCP or a JSON part format. （[中文](https://www.tolsai.com/zh/tools/geop-cad)：开源参数化 CAD，基于 Rust 编写的精确 NURBS 内核；Claude Code、Codex 等 AI 智能体可通过 MCP 或 JSON 零件格式直接建模。） `added 2026-11-02`
 
 ## AI Agent
 
+- [Puffin](https://www.tolsai.com/tools/puffin-ai-agent-identity-inbox) — Identity and inboxes for AI agents: own email address, Discord/Telegram seats and calendar, with human approval before anything is sent. （[中文](https://www.tolsai.com/zh/tools/puffin-ai-agent-identity-inbox)：AI Agent 的身份与收件箱：独立邮箱、Discord/Telegram 席位和日历，发送前需人工批准。） `added 2026-11-17`
+- [AgenticOS](https://www.tolsai.com/tools/vstorm-agenticos) — Open-source, self-hosted platform for company AI teammates: shared chat, RAG, skills, browser, MCP, budgets, approvals and audit. （[中文](https://www.tolsai.com/zh/tools/vstorm-agenticos)：开源、可自托管的企业 AI 同事平台：共享聊天、RAG、技能、浏览器、MCP、预算、审批与审计一应俱全。） `added 2026-11-17`
+- [Coral](https://www.tolsai.com/tools/coral-agent-execution-gateway) — Open-source, self-hosted MCP gateway where agents write and save their own tools, with every call checked against your policy. （[中文](https://www.tolsai.com/zh/tools/coral-agent-execution-gateway)：开源、可自托管的 MCP 网关：Agent 自己写工具并保存复用，每次调用都先按你的策略审核。） `added 2026-11-17`
 - [Lody](https://www.tolsai.com/tools/lody-team-coding-agent-workspace) — Shared workspace for a team's coding agents: share sessions and live diffs, and dispatch work from desktop, mobile, web or CLI. （[中文](https://www.tolsai.com/zh/tools/lody-team-coding-agent-workspace)：团队共享的编程 Agent 工作区：共享会话和实时 diff，可从桌面、手机、网页或命令行派发任务。） `added 2026-11-15`
 - [Timon](https://www.tolsai.com/tools/timon-ai-agent-team-workstation) — Open-source workstation that runs a team of AI coding agents on your machine using the CLI subscriptions you already pay for. （[中文](https://www.tolsai.com/zh/tools/timon-ai-agent-team-workstation)：开源 AI 编程 Agent 团队工作站，在你自己的电脑上运行，用你已付费的 CLI 订阅。） `added 2026-11-15`
 - [AG-UI](https://www.tolsai.com/tools/ag-ui-agent-user-interaction-protocol) — Open, event-based protocol for connecting AI agents to frontend apps: streaming events, state and tool calls over any transport. （[中文](https://www.tolsai.com/zh/tools/ag-ui-agent-user-interaction-protocol)：开源的事件式协议，把 AI Agent 接入前端应用：通过任意传输方式流式传递事件、状态和工具调用。） `added 2026-11-15`
@@ -305,6 +310,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 
 ## AI Developer Tools
 
+- [UI SDK](https://www.tolsai.com/tools/vercel-ui-sdk) — Vercel Labs' open-source library of 50+ headless UI behaviors that agents combine into accessible components, and can operate directly. （[中文](https://www.tolsai.com/zh/tools/vercel-ui-sdk)：Vercel Labs 开源的 50 多种无样式 UI 行为库，Agent 用它组装无障碍组件，也能直接操作页面组件。） `added 2026-11-17`
 - [Qdrant](https://www.tolsai.com/tools/qdrant-vector-database) — Open-source Rust vector database and similarity search engine with payload filtering; managed cloud with a free tier. （[中文](https://www.tolsai.com/zh/tools/qdrant-vector-database)：Rust 编写的开源向量数据库和相似度搜索引擎，支持带过滤条件的检索；托管云版有免费额度。） `added 2026-11-16`
 - [assistant-ui](https://www.tolsai.com/tools/assistant-ui-react-ai-chat-library) — Open-source TypeScript/React library for building ChatGPT-style AI chat UIs with streaming, tool-call UI and approvals. （[中文](https://www.tolsai.com/zh/tools/assistant-ui-react-ai-chat-library)：开源 TypeScript/React 库，用来快速做出 ChatGPT 风格的 AI 聊天界面，支持流式输出、工具调用界面和人工审批。） `added 2026-11-16`
 - [FastMCP](https://www.tolsai.com/tools/fastmcp-python-mcp-framework) — Pythonic framework for building MCP servers, clients and interactive apps; schemas, validation and transports handled for you. （[中文](https://www.tolsai.com/zh/tools/fastmcp-python-mcp-framework)：用写普通 Python 函数的方式构建 MCP 服务器、客户端和交互式应用，Schema、校验和传输都自动处理。） `added 2026-11-16`
@@ -458,6 +464,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 
 ## AI Knowledge Graph
 
+- [Omnigraph](https://www.tolsai.com/tools/omnigraph-agent-graph-database) — Open-source Rust graph database for AI agents, with typed ontology, branching and graph + vector + full-text retrieval. （[中文](https://www.tolsai.com/zh/tools/omnigraph-agent-graph-database)：面向 AI Agent 的开源 Rust 图数据库：强类型本体、分支合并，图遍历、向量与全文检索一次完成。） `added 2026-11-17`
 - [Glassbrain](https://www.tolsai.com/tools/glassbrain) — Open-source CLI to open, diff and review the knowledge graphs your AI agents write. （[中文](https://www.tolsai.com/zh/tools/glassbrain)：开源 CLI：打开、对比和审阅 AI Agent 写出的知识图谱。） `added 2026-11-10`
 - [Graphify](https://www.tolsai.com/tools/graphify-labs-graphify) — Turn a codebase plus its docs, SQL schemas, configs and PDFs into a queryable knowledge graph for coding agents. （[中文](https://www.tolsai.com/zh/tools/graphify-labs-graphify)：把代码库及其文档、SQL 结构、配置和 PDF 转成可查询的知识图谱，供编程智能体使用。） `added 2026-10-20`
 
@@ -529,6 +536,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 ## AI Prompt
 
 - [Graded Prompts](https://www.tolsai.com/tools/graded-prompts) — Prompt marketplace where prompts for Midjourney, ChatGPT, Kling and 20+ models are run on their model before sale. （[中文](https://www.tolsai.com/zh/tools/graded-prompts)：提示词市场：面向 Midjourney、ChatGPT、Kling 等 20+ 模型的提示会在对应模型上先跑过再上架。） `added 2026-10-28`
+
+## AI Research Papers
+
+- [PaperOrchestra](https://www.tolsai.com/tools/google-paperorchestra-ai-paper-writing) — Google Research's open-source multi-agent framework that turns ideas and experiment logs into submission-ready LaTeX papers. （[中文](https://www.tolsai.com/zh/tools/google-paperorchestra-ai-paper-writing)：Google Research 开源的多智能体框架，把研究想法和实验日志写成可投稿的 LaTeX 论文。） `added 2026-11-17`
 
 ## AI Research Tool
 
@@ -617,6 +628,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 
 ## AI Testing
 
+- [StateWeave](https://www.tolsai.com/tools/stateweave) — Test AI agents on working, stateful clones of Slack, Salesforce, Gmail, Shopify and more, with graded runs and fault injection. （[中文](https://www.tolsai.com/zh/tools/stateweave)：在 Slack、Salesforce、Gmail、Shopify 等应用的可用“克隆体”上测试 AI Agent，带评分和故障注入。） `added 2026-11-17`
 - [Attest](https://www.tolsai.com/tools/attest-ai-agent-testing-framework) — Open-source Python/TypeScript framework to test what AI agents say, do and change, with record-and-replay in CI. （[中文](https://www.tolsai.com/zh/tools/attest-ai-agent-testing-framework)：开源 Python/TypeScript 框架，测试 AI Agent 说了什么、做了什么、改了什么，CI 里可录制回放。） `added 2026-11-16`
 - [Plurai Simulation](https://www.tolsai.com/tools/plurai-simulation) — Simulates the tools, sub-agents and knowledge around your AI agent to find where it breaks, and returns verified fixes in Claude Code, Codex or Copilot CLI. （[中文](https://www.tolsai.com/zh/tools/plurai-simulation)：给 AI Agent 搭一个模拟世界（工具、子 Agent、知识库），找出它在哪儿出错，并在 Claude Code、Codex 里给出已验证的修复。） `added 2026-11-14`
 - [AiSOC](https://www.tolsai.com/tools/aisoc) — Open-source, self-hostable AI Security Operations Center that correlates alerts and investigates incidents with auditable AI agents. （[中文](https://www.tolsai.com/zh/tools/aisoc)：开源、可自部署的 AI 安全运营中心（SOC），用可审计的 AI 智能体关联告警并调查安全事件。） `added 2026-10-30`
@@ -633,6 +645,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 
 ## AI Translate
 
+- [LingoMic](https://www.tolsai.com/tools/lingomic) — Live voice translation for Google Meet, Zoom and Teams that keeps your tone, plus bilingual captions and AI meeting notes; no bot joins. （[中文](https://www.tolsai.com/zh/tools/lingomic)：Google Meet、Zoom、Teams 实时语音翻译，保留你的语气，并提供双语字幕和 AI 会议纪要，不用拉机器人进会。） `added 2026-11-17`
 - [LibreTranslate](https://www.tolsai.com/tools/libretranslate-self-hosted-translation-api) — Free, open-source machine translation API you host yourself, offline capable and powered by Argos Translate. （[中文](https://www.tolsai.com/zh/tools/libretranslate-self-hosted-translation-api)：免费开源的机器翻译 API，可自行部署、支持离线，基于 Argos Translate。） `added 2026-11-15`
 - [Hy-MT2](https://www.tolsai.com/tools/tencent-hy-mt2-translation) — Tencent Hunyuan's open multilingual translation models (1.8B, 7B, 30B-A3B) for 33 languages, with an on-device 440 MB build. （[中文](https://www.tolsai.com/zh/tools/tencent-hy-mt2-translation)：腾讯混元开源多语言翻译模型 Hy-MT2（1.8B、7B、30B-A3B），支持 33 种语言互译，端侧版约 440MB。） `added 2026-11-14`
 - [StoreLocale](https://www.tolsai.com/tools/storelocale) — AI tool that translates the app UI inside your App Store and Google Play screenshots into 30+ languages and exports store-ready ZIPs. （[中文](https://www.tolsai.com/zh/tools/storelocale)：AI 工具：把 App Store 和 Google Play 截图里的应用界面文字翻译成 30 多种语言，并导出可直接上架的 ZIP。） `added 2026-10-30`
@@ -664,6 +677,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 
 ## AI Video Generator
 
+- [Pine Drama Studio](https://www.tolsai.com/tools/pine-drama-studio) — Open-source desktop studio for AI short dramas: agents turn a screenplay into characters, storyboards, shots and cuts you approve. （[中文](https://www.tolsai.com/zh/tools/pine-drama-studio)：开源的 AI 短剧桌面工作室：Agent 把剧本变成角色、分镜、镜头和成片，由你逐步审核。） `added 2026-11-17`
 - [HyperFlow H3 Flash](https://www.tolsai.com/tools/hyperflow-h3-flash) — Open few-step video+audio diffusion model: a 14B compressed MiniMax-H3 that makes clips with synchronized stereo sound. （[中文](https://www.tolsai.com/zh/tools/hyperflow-h3-flash)：开源少步数音视频扩散模型：把 MiniMax-H3 压缩到约 14B，生成带同步立体声的视频。） `added 2026-11-08`
 - [OpenMontage](https://www.tolsai.com/tools/openmontage) — Open-source agentic video production system that turns your AI coding assistant into a video studio: research, script, assets, edit and render. （[中文](https://www.tolsai.com/zh/tools/openmontage)：开源的智能体式视频制作系统，把你的 AI 编程助手变成视频工作室：调研、写脚本、生成素材、剪辑并渲染成片。） `added 2026-11-01`
 - [Vibe Vision Video](https://www.tolsai.com/tools/vibe-vision-video) — Open-source Remotion video templates you build once and reuse across coding agents via skills and MCP. （[中文](https://www.tolsai.com/zh/tools/vibe-vision-video)：开源 Remotion 视频模板：做一次，就能通过 Skills / MCP 在多个编程智能体里复用。） `added 2026-10-28`
@@ -679,6 +693,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-16](daily/2026-11-16.md) �
 
 ## AI Voice Assistants
 
+- [Jarvis](https://www.tolsai.com/tools/jarvis-local-ai-voice-assistant) — Private, local-first desktop AI assistant with voice and text chat, local memory and MCP tools; no subscription. （[中文](https://www.tolsai.com/zh/tools/jarvis-local-ai-voice-assistant)：私密、本地优先的桌面 AI 助手，支持语音和文字聊天、本地记忆和 MCP 工具，无需订阅。） `added 2026-11-17`
 - [Empacer](https://www.tolsai.com/tools/empacer) — Voice-first AI business assistant for small business owners: describe a task out loud and it drafts posts, quotes and replies for your approval. （[中文](https://www.tolsai.com/zh/tools/empacer)：面向小企业主的语音优先 AI 业务助手：张嘴说出任务，它就起草帖子、报价和回复，经你确认后发出。） `added 2026-10-30`
 - [Ida](https://www.tolsai.com/tools/ida-mac-voice) — A native Mac voice layer that helps you write, find and take action across your apps. （[中文](https://www.tolsai.com/zh/tools/ida-mac-voice)：原生 Mac 语音层：用说话完成写作、查找和跨应用操作。） `added 2026-10-22`
 
