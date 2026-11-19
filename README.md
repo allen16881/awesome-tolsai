@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [Strix](https://www.tolsai.com/tools/strix-ai-penetration-testing) · [GitHub](https://github.com/usestrix/strix) — Open-source AI pentesting tool: autonomous agents find, validate and help fix vulnerabilities in your app.
-- [RAG-Anything](https://www.tolsai.com/tools/rag-anything-multimodal-rag) · [GitHub](https://github.com/HKUDS/RAG-Anything) — All-in-one multimodal RAG framework that retrieves across text, images, tables and equations in documents.
-- [Dograh](https://www.tolsai.com/tools/dograh-open-source-voice-ai-agents) · [GitHub](https://github.com/dograh-hq/dograh) — Open-source, self-hostable voice AI agent platform with a visual workflow builder, an alternative to Vapi and Retell.
+- [CubeSandbox](https://www.tolsai.com/tools/cubesandbox-ai-agent-sandbox) · [GitHub](https://github.com/TencentCloud/CubeSandbox) — Open-source, E2B-compatible sandbox for AI agents: hardware-isolated microVMs that start in under 60 ms.
+- [CodeGraph](https://www.tolsai.com/tools/codegraph-code-knowledge-graph) · [GitHub](https://github.com/colbymchenry/codegraph) — Local code knowledge graph that gives Claude Code, Cursor and Codex precise codebase context.
+- [eve](https://www.tolsai.com/tools/vercel-eve-ai-agent-framework) · [GitHub](https://github.com/vercel/eve) — Vercel's open-source framework for durable AI agents, defined as files: instructions, tools, skills, schedules.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -62,6 +62,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 - [AI Presentation Generator](#ai-presentation-generator)
 - [AI Productivity Tools](#ai-productivity-tools)
 - [AI Prompt](#ai-prompt)
+- [AI Prompt Generator](#ai-prompt-generator)
 - [AI Reader](#ai-reader)
 - [AI Research Papers](#ai-research-papers)
 - [AI Research Tool](#ai-research-tool)
@@ -114,6 +115,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 ## AI Agent
 
+- [Cua](https://www.tolsai.com/tools/cua-computer-use-agents) — Open-source computer-use agent platform: desktops, VMs, automation drivers and benchmarks for AI agents. （[中文](https://www.tolsai.com/zh/tools/cua-computer-use-agents)：开源电脑操控 Agent 平台：为 AI Agent 提供桌面、虚拟机、自动化驱动和评测基准。） `added 2026-11-19`
+- [Dodaios](https://www.tolsai.com/tools/dodaios-coding-agent-manager) — Open-source workspace that manages Claude Code, Codex and other coding agents through one assistant. （[中文](https://www.tolsai.com/zh/tools/dodaios-coding-agent-manager)：开源的编程 Agent 管理工作台：一个助手统一调度 Claude Code、Codex 等多个 Agent。） `added 2026-11-19`
+- [eve](https://www.tolsai.com/tools/vercel-eve-ai-agent-framework) — Vercel's open-source framework for durable AI agents, defined as files: instructions, tools, skills, schedules. （[中文](https://www.tolsai.com/zh/tools/vercel-eve-ai-agent-framework)：Vercel 开源的 AI Agent 开发框架：用文件定义指令、工具、技能和定时任务。） `added 2026-11-19`
+- [CubeSandbox](https://www.tolsai.com/tools/cubesandbox-ai-agent-sandbox) — Open-source, E2B-compatible sandbox for AI agents: hardware-isolated microVMs that start in under 60 ms. （[中文](https://www.tolsai.com/zh/tools/cubesandbox-ai-agent-sandbox)：腾讯云开源的 AI Agent 沙箱：兼容 E2B，硬件级隔离，60 毫秒内启动。） `added 2026-11-19`
 - [Puffin](https://www.tolsai.com/tools/puffin-ai-agent-identity-inbox) — Identity and inboxes for AI agents: own email address, Discord/Telegram seats and calendar, with human approval before anything is sent. （[中文](https://www.tolsai.com/zh/tools/puffin-ai-agent-identity-inbox)：AI Agent 的身份与收件箱：独立邮箱、Discord/Telegram 席位和日历，发送前需人工批准。） `added 2026-11-17`
 - [AgenticOS](https://www.tolsai.com/tools/vstorm-agenticos) — Open-source, self-hosted platform for company AI teammates: shared chat, RAG, skills, browser, MCP, budgets, approvals and audit. （[中文](https://www.tolsai.com/zh/tools/vstorm-agenticos)：开源、可自托管的企业 AI 同事平台：共享聊天、RAG、技能、浏览器、MCP、预算、审批与审计一应俱全。） `added 2026-11-17`
 - [Coral](https://www.tolsai.com/tools/coral-agent-execution-gateway) — Open-source, self-hosted MCP gateway where agents write and save their own tools, with every call checked against your policy. （[中文](https://www.tolsai.com/zh/tools/coral-agent-execution-gateway)：开源、可自托管的 MCP 网关：Agent 自己写工具并保存复用，每次调用都先按你的策略审核。） `added 2026-11-17`
@@ -313,6 +318,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 ## AI Developer Tools
 
+- [CC-Switch CLI](https://www.tolsai.com/tools/cc-switch-cli) — Terminal version of CC-Switch: switch providers and configs for Claude Code, Codex and Gemini CLI. （[中文](https://www.tolsai.com/zh/tools/cc-switch-cli)：CC-Switch 命令行版：在终端里切换 Claude Code、Codex、Gemini CLI 的供应商和配置。） `added 2026-11-19`
+- [Cursor Plugins](https://www.tolsai.com/tools/cursor-plugins-official-marketplace) — Official Cursor plugin spec and plugins: add skills, review and CI workflows to the Cursor AI agent. （[中文](https://www.tolsai.com/zh/tools/cursor-plugins-official-marketplace)：Cursor 官方插件规范与插件合集：为 Cursor AI Agent 增加技能、代码审查和 CI 流程。） `added 2026-11-19`
 - [NVIDIA NeMo Switchyard](https://www.tolsai.com/tools/nvidia-nemo-switchyard-llm-router) — Open-source NVIDIA library that routes each agent request to the right model to balance success, cost and latency. （[中文](https://www.tolsai.com/zh/tools/nvidia-nemo-switchyard-llm-router)：NVIDIA 开源的大模型路由库：为 Agent 的每个请求选合适的模型，平衡成功率、成本和延迟。） `added 2026-11-18`
 - [UI SDK](https://www.tolsai.com/tools/vercel-ui-sdk) — Vercel Labs' open-source library of 50+ headless UI behaviors that agents combine into accessible components, and can operate directly. （[中文](https://www.tolsai.com/zh/tools/vercel-ui-sdk)：Vercel Labs 开源的 50 多种无样式 UI 行为库，Agent 用它组装无障碍组件，也能直接操作页面组件。） `added 2026-11-17`
 - [Qdrant](https://www.tolsai.com/tools/qdrant-vector-database) — Open-source Rust vector database and similarity search engine with payload filtering; managed cloud with a free tier. （[中文](https://www.tolsai.com/zh/tools/qdrant-vector-database)：Rust 编写的开源向量数据库和相似度搜索引擎，支持带过滤条件的检索；托管云版有免费额度。） `added 2026-11-16`
@@ -450,6 +457,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 ## AI Inference
 
+- [vLLM Ascend](https://www.tolsai.com/tools/vllm-ascend-huawei-npu-inference) — Community plugin that runs the vLLM inference engine on Huawei Ascend NPUs. （[中文](https://www.tolsai.com/zh/tools/vllm-ascend-huawei-npu-inference)：让 vLLM 推理引擎跑在华为昇腾 NPU 上的社区官方插件。） `added 2026-11-19`
 - [TrnRT](https://www.tolsai.com/tools/trnrt-llm-inference-aws-trainium) — Open-source LLM inference engine for AWS Trainium with NKI megakernels, 1M-token context and an OpenAI-compatible API. （[中文](https://www.tolsai.com/zh/tools/trnrt-llm-inference-aws-trainium)：面向 AWS Trainium 的开源大模型推理引擎：NKI 融合内核、百万 token 上下文、兼容 OpenAI 接口。） `added 2026-11-18`
 - [ggml](https://www.tolsai.com/tools/ggml-tensor-library) — Dependency-free C/C++ tensor library behind llama.cpp, with 2 to 8-bit quantization and CPU/GPU/NPU/browser backends. （[中文](https://www.tolsai.com/zh/tools/ggml-tensor-library)：llama.cpp 背后的 C/C++ 张量库，无依赖，支持 2～8 位量化和 CPU/GPU/NPU/浏览器后端。） `added 2026-11-16`
 - [AirLLM](https://www.tolsai.com/tools/airllm-low-vram-inference) — Python library that runs 70B-class LLMs on a single 4GB GPU by loading layers one at a time, without quantization. （[中文](https://www.tolsai.com/zh/tools/airllm-low-vram-inference)：按层加载的 Python 推理库：不量化也能在单张 4GB 显卡上运行 70B 级大模型，现已支持小显存训练。） `added 2026-11-13`
@@ -470,6 +478,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 ## AI Knowledge Graph
 
+- [CodeGraph](https://www.tolsai.com/tools/codegraph-code-knowledge-graph) — Local code knowledge graph that gives Claude Code, Cursor and Codex precise codebase context. （[中文](https://www.tolsai.com/zh/tools/codegraph-code-knowledge-graph)：本地代码知识图谱：给 Claude Code、Cursor、Codex 提供精准的代码库上下文。） `added 2026-11-19`
 - [Omnigraph](https://www.tolsai.com/tools/omnigraph-agent-graph-database) — Open-source Rust graph database for AI agents, with typed ontology, branching and graph + vector + full-text retrieval. （[中文](https://www.tolsai.com/zh/tools/omnigraph-agent-graph-database)：面向 AI Agent 的开源 Rust 图数据库：强类型本体、分支合并，图遍历、向量与全文检索一次完成。） `added 2026-11-17`
 - [Glassbrain](https://www.tolsai.com/tools/glassbrain) — Open-source CLI to open, diff and review the knowledge graphs your AI agents write. （[中文](https://www.tolsai.com/zh/tools/glassbrain)：开源 CLI：打开、对比和审阅 AI Agent 写出的知识图谱。） `added 2026-11-10`
 - [Graphify](https://www.tolsai.com/tools/graphify-labs-graphify) — Turn a codebase plus its docs, SQL schemas, configs and PDFs into a queryable knowledge graph for coding agents. （[中文](https://www.tolsai.com/zh/tools/graphify-labs-graphify)：把代码库及其文档、SQL 结构、配置和 PDF 转成可查询的知识图谱，供编程智能体使用。） `added 2026-10-20`
@@ -544,6 +553,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 - [Graded Prompts](https://www.tolsai.com/tools/graded-prompts) — Prompt marketplace where prompts for Midjourney, ChatGPT, Kling and 20+ models are run on their model before sale. （[中文](https://www.tolsai.com/zh/tools/graded-prompts)：提示词市场：面向 Midjourney、ChatGPT、Kling 等 20+ 模型的提示会在对应模型上先跑过再上架。） `added 2026-10-28`
 
+## AI Prompt Generator
+
+- [Director's Lookbook](https://www.tolsai.com/tools/directors-lookbook-ai-prompt-styles) — Free library of 798 named looks for AI image, video and music prompts: film looks, camera angles, lighting. （[中文](https://www.tolsai.com/zh/tools/directors-lookbook-ai-prompt-styles)：免费 AI 提示词风格库：798 种电影感镜头、光线、调色和音乐风格，一键生成可粘贴的提示词。） `added 2026-11-19`
+
 ## AI Reader
 
 - [book-to-skill](https://www.tolsai.com/tools/book-to-skill-agent-skill-from-pdf) — Turn any technical book PDF or document folder into a structured agent skill for Claude Code, Codex and other agents. （[中文](https://www.tolsai.com/zh/tools/book-to-skill-agent-skill-from-pdf)：把技术书 PDF 或资料文件夹变成结构化的 Agent 技能，供 Claude Code、Codex 等随时查阅。） `added 2026-11-18`
@@ -554,6 +567,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 ## AI Research Tool
 
+- [KradleBench](https://www.tolsai.com/tools/kradlebench-multi-agent-ai-benchmark) — Multi-agent AI benchmark in Minecraft comparing frontier models on collaboration, conflict and creativity. （[中文](https://www.tolsai.com/zh/tools/kradlebench-multi-agent-ai-benchmark)：在《我的世界》里测多智能体能力的 AI 基准：比较大模型的协作、冲突和创造力。） `added 2026-11-19`
 - [Academic Research Skills](https://www.tolsai.com/tools/academic-research-skills) — Claude Code skills for the full academic pipeline: research, write, review, revise and finalize a paper with you in control. （[中文](https://www.tolsai.com/zh/tools/academic-research-skills)：面向 Claude Code 的学术研究技能套件：从调研、写作、评审、修改到定稿，全程由你把关。） `added 2026-11-11`
 - [Agentero](https://www.tolsai.com/tools/agentero) — An open-source research workspace for humans and agents: PDF Q&A with citations, notes, translation and MCP. （[中文](https://www.tolsai.com/zh/tools/agentero)：开源科研工作台，为人与 Agent 协作设计：带引用的 PDF 问答、双链笔记、翻译与 MCP。） `added 2026-11-09`
 - [Hyperresearch](https://www.tolsai.com/tools/hyperresearch) — Pay-per-run deep research service that returns adversarially reviewed reports with every cited claim checked against its source, plus an API and MCP server. （[中文](https://www.tolsai.com/zh/tools/hyperresearch)：按次付费的深度研究服务：输出经过对抗式审查的研究报告，每条引用都核对过原文，并提供 API 和 MCP 服务。） `added 2026-11-03`
@@ -571,6 +585,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 ## AI Security
 
+- [Claude Code Security Review](https://www.tolsai.com/tools/claude-code-security-review-github-action) — Anthropic's open-source GitHub Action that uses Claude to review pull requests for security vulnerabilities. （[中文](https://www.tolsai.com/zh/tools/claude-code-security-review-github-action)：Anthropic 官方开源 GitHub Action：用 Claude 自动审查 PR 的安全漏洞。） `added 2026-11-19`
 - [Strix](https://www.tolsai.com/tools/strix-ai-penetration-testing) — Open-source AI pentesting tool: autonomous agents find, validate and help fix vulnerabilities in your app. （[中文](https://www.tolsai.com/zh/tools/strix-ai-penetration-testing)：开源 AI 渗透测试工具：自主 Agent 发现、验证并协助修复应用漏洞。） `added 2026-11-18`
 - [Shotoku](https://www.tolsai.com/tools/shotoku-ai-agent-spend-controls) — Open-source, local-first budgets, approvals and tamper-evident audit logs for AI agent spending and actions. （[中文](https://www.tolsai.com/zh/tools/shotoku-ai-agent-spend-controls)：开源、本地优先的 AI Agent 花费管控：预算、审批和防篡改审计日志。） `added 2026-11-16`
 - [PyRIT](https://www.tolsai.com/tools/microsoft-pyrit-ai-red-teaming) — Microsoft's open-source AI red-teaming toolkit: automated scans, adaptive multi-turn attacks and a web UI for testing generative AI. （[中文](https://www.tolsai.com/zh/tools/microsoft-pyrit-ai-red-teaming)：微软开源的 AI 红队测试工具包：自动扫描、多轮自适应攻击和网页界面，用来测试生成式 AI。） `added 2026-11-15`
@@ -651,6 +666,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-18](daily/2026-11-18.md) �
 
 ## AI Text-to-Speech
 
+- [Reprise](https://www.tolsai.com/tools/reprise-read-later-ai-narration-app) — Read-later app for iPhone and Mac that reads web articles aloud with an on-device AI voice. （[中文](https://www.tolsai.com/zh/tools/reprise-read-later-ai-narration-app)：iPhone/Mac 稍后读 App：用端侧 AI 语音把网页文章读给你听。） `added 2026-11-19`
 - [nano-edge-tts](https://www.tolsai.com/tools/nano-edge-tts-kokoro-decoder) — 1.75M-parameter decoder for Kokoro-82M TTS: about 33x faster decoding on one CPU thread with a 7 MB weight file. （[中文](https://www.tolsai.com/zh/tools/nano-edge-tts-kokoro-decoder)：Kokoro-82M 语音合成的 175 万参数解码器，单 CPU 线程解码快约 33 倍，权重仅 7 MB。） `added 2026-11-16`
 - [VieNeu-TTS](https://www.tolsai.com/tools/vieneu-tts-vietnamese-voice-cloning) — On-device Vietnamese text-to-speech with instant voice cloning, 48 kHz audio and real-time CPU inference. （[中文](https://www.tolsai.com/zh/tools/vieneu-tts-vietnamese-voice-cloning)：本地运行的越南语语音合成，支持即时声音克隆、48 kHz 音质和 CPU 实时推理。） `added 2026-11-15`
 - [Narro](https://www.tolsai.com/tools/narro-ai-reader) — Open-source Chrome extension that reads web pages and Kindle Online Reader aloud with on-device AI voices or your own cloud TTS key. （[中文](https://www.tolsai.com/zh/tools/narro-ai-reader)：开源 Chrome 扩展：用本地运行的 AI 语音或你自己的云端 TTS Key 朗读网页和 Kindle 网页阅读器。） `added 2026-10-26`
