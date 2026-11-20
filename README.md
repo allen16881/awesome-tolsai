@@ -8,11 +8,11 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 ## Today's open-source picks / 今日开源推荐
 
-- [CubeSandbox](https://www.tolsai.com/tools/cubesandbox-ai-agent-sandbox) · [GitHub](https://github.com/TencentCloud/CubeSandbox) — Open-source, E2B-compatible sandbox for AI agents: hardware-isolated microVMs that start in under 60 ms.
-- [CodeGraph](https://www.tolsai.com/tools/codegraph-code-knowledge-graph) · [GitHub](https://github.com/colbymchenry/codegraph) — Local code knowledge graph that gives Claude Code, Cursor and Codex precise codebase context.
-- [eve](https://www.tolsai.com/tools/vercel-eve-ai-agent-framework) · [GitHub](https://github.com/vercel/eve) — Vercel's open-source framework for durable AI agents, defined as files: instructions, tools, skills, schedules.
+- [OpenSRE](https://www.tolsai.com/tools/opensre-ci-cd-reliability-agent) · [GitHub](https://github.com/Tracer-Cloud/opensre) — Open-source CLI agent that investigates failed CI/CD runs, traces the cause and pushes a fix for review.
+- [FreeVideo](https://www.tolsai.com/tools/freevideo-local-ai-video-comfyui) · [GitHub](https://github.com/FlashML-org/FreeVideo) — Open-source local inference engine that runs MiniMax H3 video generation on consumer GPUs from 8 GB of VRAM.
+- [CLI Agent Orchestrator (CAO)](https://www.tolsai.com/tools/awslabs-cli-agent-orchestrator) · [GitHub](https://github.com/awslabs/cli-agent-orchestrator) — AWS Labs open-source tool that coordinates several AI coding CLIs, with a supervisor delegating to specialist agents.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-20](daily/2026-11-20.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -115,6 +115,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## AI Agent
 
+- [AgentMall](https://www.tolsai.com/tools/agentmall-commerce-api-for-ai-agents) — One API for AI agents to search, build baskets and check out at hundreds of merchants, with approval before every order. （[中文](https://www.tolsai.com/zh/tools/agentmall-commerce-api-for-ai-agents)：给 AI Agent 用的购物执行 API：一套接口完成搜索、加购和结账，每单先经确认。） `added 2026-11-20`
+- [Vestige](https://www.tolsai.com/tools/vestige-agent-memory-kernel) — Open-source, local-first memory and safety kernel for AI agents: deterministic, no embeddings, no LLM, no GPU. （[中文](https://www.tolsai.com/zh/tools/vestige-agent-memory-kernel)：开源本地优先的 Agent 记忆与安全内核：确定性、无嵌入、无 LLM、无 GPU。） `added 2026-11-20`
+- [CLI Agent Orchestrator (CAO)](https://www.tolsai.com/tools/awslabs-cli-agent-orchestrator) — AWS Labs open-source tool that coordinates several AI coding CLIs, with a supervisor delegating to specialist agents. （[中文](https://www.tolsai.com/zh/tools/awslabs-cli-agent-orchestrator)：AWS Labs 开源工具：协调多个 AI 编程 CLI，由主管 Agent 分派任务给专门 Agent。） `added 2026-11-20`
+- [OpenSRE](https://www.tolsai.com/tools/opensre-ci-cd-reliability-agent) — Open-source CLI agent that investigates failed CI/CD runs, traces the cause and pushes a fix for review. （[中文](https://www.tolsai.com/zh/tools/opensre-ci-cd-reliability-agent)：开源 CI/CD 可靠性 Agent：读失败日志、定位原因，并提交修复供你审核。） `added 2026-11-20`
 - [Cua](https://www.tolsai.com/tools/cua-computer-use-agents) — Open-source computer-use agent platform: desktops, VMs, automation drivers and benchmarks for AI agents. （[中文](https://www.tolsai.com/zh/tools/cua-computer-use-agents)：开源电脑操控 Agent 平台：为 AI Agent 提供桌面、虚拟机、自动化驱动和评测基准。） `added 2026-11-19`
 - [Dodaios](https://www.tolsai.com/tools/dodaios-coding-agent-manager) — Open-source workspace that manages Claude Code, Codex and other coding agents through one assistant. （[中文](https://www.tolsai.com/zh/tools/dodaios-coding-agent-manager)：开源的编程 Agent 管理工作台：一个助手统一调度 Claude Code、Codex 等多个 Agent。） `added 2026-11-19`
 - [eve](https://www.tolsai.com/tools/vercel-eve-ai-agent-framework) — Vercel's open-source framework for durable AI agents, defined as files: instructions, tools, skills, schedules. （[中文](https://www.tolsai.com/zh/tools/vercel-eve-ai-agent-framework)：Vercel 开源的 AI Agent 开发框架：用文件定义指令、工具、技能和定时任务。） `added 2026-11-19`
@@ -318,6 +322,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## AI Developer Tools
 
+- [ScreenClip](https://www.tolsai.com/tools/screenclip-screenshot-feedback-for-coding-agents) — Mac app that turns a screenshot and a few words into a task for your AI coding agent, ending in a pull request. （[中文](https://www.tolsai.com/zh/tools/screenclip-screenshot-feedback-for-coding-agents)：Mac 应用：截图加几句话，就交给 AI 编程 Agent 修复并提 PR。） `added 2026-11-20`
+- [MarkItDown](https://www.tolsai.com/tools/microsoft-markitdown-file-to-markdown) — Microsoft's open-source Python tool that converts PDF, Office files, audio, HTML and more into Markdown for LLMs. （[中文](https://www.tolsai.com/zh/tools/microsoft-markitdown-file-to-markdown)：微软开源的 Python 工具：把 PDF、Office、音频、HTML 等文件转成 Markdown 供 LLM 使用。） `added 2026-11-20`
 - [CC-Switch CLI](https://www.tolsai.com/tools/cc-switch-cli) — Terminal version of CC-Switch: switch providers and configs for Claude Code, Codex and Gemini CLI. （[中文](https://www.tolsai.com/zh/tools/cc-switch-cli)：CC-Switch 命令行版：在终端里切换 Claude Code、Codex、Gemini CLI 的供应商和配置。） `added 2026-11-19`
 - [Cursor Plugins](https://www.tolsai.com/tools/cursor-plugins-official-marketplace) — Official Cursor plugin spec and plugins: add skills, review and CI workflows to the Cursor AI agent. （[中文](https://www.tolsai.com/zh/tools/cursor-plugins-official-marketplace)：Cursor 官方插件规范与插件合集：为 Cursor AI Agent 增加技能、代码审查和 CI 流程。） `added 2026-11-19`
 - [NVIDIA NeMo Switchyard](https://www.tolsai.com/tools/nvidia-nemo-switchyard-llm-router) — Open-source NVIDIA library that routes each agent request to the right model to balance success, cost and latency. （[中文](https://www.tolsai.com/zh/tools/nvidia-nemo-switchyard-llm-router)：NVIDIA 开源的大模型路由库：为 Agent 的每个请求选合适的模型，平衡成功率、成本和延迟。） `added 2026-11-18`
@@ -485,6 +491,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## AI Knowledge Management
 
+- [Relic](https://www.tolsai.com/tools/relic-ai-second-brain) — AI second brain that organises saved links, PDFs, notes and YouTube videos so you can find them again. （[中文](https://www.tolsai.com/zh/tools/relic-ai-second-brain)：AI 第二大脑：自动整理收藏的链接、PDF、笔记和 YouTube 视频，方便日后找回。） `added 2026-11-20`
 - [Karakeep](https://www.tolsai.com/tools/karakeep-ai-bookmark-manager) — Self-hostable bookmark-everything app with AI auto-tagging, summaries and semantic search; formerly Hoarder. （[中文](https://www.tolsai.com/zh/tools/karakeep-ai-bookmark-manager)：可自托管的稍后读与书签收藏工具：AI 自动打标签、生成摘要，支持语义搜索（原名 Hoarder）。） `added 2026-11-18`
 - [COG Second Brain](https://www.tolsai.com/tools/cog-agentic-second-brain) — Open-source agentic second brain built on Markdown, Obsidian and Git, with dozens of skills for Claude Code, Cursor and more. （[中文](https://www.tolsai.com/zh/tools/cog-agentic-second-brain)：基于 Markdown、Obsidian 和 Git 的开源 Agent 第二大脑，附几十个技能，可在 Claude Code、Cursor 等工具里运行。） `added 2026-11-16`
 - [GBrain](https://www.tolsai.com/tools/gbrain-agent-memory) — Open-source memory layer for AI agents by Garry Tan: sourced facts, corrections and one shared brain across your agents via MCP. （[中文](https://www.tolsai.com/zh/tools/gbrain-agent-memory)：YC 总裁 Garry Tan 开源的 AI Agent 记忆层：带来源的事实、可纠正撤回，通过 MCP 让多个 Agent 共用一个“大脑”。） `added 2026-11-12`
@@ -614,6 +621,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## AI Short Video Generator
 
+- [AutoClip](https://www.tolsai.com/tools/autoclip-one-link-video-clipping) — Open-source desktop tool that turns one video link into short clips with subtitles, covers and publishing copy. （[中文](https://www.tolsai.com/zh/tools/autoclip-one-link-video-clipping)：开源视频剪辑桌面工具：贴一个链接，自动出短视频、字幕、封面和发布文案。） `added 2026-11-20`
 - [MoneyPrinterTurbo](https://www.tolsai.com/tools/moneyprinterturbo-ai-short-video-generator) — Open-source AI tool that turns a topic or keyword into a finished HD short video: script, voiceover, stock footage, subtitles and music. （[中文](https://www.tolsai.com/zh/tools/moneyprinterturbo-ai-short-video-generator)：开源 AI 短视频生成工具：输入主题或关键词，自动生成文案、配音、素材、字幕和背景音乐，合成高清短视频。） `added 2026-11-05`
 
 ## AI Social Media
@@ -652,6 +660,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## AI Task Management
 
+- [Taskthread](https://www.tolsai.com/tools/taskthread-shared-task-board-for-ai-assistants) — Task board shared by you and your AI assistants, so a plan started in one can be picked up by another. （[中文](https://www.tolsai.com/zh/tools/taskthread-shared-task-board-for-ai-assistants)：你和多个 AI 助手共用的任务看板：在一个助手里开的计划，可由另一个接着做。） `added 2026-11-20`
 - [Beads](https://www.tolsai.com/tools/beads-agent-memory) — Distributed, dependency-aware issue tracker that gives coding agents persistent memory for long tasks, replacing markdown plans with a graph. （[中文](https://www.tolsai.com/zh/tools/beads-agent-memory)：分布式、带依赖关系的任务追踪工具：用图结构替代 Markdown 计划，让编程智能体在长任务中拥有持久记忆。） `added 2026-11-03`
 
 ## AI Testing
@@ -707,6 +716,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## AI Video Generator
 
+- [FreeVideo](https://www.tolsai.com/tools/freevideo-local-ai-video-comfyui) — Open-source local inference engine that runs MiniMax H3 video generation on consumer GPUs from 8 GB of VRAM. （[中文](https://www.tolsai.com/zh/tools/freevideo-local-ai-video-comfyui)：开源本地视频生成引擎：在消费级显卡上运行 MiniMax H3，最低 8GB 显存。） `added 2026-11-20`
 - [Pine Drama Studio](https://www.tolsai.com/tools/pine-drama-studio) — Open-source desktop studio for AI short dramas: agents turn a screenplay into characters, storyboards, shots and cuts you approve. （[中文](https://www.tolsai.com/zh/tools/pine-drama-studio)：开源的 AI 短剧桌面工作室：Agent 把剧本变成角色、分镜、镜头和成片，由你逐步审核。） `added 2026-11-17`
 - [HyperFlow H3 Flash](https://www.tolsai.com/tools/hyperflow-h3-flash) — Open few-step video+audio diffusion model: a 14B compressed MiniMax-H3 that makes clips with synchronized stereo sound. （[中文](https://www.tolsai.com/zh/tools/hyperflow-h3-flash)：开源少步数音视频扩散模型：把 MiniMax-H3 压缩到约 14B，生成带同步立体声的视频。） `added 2026-11-08`
 - [OpenMontage](https://www.tolsai.com/tools/openmontage) — Open-source agentic video production system that turns your AI coding assistant into a video studio: research, script, assets, edit and render. （[中文](https://www.tolsai.com/zh/tools/openmontage)：开源的智能体式视频制作系统，把你的 AI 编程助手变成视频工作室：调研、写脚本、生成素材、剪辑并渲染成片。） `added 2026-11-01`
@@ -723,6 +733,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## AI Voice Assistants
 
+- [ThunderPhone Zeus](https://www.tolsai.com/tools/thunderphone-zeus-voice-agent-harness) — ThunderPhone v3's Zeus is an agentic harness for building voice AI phone agents, with calls from 2¢ a minute. （[中文](https://www.tolsai.com/zh/tools/thunderphone-zeus-voice-agent-harness)：ThunderPhone v3 推出 Zeus：为语音 AI 电话 Agent 打造的 Agent 开发框架，通话低至每分钟 2 美分。） `added 2026-11-20`
 - [Dograh](https://www.tolsai.com/tools/dograh-open-source-voice-ai-agents) — Open-source, self-hostable voice AI agent platform with a visual workflow builder, an alternative to Vapi and Retell. （[中文](https://www.tolsai.com/zh/tools/dograh-open-source-voice-ai-agents)：开源、可自托管的语音 AI Agent 平台，带可视化流程编辑器，可替代 Vapi 和 Retell。） `added 2026-11-18`
 - [Jarvis](https://www.tolsai.com/tools/jarvis-local-ai-voice-assistant) — Private, local-first desktop AI assistant with voice and text chat, local memory and MCP tools; no subscription. （[中文](https://www.tolsai.com/zh/tools/jarvis-local-ai-voice-assistant)：私密、本地优先的桌面 AI 助手，支持语音和文字聊天、本地记忆和 MCP 工具，无需订阅。） `added 2026-11-17`
 - [Empacer](https://www.tolsai.com/tools/empacer) — Voice-first AI business assistant for small business owners: describe a task out loud and it drafts posts, quotes and replies for your approval. （[中文](https://www.tolsai.com/zh/tools/empacer)：面向小企业主的语音优先 AI 业务助手：张嘴说出任务，它就起草帖子、报价和回复，经你确认后发出。） `added 2026-10-30`
@@ -797,6 +808,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-19](daily/2026-11-19.md) �
 
 ## Open Source AI Models
 
+- [Heretic](https://www.tolsai.com/tools/heretic-llm-censorship-removal) — Open-source tool that modifies language models without training, such as removing refusals or reducing sycophancy. （[中文](https://www.tolsai.com/zh/tools/heretic-llm-censorship-removal)：开源工具：无需训练即可修改大模型行为，如去除拒答、减少谄媚。） `added 2026-11-20`
 - [homi](https://www.tolsai.com/tools/homi-audio-decision-model) — Open decision model that answers typed questions about an audio clip and returns a probability for every option, at very low cost. （[中文](https://www.tolsai.com/zh/tools/homi-audio-decision-model)：开源音频“决策模型”：针对一段音频回答带选项的问题，为每个选项给出概率，成本极低。） `added 2026-10-29`
 
 ## Prompt Engineering
