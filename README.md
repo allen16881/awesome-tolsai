@@ -6,6 +6,13 @@ A hand-checked list of new AI tools picked daily by [TolsAI](https://www.tolsai.
 
 - Website: https://www.tolsai.com/ · 中文: https://www.tolsai.com/zh · Daily picks: https://www.tolsai.com/daily
 
+## Topic lists / 分类页与语言页
+
+Static category and language pages (also on [GitHub Pages](https://allen16881.github.io/awesome-tolsai/)):
+
+- Topics: [index](https://allen16881.github.io/awesome-tolsai/topics/) · [Open Source](https://allen16881.github.io/awesome-tolsai/topics/open-source.html) · [AI Developer Tools](https://allen16881.github.io/awesome-tolsai/topics/ai-developer-tools.html) · [AI Agent](https://allen16881.github.io/awesome-tolsai/topics/ai-agent.html) · [AI Code Assistant](https://allen16881.github.io/awesome-tolsai/topics/ai-code-assistant.html) · [AI Productivity Tools](https://allen16881.github.io/awesome-tolsai/topics/ai-productivity-tools.html)
+- Languages: [中文](https://allen16881.github.io/awesome-tolsai/locales/zh.html) · [日本語](https://allen16881.github.io/awesome-tolsai/locales/ja.html) · [한국어](https://allen16881.github.io/awesome-tolsai/locales/ko.html)
+
 ## Today's open-source picks / 今日开源推荐
 
 - [OpenComputer](https://www.tolsai.com/tools/opencomputer-open-source-devin-alternative) · [GitHub](https://github.com/diggerhq/opencomputer) — Open-source, self-hostable Devin alternative: assign coding tasks in Slack and get pull requests back.
