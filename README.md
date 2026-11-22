@@ -15,11 +15,11 @@ Static category and language pages (also on [GitHub Pages](https://allen16881.gi
 
 ## Today's open-source picks / 今日开源推荐
 
-- [OpenComputer](https://www.tolsai.com/tools/opencomputer-open-source-devin-alternative) · [GitHub](https://github.com/diggerhq/opencomputer) — Open-source, self-hostable Devin alternative: assign coding tasks in Slack and get pull requests back.
-- [Diagram Design](https://www.tolsai.com/tools/diagram-design-agent-skill-diagrams) · [GitHub](https://github.com/cathrynlavery/diagram-design) — Agent skill that turns plain-language requests into clean, on-brand HTML + SVG diagrams.
-- [AFFiNE](https://www.tolsai.com/tools/affine-open-source-ai-knowledge-base) · [GitHub](https://github.com/toeverything/AFFiNE) — Open-source, privacy-first alternative to Notion and Miro with docs, whiteboard canvas and built-in AI.
+- [Pi](https://www.tolsai.com/tools/pi-minimal-coding-agent-harness) · [GitHub](https://github.com/earendil-works/pi) — Minimal, extensible open-source coding agent for the terminal: add extensions, skills and prompts to fit your workflow.
+- [Twenty](https://www.tolsai.com/tools/twenty-open-source-ai-crm) · [GitHub](https://github.com/twentyhq/twenty) — Open-source Salesforce alternative designed for AI: a CRM you build, ship and version like code.
+- [TorchTitan](https://www.tolsai.com/tools/torchtitan-pytorch-llm-training) · [GitHub](https://github.com/pytorch/torchtitan) — PyTorch-native platform for pretraining, fine-tuning and RL of large generative AI models at scale.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -36,6 +36,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [AI Code Assistant](#ai-code-assistant)
 - [AI Code Review](#ai-code-review)
 - [AI Course](#ai-course)
+- [AI CRM](#ai-crm)
 - [AI Customer Service](#ai-customer-service)
 - [AI Design Assistant](#ai-design-assistant)
 - [AI Design Generator](#ai-design-generator)
@@ -49,6 +50,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [AI Forms](#ai-forms)
 - [AI Game Generator](#ai-game-generator)
 - [AI Games](#ai-games)
+- [AI GitHub](#ai-github)
 - [AI Graphic Design](#ai-graphic-design)
 - [AI Healthcare](#ai-healthcare)
 - [AI Image Generator](#ai-image-generator)
@@ -65,10 +67,12 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [AI Meeting Assistant](#ai-meeting-assistant)
 - [AI Monitor](#ai-monitor)
 - [AI News](#ai-news)
+- [AI Note Taker](#ai-note-taker)
 - [AI Observability](#ai-observability)
 - [AI PDF](#ai-pdf)
 - [AI Presentation Generator](#ai-presentation-generator)
 - [AI Productivity Tools](#ai-productivity-tools)
+- [AI Project Management](#ai-project-management)
 - [AI Prompt](#ai-prompt)
 - [AI Prompt Generator](#ai-prompt-generator)
 - [AI Reader](#ai-reader)
@@ -105,6 +109,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [AI Website Designer](#ai-website-designer)
 - [AI Workflow](#ai-workflow)
 - [AI Writing Assistants](#ai-writing-assistants)
+- [AI YouTube](#ai-youtube)
 - [AI Youtube Summary](#ai-youtube-summary)
 - [Chord AI](#chord-ai)
 - [Google Ads AI](#google-ads-ai)
@@ -123,6 +128,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 
 ## AI Agent
 
+- [Stitch Loop](https://www.tolsai.com/tools/google-stitch-loop-product-agent) — Google Labs product agent that watches live metrics, finds fixes and opens GitHub pull requests for your approval. （[中文](https://www.tolsai.com/zh/tools/google-stitch-loop-product-agent)：Google Labs 的产品 Agent：盯着线上指标找改进点，写好代码开 GitHub PR 等你批准。） `added 2026-11-22`
+- [UndoGuard](https://www.tolsai.com/tools/undoguard-rollback-for-ai-agents) — Ctrl+Z for AI agents: a rollback proxy and MCP server that undoes agent API calls or whole sessions. （[中文](https://www.tolsai.com/zh/tools/undoguard-rollback-for-ai-agents)：AI Agent 的「撤销键」：回滚代理 + MCP 服务器，一次调用撤回 Agent 的 API 操作或整段会话。） `added 2026-11-22`
 - [TalkTo](https://www.tolsai.com/tools/talkto-messaging-for-coding-agents) — Channels and direct chats for coding agents: let Claude Code, Codex, Cursor and others message each other. （[中文](https://www.tolsai.com/zh/tools/talkto-messaging-for-coding-agents)：给 AI 编程助手用的群聊和私聊：让 Claude Code、Codex、Cursor 互相交接任务。） `added 2026-11-21`
 - [Sandscale](https://www.tolsai.com/tools/sandscale-ai-agent-sandboxes) — Firecracker microVM sandboxes, workspaces and build machines for AI agents, started in one call. （[中文](https://www.tolsai.com/zh/tools/sandscale-ai-agent-sandboxes)：给 AI Agent 用的云沙箱：Firecracker 微虚拟机，一次调用即可启动，可免费开始。） `added 2026-11-21`
 - [OpenComputer](https://www.tolsai.com/tools/opencomputer-open-source-devin-alternative) — Open-source, self-hostable Devin alternative: assign coding tasks in Slack and get pull requests back. （[中文](https://www.tolsai.com/zh/tools/opencomputer-open-source-devin-alternative)：开源、可自托管的 Devin 替代品：在 Slack 里派编程任务，直接拿回 PR。） `added 2026-11-21`
@@ -258,6 +265,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 
 ## AI Code Assistant
 
+- [Pi](https://www.tolsai.com/tools/pi-minimal-coding-agent-harness) — Minimal, extensible open-source coding agent for the terminal: add extensions, skills and prompts to fit your workflow. （[中文](https://www.tolsai.com/zh/tools/pi-minimal-coding-agent-harness)：极简、可扩展的开源终端编程 Agent：用扩展、技能和提示词模板按自己的习惯改造。） `added 2026-11-22`
 - [Prime Agent](https://www.tolsai.com/tools/prime-agent-self-improving-coding-agent) — Open-source, self-improving coding and research agent from Prime Intellect, built on a Recursive Language Model harness. （[中文](https://www.tolsai.com/zh/tools/prime-agent-self-improving-coding-agent)：Prime Intellect 开源的自我改进型编程与研究 Agent，基于递归语言模型（RLM）框架。） `added 2026-11-18`
 - [Agav](https://www.tolsai.com/tools/agav-terminal-ai-coding-agent) — Open-source terminal coding agent for real repositories, built to waste fewer tokens; works with OpenRouter, NIM or Ollama. （[中文](https://www.tolsai.com/zh/tools/agav-terminal-ai-coding-agent)：开源终端 AI 编程 Agent：直接在真实代码仓库里读代码、改文件、跑测试，主打省 token。） `added 2026-11-18`
 - [Foxpit](https://www.tolsai.com/tools/foxpit-ai-coding-team) — Desktop orchestrator that runs Claude Code, Codex, OpenCode and Antigravity as one team with a lead agent and shared memory. （[中文](https://www.tolsai.com/zh/tools/foxpit-ai-coding-team)：把 Claude Code、Codex、OpenCode、Antigravity 组成一个团队的桌面编排工具：主 Agent 拆任务，团队共享记忆。） `added 2026-11-13`
@@ -314,8 +322,13 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [12-Factor Agents](https://www.tolsai.com/tools/12-factor-agents) — Free guide to 12 principles for building reliable, production-ready LLM agents, from HumanLayer. （[中文](https://www.tolsai.com/zh/tools/12-factor-agents)：HumanLayer 出品的免费指南：构建可靠、可上线的大模型 Agent 的 12 条原则。） `added 2026-11-09`
 - [OpenMAIC](https://www.tolsai.com/tools/openmaic) — Open Multi-Agent Interactive Classroom: turns any topic or document into an interactive class with AI teachers, classmates, slides and quizzes. （[中文](https://www.tolsai.com/zh/tools/openmaic)：开放式多智能体互动课堂：把任意主题或文档变成有 AI 老师、AI 同学、课件和测验的互动课。） `added 2026-11-01`
 
+## AI CRM
+
+- [Twenty](https://www.tolsai.com/tools/twenty-open-source-ai-crm) — Open-source Salesforce alternative designed for AI: a CRM you build, ship and version like code. （[中文](https://www.tolsai.com/zh/tools/twenty-open-source-ai-crm)：为 AI 设计的开源 Salesforce 替代品：像写代码一样搭建、发布和版本管理 CRM。） `added 2026-11-22`
+
 ## AI Customer Service
 
+- [InteraOne](https://www.tolsai.com/tools/interaone-open-source-intercom-alternative) — Open-source, self-hosted Intercom and Zendesk alternative with AI agents in one shared inbox. （[中文](https://www.tolsai.com/zh/tools/interaone-open-source-intercom-alternative)：开源、可自托管的 Intercom / Zendesk 替代品：AI 客服和人工客服共用一个收件箱。） `added 2026-11-22`
 - [Chatty by PersonaliAI](https://www.tolsai.com/tools/chatty-personaliai) — Open-source, self-hostable AI customer support agent with WooCommerce sync, human takeover and website, WhatsApp and Slack channels. （[中文](https://www.tolsai.com/zh/tools/chatty-personaliai)：开源可自托管的 AI 客服 Agent：同步 WooCommerce、支持人工接管，覆盖网站、WhatsApp 和 Slack。） `added 2026-11-11`
 
 ## AI Design Assistant
@@ -335,6 +348,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 
 ## AI Developer Tools
 
+- [WaitFeed](https://www.tolsai.com/tools/waitfeed-news-ticker-coding-agents) — Open-source terminal news ticker that appears only while Claude Code, OpenCode or Antigravity is working. （[中文](https://www.tolsai.com/zh/tools/waitfeed-news-ticker-coding-agents)：AI 编程 Agent 干活时在终端显示科技资讯的开源小工具，Agent 一停就消失。） `added 2026-11-22`
+- [App Store Compliance Playbook](https://www.tolsai.com/tools/app-store-compliance-rejection-guard) — Free playbook and pre-submission guard that catches App Store and Google Play rejection causes, runnable in Claude Code. （[中文](https://www.tolsai.com/zh/tools/app-store-compliance-rejection-guard)：免费的 App Store / Google Play 被拒原因手册和提交前检查，可在 Claude Code 里一键扫描。） `added 2026-11-22`
 - [ScreenClip](https://www.tolsai.com/tools/screenclip-screenshot-feedback-for-coding-agents) — Mac app that turns a screenshot and a few words into a task for your AI coding agent, ending in a pull request. （[中文](https://www.tolsai.com/zh/tools/screenclip-screenshot-feedback-for-coding-agents)：Mac 应用：截图加几句话，就交给 AI 编程 Agent 修复并提 PR。） `added 2026-11-20`
 - [MarkItDown](https://www.tolsai.com/tools/microsoft-markitdown-file-to-markdown) — Microsoft's open-source Python tool that converts PDF, Office files, audio, HTML and more into Markdown for LLMs. （[中文](https://www.tolsai.com/zh/tools/microsoft-markitdown-file-to-markdown)：微软开源的 Python 工具：把 PDF、Office、音频、HTML 等文件转成 Markdown 供 LLM 使用。） `added 2026-11-20`
 - [CC-Switch CLI](https://www.tolsai.com/tools/cc-switch-cli) — Terminal version of CC-Switch: switch providers and configs for Claude Code, Codex and Gemini CLI. （[中文](https://www.tolsai.com/zh/tools/cc-switch-cli)：CC-Switch 命令行版：在终端里切换 Claude Code、Codex、Gemini CLI 的供应商和配置。） `added 2026-11-19`
@@ -454,6 +469,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [WordSpies](https://www.tolsai.com/tools/wordspies-ai-word-game) — NLP word-association game you play with friends, AI teammates, or both - with clue quality and win-chance feedback. （[中文](https://www.tolsai.com/zh/tools/wordspies-ai-word-game)：NLP 词语联想游戏：可与好友、AI 队友或两者同玩，并反馈线索质量与胜率变化。） `added 2026-11-07`
 - [Uncracked City](https://www.tolsai.com/tools/uncracked-city) — Detective game set in real cities where you question AI suspects by typing or speaking, catch the one who lies, and file your report. （[中文](https://www.tolsai.com/zh/tools/uncracked-city)：以真实城市为背景的侦探游戏：打字或语音审问 AI 嫌疑人，找出撒谎的人并提交结案报告。） `added 2026-11-05`
 
+## AI GitHub
+
+- [gitroots](https://www.tolsai.com/tools/gitroots-path-level-github-access-ai-agents) — Path-level GitHub access control for developers, contractors and AI coding agents, with approvals and audit log. （[中文](https://www.tolsai.com/zh/tools/gitroots-path-level-github-access-ai-agents)：按目录授权的 GitHub 权限管理：给外包和 AI 编程 Agent 只开放需要的路径，带审批和审计日志。） `added 2026-11-22`
+
 ## AI Graphic Design
 
 - [Grafista](https://www.tolsai.com/tools/grafista) — An AI graphic designer that turns your text and images into editable posts, decks and flyers. （[中文](https://www.tolsai.com/zh/tools/grafista)：AI 平面设计师：把你的文字和图片变成可编辑的海报、PPT 和传单。） `added 2026-10-22`
@@ -553,6 +572,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 
 - [Horizon](https://www.tolsai.com/tools/horizon-ai-news-radar) — Open-source AI news radar that collects, scores and deduplicates stories from RSS, Hacker News, Reddit, X and more into daily English and Chinese briefings. （[中文](https://www.tolsai.com/zh/tools/horizon-ai-news-radar)：开源 AI 新闻雷达：从 RSS、Hacker News、Reddit、X 等来源抓取、打分、去重，每天生成中英文简报。） `added 2026-11-05`
 
+## AI Note Taker
+
+- [EdgeEver](https://www.tolsai.com/tools/edgeever-open-source-ai-notes) — Open-source, AI-native Evernote and Obsidian alternative with instant sync, web clipper and MCP; free on Cloudflare. （[中文](https://www.tolsai.com/zh/tools/edgeever-open-source-ai-notes)：开源 AI 笔记，Evernote、Obsidian 替代品：多端秒同步、网页剪藏、MCP，部署在 Cloudflare 免费额度内。） `added 2026-11-22`
+
 ## AI Observability
 
 - [three.dev](https://www.tolsai.com/tools/three-dev-agent-failure-detection) — Scores your AI agent's live traffic, groups failures by root cause and compares before and after fixes. （[中文](https://www.tolsai.com/zh/tools/three-dev-agent-failure-detection)：给线上 AI Agent 的每次对话打分：自动发现问题、按根因归类失败模式，并对比修复前后效果。） `added 2026-11-13`
@@ -574,6 +597,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [Cirkit](https://www.tolsai.com/tools/cirkit) — Schematic workspace for hardware teams: upload a schematic PDF to get BOM-aware parts, notes, live equations, trace maps and an AI that reads the page. （[中文](https://www.tolsai.com/zh/tools/cirkit)：面向硬件团队的原理图工作台：上传原理图 PDF，得到关联 BOM 的元件、批注、实时公式、走线图和能读懂图纸的 AI。） `added 2026-10-29`
 - [SkillScout](https://www.tolsai.com/tools/skillscout) — Ranks AI skills, plugins, MCP servers and apps by how you work—not by popularity—using a profile your AI writes. （[中文](https://www.tolsai.com/zh/tools/skillscout)：按「你怎么工作」而不是按热度，给 AI 技能、插件、MCP 与应用打分排序；画像由你的 AI 生成。） `added 2026-10-28`
 - [Anthropic Knowledge Work Plugins](https://www.tolsai.com/tools/anthropics-knowledge-work-plugins) — Anthropic's open-source plugins for knowledge workers using Claude Cowork. （[中文](https://www.tolsai.com/zh/tools/anthropics-knowledge-work-plugins)：Anthropic 官方开源的知识工作者插件集，用于 Claude Cowork。） `added 2026-10-20`
+
+## AI Project Management
+
+- [It's a Plan](https://www.tolsai.com/tools/its-a-plan-open-source-linear-alternative-ai-agents) — Open-source, self-hosted Linear alternative where AI agents take issues like teammates. （[中文](https://www.tolsai.com/zh/tools/its-a-plan-open-source-linear-alternative-ai-agents)：开源、可自托管的 Linear 替代品：AI Agent 像队友一样认领 Issue。） `added 2026-11-22`
 
 ## AI Prompt
 
@@ -790,6 +817,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 - [SimpleEnglish](https://www.tolsai.com/tools/simpleenglish-agent-skill) — An open-source agent skill that makes LLMs write plain English with the discipline of ASD-STE100 Simplified Technical English. （[中文](https://www.tolsai.com/zh/tools/simpleenglish-agent-skill)：开源 Agent 技能：让大模型按 ASD-STE100 简化技术英语的规范写出直白、无歧义的英文。） `added 2026-11-12`
 - [editmd](https://www.tolsai.com/tools/editmd) — Native macOS WYSIWYG markdown editor that merges an AI agent's edits into the open file in real time instead of clobbering yours. （[中文](https://www.tolsai.com/zh/tools/editmd)：macOS 原生所见即所得 Markdown 编辑器：AI 智能体改文件时实时合并，不会覆盖你的修改。） `added 2026-10-24`
 
+## AI YouTube
+
+- [Fack'd](https://www.tolsai.com/tools/fackd-youtube-fact-checker) — AI fact-checker for YouTube: rates claims in interviews and debates as they play, with cited sources. （[中文](https://www.tolsai.com/zh/tools/fackd-youtube-fact-checker)：YouTube AI 事实核查：边看访谈、辩论边给说法打分，并附上来源。） `added 2026-11-22`
+
 ## AI Youtube Summary
 
 - [FrameCap](https://www.tolsai.com/tools/framecap) — Free Chrome extension that lets ChatGPT, Claude, Gemini or Perplexity 'watch' a YouTube video by capturing its transcript plus timestamped frames. （[中文](https://www.tolsai.com/zh/tools/framecap)：免费 Chrome 插件：抓取 YouTube 视频的字幕和带时间戳的画面，让 ChatGPT、Claude、Gemini、Perplexity 能“看”视频。） `added 2026-10-24`
@@ -813,6 +844,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-21](daily/2026-11-21.md) �
 
 ## Large Language Models (LLMs)
 
+- [TorchTitan](https://www.tolsai.com/tools/torchtitan-pytorch-llm-training) — PyTorch-native platform for pretraining, fine-tuning and RL of large generative AI models at scale. （[中文](https://www.tolsai.com/zh/tools/torchtitan-pytorch-llm-training)：PyTorch 官方原生的大模型训练平台：预训练、微调到强化学习一套代码搞定。） `added 2026-11-22`
 - [MiniMind](https://www.tolsai.com/tools/minimind-train-small-llm-from-scratch) — Train a ~64M-parameter LLM from scratch in about 2 hours on one GPU, with the full pipeline in plain PyTorch. （[中文](https://www.tolsai.com/zh/tools/minimind-train-small-llm-from-scratch)：从零训练大模型：单卡约 2 小时训出 64M 参数小语言模型，全流程纯 PyTorch 实现。） `added 2026-11-18`
 - [Tokspur](https://www.tolsai.com/tools/tokspur) — Open-source local inference engine that runs a large Qwen model on an M5 Max Mac and serves an OpenAI-compatible API. （[中文](https://www.tolsai.com/zh/tools/tokspur)：开源 Mac 本地推理引擎：在 M5 Max 上本地运行大型 Qwen 模型，并提供 OpenAI 兼容接口。） `added 2026-11-11`
 - [llmfit](https://www.tolsai.com/tools/llmfit) — A terminal tool that detects your hardware and tells you which local LLMs and quantizations will actually run well. （[中文](https://www.tolsai.com/zh/tools/llmfit)：一条命令检测你的硬件，告诉你哪些本地大模型和量化版本能真正跑得动。） `added 2026-11-11`
