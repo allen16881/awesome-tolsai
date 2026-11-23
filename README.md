@@ -15,11 +15,11 @@ Static category and language pages (also on [GitHub Pages](https://allen16881.gi
 
 ## Today's open-source picks / 今日开源推荐
 
-- [Pi](https://www.tolsai.com/tools/pi-minimal-coding-agent-harness) · [GitHub](https://github.com/earendil-works/pi) — Minimal, extensible open-source coding agent for the terminal: add extensions, skills and prompts to fit your workflow.
-- [Twenty](https://www.tolsai.com/tools/twenty-open-source-ai-crm) · [GitHub](https://github.com/twentyhq/twenty) — Open-source Salesforce alternative designed for AI: a CRM you build, ship and version like code.
-- [TorchTitan](https://www.tolsai.com/tools/torchtitan-pytorch-llm-training) · [GitHub](https://github.com/pytorch/torchtitan) — PyTorch-native platform for pretraining, fine-tuning and RL of large generative AI models at scale.
+- [Worker 755](https://www.tolsai.com/tools/worker-755-ai-manager-subagent-game) · [GitHub](https://github.com/gulivan/worker755) — Browser game where an AI manager thinks you are its subagent: finish its terminal tasks within 90 seconds.
+- [ClawVet](https://www.tolsai.com/tools/clawvet-ai-agent-skill-security-scanner) · [GitHub](https://github.com/MohibShaikh/clawvet) — Security scanner for AI agent skills: check SKILL.md, rules, hooks and MCP configs before they run.
+- [Relaticle](https://www.tolsai.com/tools/relaticle-open-source-ai-crm) · [GitHub](https://github.com/relaticle/relaticle) — Open-source AI CRM: let Claude, ChatGPT or your own agent work in your sales pipeline over MCP.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -265,6 +265,9 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Code Assistant
 
+- [KeepPlain](https://www.tolsai.com/tools/keepplain-git-blame-agent-sessions) — Git blame for AI agent sessions: see which Claude Code, Codex or Cursor session wrote a line and why. （[中文](https://www.tolsai.com/zh/tools/keepplain-git-blame-agent-sessions)：AI Agent 会话版 git blame：查出某行代码是哪个 Claude Code、Codex 或 Cursor 会话写的、为什么这样写。） `added 2026-11-23`
+- [trix](https://www.tolsai.com/tools/trix-terminal-workspace-coding-agents) — Terminal workspace for coding agents: see which agent is working, waiting for you or finished. （[中文](https://www.tolsai.com/zh/tools/trix-terminal-workspace-coding-agents)：编程 Agent 的终端工作台：一眼看出哪个 Agent 在干活、在等你、已完成。） `added 2026-11-23`
+- [agent-mcts](https://www.tolsai.com/tools/agent-mcts-monte-carlo-tree-search-coding-agents) — Monte Carlo tree search for coding agents: run Claude Code on several branches and apply the best result. （[中文](https://www.tolsai.com/zh/tools/agent-mcts-monte-carlo-tree-search-coding-agents)：给编程 Agent 加上蒙特卡洛树搜索：让 Claude Code 多路尝试，自动选出最佳结果。） `added 2026-11-23`
 - [Pi](https://www.tolsai.com/tools/pi-minimal-coding-agent-harness) — Minimal, extensible open-source coding agent for the terminal: add extensions, skills and prompts to fit your workflow. （[中文](https://www.tolsai.com/zh/tools/pi-minimal-coding-agent-harness)：极简、可扩展的开源终端编程 Agent：用扩展、技能和提示词模板按自己的习惯改造。） `added 2026-11-22`
 - [Prime Agent](https://www.tolsai.com/tools/prime-agent-self-improving-coding-agent) — Open-source, self-improving coding and research agent from Prime Intellect, built on a Recursive Language Model harness. （[中文](https://www.tolsai.com/zh/tools/prime-agent-self-improving-coding-agent)：Prime Intellect 开源的自我改进型编程与研究 Agent，基于递归语言模型（RLM）框架。） `added 2026-11-18`
 - [Agav](https://www.tolsai.com/tools/agav-terminal-ai-coding-agent) — Open-source terminal coding agent for real repositories, built to waste fewer tokens; works with OpenRouter, NIM or Ollama. （[中文](https://www.tolsai.com/zh/tools/agav-terminal-ai-coding-agent)：开源终端 AI 编程 Agent：直接在真实代码仓库里读代码、改文件、跑测试，主打省 token。） `added 2026-11-18`
@@ -310,6 +313,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Code Review
 
+- [Taskless](https://www.tolsai.com/tools/taskless-deterministic-rules-for-ai-agents) — Rules for AI coding agents: turn team conventions into checks that run on every commit and pull request. （[中文](https://www.tolsai.com/zh/tools/taskless-deterministic-rules-for-ai-agents)：给 AI 编程 Agent 的规则：把团队约定变成每次提交和 PR 都会执行的检查。） `added 2026-11-23`
 - [improve (shadcn)](https://www.tolsai.com/tools/shadcn-improve-agent-skill) — An open-source agent skill by shadcn that audits any codebase and writes implementation plans for cheaper agents to execute. （[中文](https://www.tolsai.com/zh/tools/shadcn-improve-agent-skill)：shadcn 开源的 Agent 技能：先审计整个代码库，再写出可交给更便宜模型执行的实施计划。） `added 2026-11-12`
 - [LiveReview](https://www.tolsai.com/tools/livereview) — Risk-aware AI code review that safely auto-approves low-risk pull requests. （[中文](https://www.tolsai.com/zh/tools/livereview)：面向关键业务系统的风险感知 AI 代码审查，可安全地自动批准低风险 PR。） `added 2026-11-10`
 - [Open Code Review](https://www.tolsai.com/tools/open-code-review) — Alibaba's open-source AI code review CLI that combines deterministic file selection with an LLM agent for line-level review comments. （[中文](https://www.tolsai.com/zh/tools/open-code-review)：阿里巴巴开源的 AI 代码审查命令行工具，用确定性工程选文件、再由大模型智能体给出精确到行的审查意见。） `added 2026-10-31`
@@ -324,6 +328,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI CRM
 
+- [Relaticle](https://www.tolsai.com/tools/relaticle-open-source-ai-crm) — Open-source AI CRM: let Claude, ChatGPT or your own agent work in your sales pipeline over MCP. （[中文](https://www.tolsai.com/zh/tools/relaticle-open-source-ai-crm)：开源 AI CRM：让 Claude、ChatGPT 或自建 Agent 通过 MCP 直接打理销售管道。） `added 2026-11-23`
 - [Twenty](https://www.tolsai.com/tools/twenty-open-source-ai-crm) — Open-source Salesforce alternative designed for AI: a CRM you build, ship and version like code. （[中文](https://www.tolsai.com/zh/tools/twenty-open-source-ai-crm)：为 AI 设计的开源 Salesforce 替代品：像写代码一样搭建、发布和版本管理 CRM。） `added 2026-11-22`
 
 ## AI Customer Service
@@ -430,6 +435,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Email Assistant
 
+- [Glassmail](https://www.tolsai.com/tools/glassmail-private-ai-email-app-mac) — Native Mac email app with private on-device AI: summaries, replies in your voice and inbox triage, pay once. （[中文](https://www.tolsai.com/zh/tools/glassmail-private-ai-email-app-mac)：Mac 原生邮件 App，AI 只在本机运行：总结长邮件、按你的口吻回信、快速清空收件箱，一次买断。） `added 2026-11-23`
 - [MailDignity](https://www.tolsai.com/tools/maildignity-ai-email-filter) — Guardrail for AI-written outbound email: flags slop, bot flattery and high-friction asks, with API and MCP for agents. （[中文](https://www.tolsai.com/zh/tools/maildignity-ai-email-filter)：AI 外发邮件的“体面过滤器”：拦截 AI 腔、机器奉承和高门槛请求，提供 API 与 MCP。） `added 2026-11-08`
 - [Koltrix](https://www.tolsai.com/tools/koltrix-ai-team-inbox) — AI-run team inbox and email API: shared inbox on your domain, agents with their own addresses, plus SMTP relay and MCP. （[中文](https://www.tolsai.com/zh/tools/koltrix-ai-team-inbox)：由 AI 打理的团队收件箱 + 邮件 API：自有域名共享邮箱、Agent 独立地址，附 SMTP 中继与 MCP。） `added 2026-11-08`
 - [Pidgeon](https://www.tolsai.com/tools/pidgeon-ai) — EU-hosted email inboxes for AI agents, with an API, webhooks, IMAP/SMTP, MCP and a firewall that screens inbound mail. （[中文](https://www.tolsai.com/zh/tools/pidgeon-ai)：为 AI 智能体提供的欧盟托管邮箱：API、Webhook、IMAP/SMTP、MCP，以及会筛查来信的防火墙。） `added 2026-10-30`
@@ -466,6 +472,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Games
 
+- [Worker 755](https://www.tolsai.com/tools/worker-755-ai-manager-subagent-game) — Browser game where an AI manager thinks you are its subagent: finish its terminal tasks within 90 seconds. （[中文](https://www.tolsai.com/zh/tools/worker-755-ai-manager-subagent-game)：AI 当老板的浏览器游戏：你扮演它派出的子 Agent，在终端里 90 秒内完成任务。） `added 2026-11-23`
 - [WordSpies](https://www.tolsai.com/tools/wordspies-ai-word-game) — NLP word-association game you play with friends, AI teammates, or both - with clue quality and win-chance feedback. （[中文](https://www.tolsai.com/zh/tools/wordspies-ai-word-game)：NLP 词语联想游戏：可与好友、AI 队友或两者同玩，并反馈线索质量与胜率变化。） `added 2026-11-07`
 - [Uncracked City](https://www.tolsai.com/tools/uncracked-city) — Detective game set in real cities where you question AI suspects by typing or speaking, catch the one who lies, and file your report. （[中文](https://www.tolsai.com/zh/tools/uncracked-city)：以真实城市为背景的侦探游戏：打字或语音审问 AI 嫌疑人，找出撒谎的人并提交结案报告。） `added 2026-11-05`
 
@@ -578,6 +585,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Observability
 
+- [Agent Doctor](https://www.tolsai.com/tools/agent-doctor-ai-agent-debugging) — Debugging for AI agent pipelines: trace each step and let experts re-run with new prompts, no redeploy. （[中文](https://www.tolsai.com/zh/tools/agent-doctor-ai-agent-debugging)：AI Agent 流程调试：追踪每一步，让业务专家改提示词重跑，无需重新部署。） `added 2026-11-23`
 - [three.dev](https://www.tolsai.com/tools/three-dev-agent-failure-detection) — Scores your AI agent's live traffic, groups failures by root cause and compares before and after fixes. （[中文](https://www.tolsai.com/zh/tools/three-dev-agent-failure-detection)：给线上 AI Agent 的每次对话打分：自动发现问题、按根因归类失败模式，并对比修复前后效果。） `added 2026-11-13`
 - [Traccia](https://www.tolsai.com/tools/traccia) — OpenTelemetry-native control plane for AI agent observability, evaluation, governance and runtime policy. （[中文](https://www.tolsai.com/zh/tools/traccia)：基于 OpenTelemetry 的 AI Agent 控制平面：可观测、评测、治理与运行时策略管控。） `added 2026-11-10`
 - [OpenObserve](https://www.tolsai.com/tools/openobserve-llm-observability) — Open-source observability platform for logs, metrics, traces, RUM and AI/LLM observability, positioned as a lower-cost Datadog and Elasticsearch alternative. （[中文](https://www.tolsai.com/zh/tools/openobserve-llm-observability)：开源可观测性平台：统一日志、指标、链路追踪、前端监控（RUM）和 AI/LLM 可观测性，定位为更低成本的 Datadog、Elasticsearch 替代品。） `added 2026-11-05`
@@ -620,6 +628,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Research Tool
 
+- [OpenNotebook](https://www.tolsai.com/tools/opennotebook-self-hosted-notebooklm-alternative) — Open-source NotebookLM alternative you host yourself: turn sources into narrated decks, audio overviews and mind maps. （[中文](https://www.tolsai.com/zh/tools/opennotebook-self-hosted-notebooklm-alternative)：开源自部署的 NotebookLM 替代品：把资料变成带讲解的幻灯片、音频概览和思维导图。） `added 2026-11-23`
 - [KradleBench](https://www.tolsai.com/tools/kradlebench-multi-agent-ai-benchmark) — Multi-agent AI benchmark in Minecraft comparing frontier models on collaboration, conflict and creativity. （[中文](https://www.tolsai.com/zh/tools/kradlebench-multi-agent-ai-benchmark)：在《我的世界》里测多智能体能力的 AI 基准：比较大模型的协作、冲突和创造力。） `added 2026-11-19`
 - [Academic Research Skills](https://www.tolsai.com/tools/academic-research-skills) — Claude Code skills for the full academic pipeline: research, write, review, revise and finalize a paper with you in control. （[中文](https://www.tolsai.com/zh/tools/academic-research-skills)：面向 Claude Code 的学术研究技能套件：从调研、写作、评审、修改到定稿，全程由你把关。） `added 2026-11-11`
 - [Agentero](https://www.tolsai.com/tools/agentero) — An open-source research workspace for humans and agents: PDF Q&A with citations, notes, translation and MCP. （[中文](https://www.tolsai.com/zh/tools/agentero)：开源科研工作台，为人与 Agent 协作设计：带引用的 PDF 问答、双链笔记、翻译与 MCP。） `added 2026-11-09`
@@ -638,6 +647,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Security
 
+- [ClawVet](https://www.tolsai.com/tools/clawvet-ai-agent-skill-security-scanner) — Security scanner for AI agent skills: check SKILL.md, rules, hooks and MCP configs before they run. （[中文](https://www.tolsai.com/zh/tools/clawvet-ai-agent-skill-security-scanner)：AI Agent 技能安全扫描：安装前检查 SKILL.md、规则、钩子和 MCP 配置。） `added 2026-11-23`
 - [Shielda Agent Guard](https://www.tolsai.com/tools/shielda-agent-guard-tool-call-authorization) — Open-source TypeScript library that limits which tool calls an AI agent can make, even after prompt injection. （[中文](https://www.tolsai.com/zh/tools/shielda-agent-guard-tool-call-authorization)：开源 TypeScript 库：限制 AI Agent 能调用哪些工具，即使被提示词注入也不越权。） `added 2026-11-21`
 - [Claude BugHunter](https://www.tolsai.com/tools/claude-bughunter-bug-bounty-skills) — Claude Code skill bundle for bug bounty and red-team work, built from 681 disclosed vulnerability reports. （[中文](https://www.tolsai.com/zh/tools/claude-bughunter-bug-bounty-skills)：Claude Code 漏洞挖掘技能包：基于 681 份公开漏洞报告，适合漏洞赏金和红队测试。） `added 2026-11-21`
 - [Claude Code Security Review](https://www.tolsai.com/tools/claude-code-security-review-github-action) — Anthropic's open-source GitHub Action that uses Claude to review pull requests for security vulnerabilities. （[中文](https://www.tolsai.com/zh/tools/claude-code-security-review-github-action)：Anthropic 官方开源 GitHub Action：用 Claude 自动审查 PR 的安全漏洞。） `added 2026-11-19`
@@ -714,6 +724,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Testing
 
+- [RMRFBench](https://www.tolsai.com/tools/rmrfbench-ai-agent-safety-benchmark) — Benchmark that ranks AI agents by how often the server survives a routine deletion task with root shell access. （[中文](https://www.tolsai.com/zh/tools/rmrfbench-ai-agent-safety-benchmark)：AI Agent 删库风险评测：给 root 权限做日常删除任务，按服务器“存活率”给模型排名。） `added 2026-11-23`
 - [StateWeave](https://www.tolsai.com/tools/stateweave) — Test AI agents on working, stateful clones of Slack, Salesforce, Gmail, Shopify and more, with graded runs and fault injection. （[中文](https://www.tolsai.com/zh/tools/stateweave)：在 Slack、Salesforce、Gmail、Shopify 等应用的可用“克隆体”上测试 AI Agent，带评分和故障注入。） `added 2026-11-17`
 - [Attest](https://www.tolsai.com/tools/attest-ai-agent-testing-framework) — Open-source Python/TypeScript framework to test what AI agents say, do and change, with record-and-replay in CI. （[中文](https://www.tolsai.com/zh/tools/attest-ai-agent-testing-framework)：开源 Python/TypeScript 框架，测试 AI Agent 说了什么、做了什么、改了什么，CI 里可录制回放。） `added 2026-11-16`
 - [Plurai Simulation](https://www.tolsai.com/tools/plurai-simulation) — Simulates the tools, sub-agents and knowledge around your AI agent to find where it breaks, and returns verified fixes in Claude Code, Codex or Copilot CLI. （[中文](https://www.tolsai.com/zh/tools/plurai-simulation)：给 AI Agent 搭一个模拟世界（工具、子 Agent、知识库），找出它在哪儿出错，并在 Claude Code、Codex 里给出已验证的修复。） `added 2026-11-14`
@@ -765,6 +776,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-22](daily/2026-11-22.md) �
 
 ## AI Video Generator
 
+- [TeaserKit](https://www.tolsai.com/tools/teaserkit-ai-launch-video-coding-agent) — Launch video maker for coding agents: Claude Code, Codex or Cursor directs a product film from your repo. （[中文](https://www.tolsai.com/zh/tools/teaserkit-ai-launch-video-coding-agent)：让编程 Agent 当导演做产品发布视频：Claude Code、Codex 或 Cursor 读你的代码库直接出片。） `added 2026-11-23`
 - [FreeVideo](https://www.tolsai.com/tools/freevideo-local-ai-video-comfyui) — Open-source local inference engine that runs MiniMax H3 video generation on consumer GPUs from 8 GB of VRAM. （[中文](https://www.tolsai.com/zh/tools/freevideo-local-ai-video-comfyui)：开源本地视频生成引擎：在消费级显卡上运行 MiniMax H3，最低 8GB 显存。） `added 2026-11-20`
 - [Pine Drama Studio](https://www.tolsai.com/tools/pine-drama-studio) — Open-source desktop studio for AI short dramas: agents turn a screenplay into characters, storyboards, shots and cuts you approve. （[中文](https://www.tolsai.com/zh/tools/pine-drama-studio)：开源的 AI 短剧桌面工作室：Agent 把剧本变成角色、分镜、镜头和成片，由你逐步审核。） `added 2026-11-17`
 - [HyperFlow H3 Flash](https://www.tolsai.com/tools/hyperflow-h3-flash) — Open few-step video+audio diffusion model: a 14B compressed MiniMax-H3 that makes clips with synchronized stereo sound. （[中文](https://www.tolsai.com/zh/tools/hyperflow-h3-flash)：开源少步数音视频扩散模型：把 MiniMax-H3 压缩到约 14B，生成带同步立体声的视频。） `added 2026-11-08`
