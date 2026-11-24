@@ -15,11 +15,11 @@ Static category and language pages (also on [GitHub Pages](https://allen16881.gi
 
 ## Today's open-source picks / 今日开源推荐
 
-- [Worker 755](https://www.tolsai.com/tools/worker-755-ai-manager-subagent-game) · [GitHub](https://github.com/gulivan/worker755) — Browser game where an AI manager thinks you are its subagent: finish its terminal tasks within 90 seconds.
-- [ClawVet](https://www.tolsai.com/tools/clawvet-ai-agent-skill-security-scanner) · [GitHub](https://github.com/MohibShaikh/clawvet) — Security scanner for AI agent skills: check SKILL.md, rules, hooks and MCP configs before they run.
-- [Relaticle](https://www.tolsai.com/tools/relaticle-open-source-ai-crm) · [GitHub](https://github.com/relaticle/relaticle) — Open-source AI CRM: let Claude, ChatGPT or your own agent work in your sales pipeline over MCP.
+- [rig](https://www.tolsai.com/tools/0xplaygrounds-rig) · [GitHub](https://github.com/0xPlaygrounds/rig) — Open-source Rust library for building LLM apps and agents, with one interface to 20+ model providers.
+- [DaVinci Resolve MCP](https://www.tolsai.com/tools/davinci-resolve-mcp-server) · [GitHub](https://github.com/samuelgursky/davinci-resolve-mcp) — Open-source MCP server that lets AI assistants control DaVinci Resolve through its official Scripting API.
+- [slop-deps](https://www.tolsai.com/tools/slop-deps-hallucinated-package-scanner) · [GitHub](https://github.com/viditx/slop-deps) — Command-line scanner that catches AI-invented, non-existent dependencies before you run npm install.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-24](daily/2026-11-24.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -69,6 +69,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 - [AI News](#ai-news)
 - [AI Note Taker](#ai-note-taker)
 - [AI Observability](#ai-observability)
+- [AI OCR](#ai-ocr)
 - [AI PDF](#ai-pdf)
 - [AI Presentation Generator](#ai-presentation-generator)
 - [AI Productivity Tools](#ai-productivity-tools)
@@ -94,6 +95,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 - [AI Task Management](#ai-task-management)
 - [AI Testing](#ai-testing)
 - [AI Text-to-Speech](#ai-text-to-speech)
+- [AI Tools Directory](#ai-tools-directory)
 - [AI Translate](#ai-translate)
 - [AI Tutorial](#ai-tutorial)
 - [AI UX Design](#ai-ux-design)
@@ -128,6 +130,8 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 
 ## AI Agent
 
+- [GAL](https://www.tolsai.com/tools/gal-general-agent-loop-executor-sandbox) — Self-contained agent runtime with a kernel-level sandbox for CLI, desktop, IM and HTTP, no Docker needed. （[中文](https://www.tolsai.com/zh/tools/gal-general-agent-loop-executor-sandbox)：自带内核级沙箱的通用 Agent 运行时：CLI、桌面、IM、HTTP 一套引擎，无需 Docker。） `added 2026-11-24`
+- [AgentClock](https://www.tolsai.com/tools/agentclock-public-mcp-time-service) — Public MCP service that gives AI agents authoritative time, so they stop guessing dates and elapsed time. （[中文](https://www.tolsai.com/zh/tools/agentclock-public-mcp-time-service)：给 AI Agent 提供权威时间的公共 MCP 服务，不用再让模型猜日期和耗时。） `added 2026-11-24`
 - [Stitch Loop](https://www.tolsai.com/tools/google-stitch-loop-product-agent) — Google Labs product agent that watches live metrics, finds fixes and opens GitHub pull requests for your approval. （[中文](https://www.tolsai.com/zh/tools/google-stitch-loop-product-agent)：Google Labs 的产品 Agent：盯着线上指标找改进点，写好代码开 GitHub PR 等你批准。） `added 2026-11-22`
 - [UndoGuard](https://www.tolsai.com/tools/undoguard-rollback-for-ai-agents) — Ctrl+Z for AI agents: a rollback proxy and MCP server that undoes agent API calls or whole sessions. （[中文](https://www.tolsai.com/zh/tools/undoguard-rollback-for-ai-agents)：AI Agent 的「撤销键」：回滚代理 + MCP 服务器，一次调用撤回 Agent 的 API 操作或整段会话。） `added 2026-11-22`
 - [TalkTo](https://www.tolsai.com/tools/talkto-messaging-for-coding-agents) — Channels and direct chats for coding agents: let Claude Code, Codex, Cursor and others message each other. （[中文](https://www.tolsai.com/zh/tools/talkto-messaging-for-coding-agents)：给 AI 编程助手用的群聊和私聊：让 Claude Code、Codex、Cursor 互相交接任务。） `added 2026-11-21`
@@ -257,6 +261,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 
 ## AI Chatbot
 
+- [Offthread](https://www.tolsai.com/tools/offthread-anonymous-ai-chat-pii-redaction) — Anonymous AI chat with no login that masks emails, phone numbers and keys in your browser before sending. （[中文](https://www.tolsai.com/zh/tools/offthread-anonymous-ai-chat-pii-redaction)：无需登录的匿名 AI 聊天：邮箱、手机号、密钥先在浏览器里替换成占位符再发送。） `added 2026-11-24`
 - [Cherry Studio](https://www.tolsai.com/tools/cherry-studio-ai-workstation) — Open-source AI workstation for Windows, macOS and Linux: multi-model chat, agents, knowledge bases and image creation in one app. （[中文](https://www.tolsai.com/zh/tools/cherry-studio-ai-workstation)：开源 AI 工作站，支持 Windows、macOS、Linux：多模型对话、Agent、知识库和图像生成集于一个应用。） `added 2026-11-15`
 - [PocketPal AI](https://www.tolsai.com/tools/pocketpal-ai) — Open-source app that runs language models, voices and tools fully on your phone: private, offline and account-free. （[中文](https://www.tolsai.com/zh/tools/pocketpal-ai)：开源手机端 AI 助手：大模型、语音和工具全部在手机本地运行，隐私、离线、免注册。） `added 2026-11-11`
 - [Infinity](https://www.tolsai.com/tools/infinity-branched-ai-chat) — Free Mac AI app where every answer can branch into its own path, so you can follow every thought without losing context. （[中文](https://www.tolsai.com/zh/tools/infinity-branched-ai-chat)：免费的 Mac AI 应用：任意回答可分支出新路径，顺着每个想法探索而不丢上下文。） `added 2026-11-07`
@@ -338,6 +343,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 
 ## AI Design Assistant
 
+- [CadYam](https://www.tolsai.com/tools/codeyam-cadyam-describe-to-design-ai) — Desktop app for designing homes, gardens, furniture and 3D prints by describing them to your AI agent. （[中文](https://www.tolsai.com/zh/tools/codeyam-cadyam-describe-to-design-ai)：用对话描述来设计：把房子、花园、家具、3D 打印件说给 AI，得到精确图纸。） `added 2026-11-24`
 - [Antidraw](https://www.tolsai.com/tools/antidraw-ai-prototyping-canvas) — Open-source design canvas for coding agents where every frame is real React code from the component libraries you already use. （[中文](https://www.tolsai.com/zh/tools/antidraw-ai-prototyping-canvas)：开源的编程 Agent 设计画布：每个画框都是基于你现有组件库的真实 React 代码。） `added 2026-11-08`
 - [Astryx](https://www.tolsai.com/tools/meta-astryx-design-system) — Open-source design system from Meta built for people and coding agents working side by side (React 19 + StyleX). （[中文](https://www.tolsai.com/zh/tools/meta-astryx-design-system)：Meta 开源的设计系统，面向人与编程 Agent 一起协作（React 19 + StyleX）。） `added 2026-11-07`
 - [Figma Console MCP](https://www.tolsai.com/tools/figma-console-mcp) — MIT-licensed MCP server that turns your Figma design system into an API for AI: extract, write back, and run design-code checks. （[中文](https://www.tolsai.com/zh/tools/figma-console-mcp)：MIT 协议的 MCP 服务：把 Figma 设计系统变成 AI 可用的 API，支持提取、回写和设计-代码一致性检查。） `added 2026-11-06`
@@ -353,6 +359,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 
 ## AI Developer Tools
 
+- [Blobby](https://www.tolsai.com/tools/blobby-mac-notch-coding-agent-monitor) — Mac notch app that shows which Claude Code, Codex or Gemini CLI agents are working, finished or waiting. （[中文](https://www.tolsai.com/zh/tools/blobby-mac-notch-coding-agent-monitor)：给 Mac 刘海旁的编程 Agent 状态栏：一眼看出谁在跑、谁做完、谁在等你回答。） `added 2026-11-24`
 - [WaitFeed](https://www.tolsai.com/tools/waitfeed-news-ticker-coding-agents) — Open-source terminal news ticker that appears only while Claude Code, OpenCode or Antigravity is working. （[中文](https://www.tolsai.com/zh/tools/waitfeed-news-ticker-coding-agents)：AI 编程 Agent 干活时在终端显示科技资讯的开源小工具，Agent 一停就消失。） `added 2026-11-22`
 - [App Store Compliance Playbook](https://www.tolsai.com/tools/app-store-compliance-rejection-guard) — Free playbook and pre-submission guard that catches App Store and Google Play rejection causes, runnable in Claude Code. （[中文](https://www.tolsai.com/zh/tools/app-store-compliance-rejection-guard)：免费的 App Store / Google Play 被拒原因手册和提交前检查，可在 Claude Code 里一键扫描。） `added 2026-11-22`
 - [ScreenClip](https://www.tolsai.com/tools/screenclip-screenshot-feedback-for-coding-agents) — Mac app that turns a screenshot and a few words into a task for your AI coding agent, ending in a pull request. （[中文](https://www.tolsai.com/zh/tools/screenclip-screenshot-feedback-for-coding-agents)：Mac 应用：截图加几句话，就交给 AI 编程 Agent 修复并提 PR。） `added 2026-11-20`
@@ -592,6 +599,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 - [Nasiko](https://www.tolsai.com/tools/nasiko) — Open-source 'OpenRuntime' for AI agents: discovers the coding agents your team runs, tracks their spend by harness and model, and routes them to models you choose. （[中文](https://www.tolsai.com/zh/tools/nasiko)：开源的 AI 智能体“OpenRuntime”：发现团队在跑的编程智能体，按工具和模型统计花费，并把调用路由到你选的模型。） `added 2026-11-01`
 - [Flightdeck](https://www.tolsai.com/tools/flightdeck) — Self-hosted observability and control plane for AI agent fleets: live timelines, token budgets and MCP allow/block rules. （[中文](https://www.tolsai.com/zh/tools/flightdeck)：自托管的 AI 智能体机队可观测与控制面：实时时间线、Token 预算、MCP 允许/拦截规则。） `added 2026-10-28`
 
+## AI OCR
+
+- [OCRia-nano-1](https://www.tolsai.com/tools/llamaindex-ocria-nano-1-cpu-document-ocr) — LlamaIndex's 8.1M-parameter CPU document OCR that parses PDFs into Markdown or JSON with bounding boxes. （[中文](https://www.tolsai.com/zh/tools/llamaindex-ocria-nano-1-cpu-document-ocr)：LlamaIndex 的 8.1M 参数 CPU 文档 OCR：把 PDF 解析成带坐标的 Markdown 或 JSON。） `added 2026-11-24`
+
 ## AI PDF
 
 - [Gamma PDF](https://www.tolsai.com/tools/gamma-pdf-ai-paper-reader) — Open-source, self-hostable PDF reader for papers with outliner notes, live LaTeX and an AI that gives cited answers. （[中文](https://www.tolsai.com/zh/tools/gamma-pdf-ai-paper-reader)：开源、可自建的论文 PDF 阅读器，带大纲笔记、实时 LaTeX，AI 回答附原文引用。） `added 2026-11-16`
@@ -647,6 +658,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 
 ## AI Security
 
+- [slop-deps](https://www.tolsai.com/tools/slop-deps-hallucinated-package-scanner) — Command-line scanner that catches AI-invented, non-existent dependencies before you run npm install. （[中文](https://www.tolsai.com/zh/tools/slop-deps-hallucinated-package-scanner)：在 npm install 之前，拦住 AI 编造出来的不存在依赖包的命令行扫描器。） `added 2026-11-24`
 - [ClawVet](https://www.tolsai.com/tools/clawvet-ai-agent-skill-security-scanner) — Security scanner for AI agent skills: check SKILL.md, rules, hooks and MCP configs before they run. （[中文](https://www.tolsai.com/zh/tools/clawvet-ai-agent-skill-security-scanner)：AI Agent 技能安全扫描：安装前检查 SKILL.md、规则、钩子和 MCP 配置。） `added 2026-11-23`
 - [Shielda Agent Guard](https://www.tolsai.com/tools/shielda-agent-guard-tool-call-authorization) — Open-source TypeScript library that limits which tool calls an AI agent can make, even after prompt injection. （[中文](https://www.tolsai.com/zh/tools/shielda-agent-guard-tool-call-authorization)：开源 TypeScript 库：限制 AI Agent 能调用哪些工具，即使被提示词注入也不越权。） `added 2026-11-21`
 - [Claude BugHunter](https://www.tolsai.com/tools/claude-bughunter-bug-bounty-skills) — Claude Code skill bundle for bug bounty and red-team work, built from 681 disclosed vulnerability reports. （[中文](https://www.tolsai.com/zh/tools/claude-bughunter-bug-bounty-skills)：Claude Code 漏洞挖掘技能包：基于 681 份公开漏洞报告，适合漏洞赏金和红队测试。） `added 2026-11-21`
@@ -724,6 +736,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 
 ## AI Testing
 
+- [Wyrd](https://www.tolsai.com/tools/bohmian-wyrd-real-time-ai-verification) — Open-source building blocks that verify AI system behaviour in real time and return evidence-backed verdicts. （[中文](https://www.tolsai.com/zh/tools/bohmian-wyrd-real-time-ai-verification)：开源的 AI 系统实时验证组件：声明要求、观察真实行为，在执行时给出带证据的判定。） `added 2026-11-24`
 - [RMRFBench](https://www.tolsai.com/tools/rmrfbench-ai-agent-safety-benchmark) — Benchmark that ranks AI agents by how often the server survives a routine deletion task with root shell access. （[中文](https://www.tolsai.com/zh/tools/rmrfbench-ai-agent-safety-benchmark)：AI Agent 删库风险评测：给 root 权限做日常删除任务，按服务器“存活率”给模型排名。） `added 2026-11-23`
 - [StateWeave](https://www.tolsai.com/tools/stateweave) — Test AI agents on working, stateful clones of Slack, Salesforce, Gmail, Shopify and more, with graded runs and fault injection. （[中文](https://www.tolsai.com/zh/tools/stateweave)：在 Slack、Salesforce、Gmail、Shopify 等应用的可用“克隆体”上测试 AI Agent，带评分和故障注入。） `added 2026-11-17`
 - [Attest](https://www.tolsai.com/tools/attest-ai-agent-testing-framework) — Open-source Python/TypeScript framework to test what AI agents say, do and change, with record-and-replay in CI. （[中文](https://www.tolsai.com/zh/tools/attest-ai-agent-testing-framework)：开源 Python/TypeScript 框架，测试 AI Agent 说了什么、做了什么、改了什么，CI 里可录制回放。） `added 2026-11-16`
@@ -740,6 +753,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 - [VieNeu-TTS](https://www.tolsai.com/tools/vieneu-tts-vietnamese-voice-cloning) — On-device Vietnamese text-to-speech with instant voice cloning, 48 kHz audio and real-time CPU inference. （[中文](https://www.tolsai.com/zh/tools/vieneu-tts-vietnamese-voice-cloning)：本地运行的越南语语音合成，支持即时声音克隆、48 kHz 音质和 CPU 实时推理。） `added 2026-11-15`
 - [Narro](https://www.tolsai.com/tools/narro-ai-reader) — Open-source Chrome extension that reads web pages and Kindle Online Reader aloud with on-device AI voices or your own cloud TTS key. （[中文](https://www.tolsai.com/zh/tools/narro-ai-reader)：开源 Chrome 扩展：用本地运行的 AI 语音或你自己的云端 TTS Key 朗读网页和 Kindle 网页阅读器。） `added 2026-10-26`
 - [VoxCPM2](https://www.tolsai.com/tools/voxcpm2) — OpenBMB's open-source 2B tokenizer-free TTS model with 30 languages, voice design, controllable cloning and 48 kHz audio. （[中文](https://www.tolsai.com/zh/tools/voxcpm2)：面壁智能 OpenBMB 开源的 2B 无分词器语音合成模型，支持 30 种语言、声音设计、可控克隆和 48kHz 输出。） `added 2026-10-24`
+
+## AI Tools Directory
+
+- [MCPfolio](https://www.tolsai.com/tools/mcpfolio-mcp-server-directory) — Directory of MCP servers for Claude, Cursor and more, browsable by category with install instructions. （[中文](https://www.tolsai.com/zh/tools/mcpfolio-mcp-server-directory)：MCP 服务器目录：按分类查找并安装适用于 Claude、Cursor 等客户端的 MCP。） `added 2026-11-24`
 
 ## AI Translate
 
@@ -762,6 +779,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-23](daily/2026-11-23.md) �
 
 ## AI Video Editor
 
+- [DaVinci Resolve MCP](https://www.tolsai.com/tools/davinci-resolve-mcp-server) — Open-source MCP server that lets AI assistants control DaVinci Resolve through its official Scripting API. （[中文](https://www.tolsai.com/zh/tools/davinci-resolve-mcp-server)：让 AI 助手通过官方脚本 API 操控 DaVinci Resolve 的开源 MCP 服务器。） `added 2026-11-24`
 - [Trainn MCP](https://www.tolsai.com/tools/trainn-mcp) — Connects Trainn to Claude, ChatGPT, Notion or Cursor so AI chat can create and update product videos, help articles and courses. （[中文](https://www.tolsai.com/zh/tools/trainn-mcp)：把 Trainn 接入 Claude、ChatGPT、Notion、Cursor：在 AI 对话里制作和更新产品视频、帮助文章和课程。） `added 2026-11-14`
 - [ffmpeg-skill](https://www.tolsai.com/tools/ffmpeg-skill-agent-video-editor) — Open-source Agent Skill and MCP server that gives Claude Code, Cursor or Codex 42 local FFmpeg video-editing tools. （[中文](https://www.tolsai.com/zh/tools/ffmpeg-skill-agent-video-editor)：开源 Agent Skill + MCP 服务器：给 Claude Code、Cursor、Codex 配上 42 个本地 FFmpeg 剪辑工具。） `added 2026-11-14`
 - [Concat](https://www.tolsai.com/tools/concat-video-editor) — Free, open-source, local-first CapCut alternative with offline AI auto-captions, text-to-speech, voice cloning and background removal, scriptable via MCP. （[中文](https://www.tolsai.com/zh/tools/concat-video-editor)：免费开源、本地优先的剪映（CapCut）替代品：离线 AI 自动字幕、文字转语音、声音克隆和抠像，还能通过 MCP 让 AI 剪片。） `added 2026-11-02`
