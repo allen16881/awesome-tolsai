@@ -15,11 +15,11 @@ Static category and language pages (also on [GitHub Pages](https://allen16881.gi
 
 ## Today's open-source picks / 今日开源推荐
 
-- [rig](https://www.tolsai.com/tools/0xplaygrounds-rig) · [GitHub](https://github.com/0xPlaygrounds/rig) — Open-source Rust library for building LLM apps and agents, with one interface to 20+ model providers.
-- [DaVinci Resolve MCP](https://www.tolsai.com/tools/davinci-resolve-mcp-server) · [GitHub](https://github.com/samuelgursky/davinci-resolve-mcp) — Open-source MCP server that lets AI assistants control DaVinci Resolve through its official Scripting API.
-- [slop-deps](https://www.tolsai.com/tools/slop-deps-hallucinated-package-scanner) · [GitHub](https://github.com/viditx/slop-deps) — Command-line scanner that catches AI-invented, non-existent dependencies before you run npm install.
+- [Brickie](https://www.tolsai.com/tools/brickie-durable-sandboxes-kubernetes) · [GitHub](https://github.com/hatchet-dev/brickie) — Open-source runtime for durable agent sandboxes in your own cloud or Kubernetes cluster.
+- [rhebok](https://www.tolsai.com/tools/rhebok-local-memory-search-coding-agents) · [GitHub](https://github.com/Stellenbosch-Technologies/rhebok) — Local semantic search and memory for coding agents, with notes, papers and past sessions added to prompts.
+- [Wakeshift](https://www.tolsai.com/tools/wakeshift-mcp-events-wake-ai-agents) · [GitHub](https://github.com/wakeshift/server) — Open-source server that lets an MCP server wake the AI agents using it, via the MCP Events standard.
 
-All daily lists: [daily/](daily/) · Latest: [2026-11-24](daily/2026-11-24.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
+All daily lists: [daily/](daily/) · Latest: [2026-11-25](daily/2026-11-25.md) · Open-source hub: [tolsai.com/open-source](https://www.tolsai.com/open-source)
 
 ## Contents
 
@@ -43,6 +43,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-24](daily/2026-11-24.md) �
 - [AI Developer Tools](#ai-developer-tools)
 - [AI Diagram Generator](#ai-diagram-generator)
 - [AI Drawing](#ai-drawing)
+- [AI Dubbing](#ai-dubbing)
 - [AI Email Assistant](#ai-email-assistant)
 - [AI For Data Analytics](#ai-for-data-analytics)
 - [AI for Finance](#ai-for-finance)
@@ -359,6 +360,12 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-24](daily/2026-11-24.md) �
 
 ## AI Developer Tools
 
+- [AI Usage Menu](https://www.tolsai.com/tools/ai-usage-menu-claude-code-codex-limits) — Free open-source Mac app that shows Claude Code and Codex usage limits in the menu bar and Dock. （[中文](https://www.tolsai.com/zh/tools/ai-usage-menu-claude-code-codex-limits)：在 Mac 菜单栏和 Dock 显示 Claude Code 与 Codex 用量限额的免费开源小工具。） `added 2026-11-25`
+- [Agentbadge](https://www.tolsai.com/tools/agentbadge-ai-agent-readiness-score) — Open-source CLI that scores how ready a repo is for AI coding agents, from 0 to 100, with a README badge. （[中文](https://www.tolsai.com/zh/tools/agentbadge-ai-agent-readiness-score)：给仓库打“AI 编程 Agent 就绪度”0-100 分的开源命令行，可生成 README 徽章。） `added 2026-11-25`
+- [Poros](https://www.tolsai.com/tools/poros-streaming-lora-fine-tuning) — Open-source engine that fine-tunes models larger than your GPU memory with streaming LoRA. （[中文](https://www.tolsai.com/zh/tools/poros-streaming-lora-fine-tuning)：用 LoRA 微调比显存或统一内存更大的模型，基座权重流式过 GPU 的开源引擎。） `added 2026-11-25`
+- [Wakeshift](https://www.tolsai.com/tools/wakeshift-mcp-events-wake-ai-agents) — Open-source server that lets an MCP server wake the AI agents using it, via the MCP Events standard. （[中文](https://www.tolsai.com/zh/tools/wakeshift-mcp-events-wake-ai-agents)：让 MCP 服务器唤醒使用它的 AI Agent，按 MCP Events 标准推送事件的开源服务端。） `added 2026-11-25`
+- [rhebok](https://www.tolsai.com/tools/rhebok-local-memory-search-coding-agents) — Local semantic search and memory for coding agents, with notes, papers and past sessions added to prompts. （[中文](https://www.tolsai.com/zh/tools/rhebok-local-memory-search-coding-agents)：给编程 Agent 用的本地语义检索与记忆，笔记、论文和历史会话自动带入提示。） `added 2026-11-25`
+- [Brickie](https://www.tolsai.com/tools/brickie-durable-sandboxes-kubernetes) — Open-source runtime for durable agent sandboxes in your own cloud or Kubernetes cluster. （[中文](https://www.tolsai.com/zh/tools/brickie-durable-sandboxes-kubernetes)：在自己的云或 Kubernetes 集群里运行可持久化 Agent 沙箱的开源项目。） `added 2026-11-25`
 - [Blobby](https://www.tolsai.com/tools/blobby-mac-notch-coding-agent-monitor) — Mac notch app that shows which Claude Code, Codex or Gemini CLI agents are working, finished or waiting. （[中文](https://www.tolsai.com/zh/tools/blobby-mac-notch-coding-agent-monitor)：给 Mac 刘海旁的编程 Agent 状态栏：一眼看出谁在跑、谁做完、谁在等你回答。） `added 2026-11-24`
 - [WaitFeed](https://www.tolsai.com/tools/waitfeed-news-ticker-coding-agents) — Open-source terminal news ticker that appears only while Claude Code, OpenCode or Antigravity is working. （[中文](https://www.tolsai.com/zh/tools/waitfeed-news-ticker-coding-agents)：AI 编程 Agent 干活时在终端显示科技资讯的开源小工具，Agent 一停就消失。） `added 2026-11-22`
 - [App Store Compliance Playbook](https://www.tolsai.com/tools/app-store-compliance-rejection-guard) — Free playbook and pre-submission guard that catches App Store and Google Play rejection causes, runnable in Claude Code. （[中文](https://www.tolsai.com/zh/tools/app-store-compliance-rejection-guard)：免费的 App Store / Google Play 被拒原因手册和提交前检查，可在 Claude Code 里一键扫描。） `added 2026-11-22`
@@ -439,6 +446,10 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-24](daily/2026-11-24.md) �
 ## AI Drawing
 
 - [klad](https://www.tolsai.com/tools/klad-agent-paint-app) — A 2D painting and animation app you share with a coding agent: you paint with a pen, the agent paints through a CLI with the same brushes. （[中文](https://www.tolsai.com/zh/tools/klad-agent-paint-app)：可与编码 Agent 共用的 2D 绘画和动画应用：你用压感笔画，Agent 通过命令行用同样的笔刷在同一张画布上画。） `added 2026-11-12`
+
+## AI Dubbing
+
+- [Voxa](https://www.tolsai.com/tools/voxa-open-source-video-dubbing) — Open-source video dubbing that runs locally and keeps every translated line in sync with the speaker. （[中文](https://www.tolsai.com/zh/tools/voxa-open-source-video-dubbing)：本地运行的开源视频配音工具，翻译后的每句话都与原说话人对齐，不会越配越偏。） `added 2026-11-25`
 
 ## AI Email Assistant
 
@@ -677,6 +688,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-24](daily/2026-11-24.md) �
 
 ## AI SEO Tools
 
+- [Byname](https://www.tolsai.com/tools/byname-ai-answer-brand-tracker) — Open-source, self-hosted tool that checks whether ChatGPT, Google and Claude name your product. （[中文](https://www.tolsai.com/zh/tools/byname-ai-answer-brand-tracker)：开源自托管工具，查看 ChatGPT、Google、Claude 回答买家问题时是否提到你的产品。） `added 2026-11-25`
 - [Dageno AI](https://www.tolsai.com/tools/dageno-ai) — GEO and AEO platform that shows how AI search engines see your brand and why they recommend competitors. （[中文](https://www.tolsai.com/zh/tools/dageno-ai)：GEO/AEO 平台：看清 AI 搜索如何看待你的品牌，以及为什么推荐竞争对手。） `added 2026-11-10`
 - [NiubiGEO](https://www.tolsai.com/tools/niubigeo) — Open-source, self-hosted GEO tool that tracks brand visibility, competitors and citations in AI answers. （[中文](https://www.tolsai.com/zh/tools/niubigeo)：开源自托管 GEO 工具：追踪品牌在 AI 回答中的曝光、竞品与引用来源。） `added 2026-11-09`
 - [AI Knows Us](https://www.tolsai.com/tools/ai-knows-us) — Done-for-you AI visibility (GEO) service that checks whether ChatGPT, Gemini, Perplexity, Claude and AI Overviews name your business, then publishes pages to improve it. （[中文](https://www.tolsai.com/zh/tools/ai-knows-us)：代运营式 AI 可见度（GEO）服务：检查 ChatGPT、Gemini、Perplexity、Claude 和 AI 概览是否推荐你的企业，并发布页面提升被提及率。） `added 2026-10-31`
@@ -779,6 +791,7 @@ All daily lists: [daily/](daily/) · Latest: [2026-11-24](daily/2026-11-24.md) �
 
 ## AI Video Editor
 
+- [Daydream](https://www.tolsai.com/tools/daydream-ai-video-editor-for-agents) — AI video editor built for agents, letting Claude, ChatGPT or any MCP client help you cut video. （[中文](https://www.tolsai.com/zh/tools/daydream-ai-video-editor-for-agents)：为 AI Agent 打造的视频编辑器，可让 Claude、ChatGPT 等通过 MCP 帮你剪片。） `added 2026-11-25`
 - [DaVinci Resolve MCP](https://www.tolsai.com/tools/davinci-resolve-mcp-server) — Open-source MCP server that lets AI assistants control DaVinci Resolve through its official Scripting API. （[中文](https://www.tolsai.com/zh/tools/davinci-resolve-mcp-server)：让 AI 助手通过官方脚本 API 操控 DaVinci Resolve 的开源 MCP 服务器。） `added 2026-11-24`
 - [Trainn MCP](https://www.tolsai.com/tools/trainn-mcp) — Connects Trainn to Claude, ChatGPT, Notion or Cursor so AI chat can create and update product videos, help articles and courses. （[中文](https://www.tolsai.com/zh/tools/trainn-mcp)：把 Trainn 接入 Claude、ChatGPT、Notion、Cursor：在 AI 对话里制作和更新产品视频、帮助文章和课程。） `added 2026-11-14`
 - [ffmpeg-skill](https://www.tolsai.com/tools/ffmpeg-skill-agent-video-editor) — Open-source Agent Skill and MCP server that gives Claude Code, Cursor or Codex 42 local FFmpeg video-editing tools. （[中文](https://www.tolsai.com/zh/tools/ffmpeg-skill-agent-video-editor)：开源 Agent Skill + MCP 服务器：给 Claude Code、Cursor、Codex 配上 42 个本地 FFmpeg 剪辑工具。） `added 2026-11-14`
